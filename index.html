@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="theme-color" content="#FAF6EE" />
+<title>幸福计划</title>
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<div class="app-container">
+
+  <div class="home-screen">
+
+    <header class="home-top-bar">
+      <button class="home-icon-btn" aria-label="设置" id="settings-btn">⚙</button>
+      <a class="home-icon-btn" aria-label="完整路径地图" href="map.html">⌖</a>
+    </header>
+
+    <section class="home-brand">
+      <div class="home-eyebrow">71 days</div>
+      <h1 class="home-title">幸福计划</h1>
+      <p class="home-subtitle">把幸福从一种运气，<br/>变成一种能练出来的本事。</p>
+    </section>
+
+    <div class="home-spacer"></div>
+
+    <section class="home-action">
+      <div class="task-card" id="task-card"></div>
+      <div class="home-cta">
+        <a class="btn-primary" id="cta-btn" href="#">开始今天</a>
+      </div>
+      <div class="home-progress">
+        <span>已完成</span>
+        <div class="home-progress-bar"><div class="home-progress-fill" id="progress-fill" style="width: 0%"></div></div>
+        <span class="home-progress-text" id="progress-text">0/71</span>
+      </div>
+    </section>
+
+  </div>
+
+</div>
+
+<script src="assets/home.js"></script>
+</body>
+</html>

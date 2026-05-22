@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>核心阅读 · 幸福计划</title>
+<link rel="stylesheet" href="assets/styles.css" />
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+<div class="app-container">
+
+  <div class="top-bar">
+    <a href="javascript:history.back()" class="icon-btn" aria-label="返回">←</a>
+    <div style="flex: 1; text-align: center; font-size: 13px; color: var(--text-muted);">📖 今日完整阅读</div>
+    <span style="width: 40px;"></span>
+  </div>
+
+  <div id="reading-root">
+    <div class="card"><div class="card-body">加载中…</div></div>
+  </div>
+
+  <div style="height: 40px"></div>
+
+</div>
+
+<script>
+const params = new URLSearchParams(location.search);
+const dayNum = parseInt(params.get("day") || "1", 10);
+
+async function loadReading() {
+  try {
+    const res = await fetch(`readings/day${dayNum}.md`);
+    if (!res.ok) throw new Error("加载失败");
+    const md = await res.text();
+    const html = marked.parse(md, { breaks: true, gfm: true });
+    document.getElementById("reading-root").innerHTML = `
+      <div class="card">
+        <div class="card-body">${html}</div>
+        <a href="day.html?day=${dayNum}" class="btn-primary" style="text-decoration: none; text-align: center;">回到今日卡片</a>
+      </div>
+    `;
+    document.title = `Day ${dayNum} 阅读 · 幸福计划`;
+  } catch (e) {
+    document.getElementById("reading-root").innerHTML = `<div class="card"><div class="card-body">加载 Day${dayNum} 阅读失败：${e.message}</div></div>`;
+  }
+}
+
+loadReading();
+</script>
+</body>
+</html>
