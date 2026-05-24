@@ -38,7 +38,7 @@
     const todayBox = document.getElementById("landing-today");
     const cta = document.getElementById("cta-primary");
 
-    if (currentDay) {
+    if (currentDay != null) {
       const meta = XINGFU.getDayMeta(currentDay);
       const stage = meta.stage;
       todayBox.innerHTML = `

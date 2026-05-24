@@ -60,7 +60,7 @@
     let expanded = loadExpanded();
     if (!expanded) {
       expanded = new Set();
-      if (currentDay) {
+      if (currentDay != null) {
         const s = XINGFU.getStageForDay(currentDay);
         if (s) expanded.add(s.id);
       } else {
@@ -147,7 +147,7 @@
     });
 
     // 滚到当前 Day 所在阶段
-    if (currentDay) {
+    if (currentDay != null) {
       const stage = XINGFU.getStageForDay(currentDay);
       if (stage) {
         const el = document.querySelector(`.catalog-stage[data-stage-id="${stage.id}"]`);
