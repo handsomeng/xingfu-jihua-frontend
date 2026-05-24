@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>目录 · 幸福计划</title>
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<div class="app-container">
+
+  <div class="top-bar">
+    <a href="index.html" class="icon-btn" aria-label="返回">←</a>
+    <div style="flex: 1; text-align: center; font-size: 13px; color: var(--text-muted);">完整目录</div>
+    <a href="map.html" class="icon-btn" aria-label="路径地图">⌖</a>
+  </div>
+
+  <div class="catalog-header">
+    <h2 class="catalog-title">71 天，4 个阶段</h2>
+    <p class="catalog-subtitle">点开任一阶段，查看每一天的主题。完成的天可以回去看报告。</p>
+    <div class="catalog-overall">
+      <div class="catalog-overall-bar"><div class="catalog-overall-fill" id="overall-fill"></div></div>
+      <div class="catalog-overall-text" id="overall-text">0 / 71 已完成</div>
+    </div>
+  </div>
+
+  <div id="catalog-root"></div>
+
+  <div style="height: 40px"></div>
+
+</div>
+
+<script src="assets/curriculum.js"></script>
+<script src="assets/redeem.js"></script>
+<script src="assets/catalog.js"></script>
+</body>
+</html>

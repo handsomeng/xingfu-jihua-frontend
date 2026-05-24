@@ -1,0 +1,10 @@
+{
+  "name": "xingfu-jihua",
+  "version": "0.2.0",
+  "private": true,
+  "description": "幸福计划 · 71 天 H5 课程（部署在 Vercel，本地开发用 api-proxy/）",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

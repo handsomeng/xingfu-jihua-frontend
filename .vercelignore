@@ -1,0 +1,10 @@
+# Vercel 不要把这些文件打进部署
+api-proxy/
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+DEPLOY.md
+BACKLOG.md
+CLAUDE.md

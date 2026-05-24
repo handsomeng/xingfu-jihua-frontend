@@ -10,39 +10,45 @@
 <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-<div class="app-container">
+<div class="app-container landing-app">
 
-  <div class="home-screen">
+  <header class="landing-top">
+    <button class="home-icon-btn" aria-label="设置" id="settings-btn">⚙</button>
+    <div class="landing-top-spacer"></div>
+    <a class="home-icon-btn" aria-label="重看介绍" href="onboarding.html?force=1">ℹ</a>
+    <a class="home-icon-btn" aria-label="我的日记本" href="journal.html">✎</a>
+    <a class="home-icon-btn" aria-label="我的报告" href="reports.html">📓</a>
+    <a class="home-icon-btn" aria-label="完整路径地图" href="map.html">⌖</a>
+  </header>
 
-    <header class="home-top-bar">
-      <button class="home-icon-btn" aria-label="设置" id="settings-btn">⚙</button>
-      <a class="home-icon-btn" aria-label="完整路径地图" href="map.html">⌖</a>
-    </header>
+  <section class="landing-brand">
+    <div class="landing-mark"><div class="landing-orb"></div><span class="landing-spark">✦</span></div>
+    <div class="landing-eyebrow">71 days</div>
+    <h1 class="landing-title">幸福计划</h1>
+    <p class="landing-subtitle">把幸福从一种运气，<br/>变成一种能练出来的本事。</p>
+  </section>
 
-    <section class="home-brand">
-      <div class="home-eyebrow">71 days</div>
-      <h1 class="home-title">幸福计划</h1>
-      <p class="home-subtitle">把幸福从一种运气，<br/>变成一种能练出来的本事。</p>
-    </section>
+  <section class="landing-today" id="landing-today">
+    <!-- 动态：当前 Day 摘要 -->
+  </section>
 
-    <div class="home-spacer"></div>
+  <section class="landing-cta-stack">
+    <a class="btn-primary" id="cta-primary" href="#">开始今天</a>
+    <a class="btn-secondary" href="catalog.html">看完整目录</a>
+  </section>
 
-    <section class="home-action">
-      <div class="task-card" id="task-card"></div>
-      <div class="home-cta">
-        <a class="btn-primary" id="cta-btn" href="#">开始今天</a>
-      </div>
-      <div class="home-progress">
-        <span>已完成</span>
-        <div class="home-progress-bar"><div class="home-progress-fill" id="progress-fill" style="width: 0%"></div></div>
-        <span class="home-progress-text" id="progress-text">0/71</span>
-      </div>
-    </section>
-
-  </div>
+  <section class="landing-meta">
+    <div class="landing-progress">
+      <span>已完成</span>
+      <div class="home-progress-bar"><div class="home-progress-fill" id="progress-fill" style="width: 0%"></div></div>
+      <span class="home-progress-text" id="progress-text">0/71</span>
+    </div>
+  </section>
 
 </div>
 
+<script src="assets/curriculum.js"></script>
+<script src="assets/redeem.js"></script>
 <script src="assets/home.js"></script>
 </body>
 </html>

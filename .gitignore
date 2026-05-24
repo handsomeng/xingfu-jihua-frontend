@@ -21,3 +21,6 @@ package-lock.json
 # 临时
 *.log
 *.tmp
+
+# Vercel CLI 本地配置（含 project link 信息，可能含 secrets）
+.vercel/

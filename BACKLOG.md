@@ -106,6 +106,28 @@
 
 ---
 
+## P4.5 · 兑换码后端化（2026-05-24 加）
+
+当前 MVP 版本：兑换码硬编码在 `assets/redeem.js` 的 VALID_CODES Set 里，前端校验，写进 localStorage。
+
+风险：JS bundle 公开，任何用户打开 DevTools 都能看到全部有效码。当前期靠"圈子小 + 朋友测"是 OK 的，但只要这门课收费或要正式发出去，必须升级。
+
+升级方向：
+
+1. `api-proxy/server.js` 新增 `/api/redeem` 接口
+2. 后端保存有效码（环境变量 / 单独 JSON 文件 / 简单 SQLite），可标记「已使用 / 一次性 / N 人可用 / 过期时间」
+3. 校验通过后颁发短 JWT 或 opaque token，前端存 localStorage
+4. `report.js` 调 `/api/report` 时带上 token，后端校验，失败拒绝生成报告（防白嫖 DeepSeek 调用）
+5. 老的硬编码列表保留为开发/测试码（如 `DEV-*`），不进生产
+
+（当前硬编码的码列表见 `assets/redeem.js` 的 `VALID_CODES`，仓库 public 后这些等同于公开测试码，后端化时全部作废。）
+
+## P4.6 · AVAILABLE_DAYS 单一数据源（2026-05-24 加）
+
+当前 `assets/curriculum.js` 和 `assets/pathmap.js` 各自维护一份 `AVAILABLE_DAYS`，加新 day 时需要两边同步。
+
+应该让 pathmap.js 直接读 `XINGFU.AVAILABLE_DAYS`，删掉自己那份。改动量很小，下次顺手做掉。
+
 ## P5 · 设置页
 
 - 清空所有数据（一键重新开始）
