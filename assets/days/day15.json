@@ -1,0 +1,332 @@
+{
+  "day": 15,
+  "stage": {
+    "name": "探索篇",
+    "stageNumber": 2,
+    "color": "#BFA158",
+    "bgColor": "#EFE7C8"
+  },
+  "theme": "好情绪不止一种",
+  "coreLine": "「开心」只是好情绪里的一小块",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "type": "content",
+      "body": "欢迎进入 P 板块第 1 天。\n\n朋友半夜跟你说：「我今天好累，什么都不想干。」\n\n你想了想，回了一句：「那你做点开心的事啊。」\n\n她隔了 5 分钟回：「我现在做不到。」\n\n你以为她在矫情。她真的没有。\n\n因为「开心」（Joy）这种情绪有一个特点：\n\n**它需要外部刺激才能发动。** 蹦迪、吃顿好的、买买买、追一个心头好的人。她现在没力气搞这些，所以做不到。\n\n但是这里有一个大多数人没意识到的事实：\n\n**「开心」只是「好情绪」里的一小块。**\n\n「好情绪」其实是一个完整的家族，里面有至少 10 种本质完全不同的成员。\n\n其中 4-5 种，**你不需要任何外部刺激就能直接调出来**。\n\n今天我们要把这个家族完整地铺开。",
+      "buttonText": "开始今天",
+      "next": "p2"
+    },
+    {
+      "id": "p2",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "让你立刻说一种「好情绪」，你脑子里第一个蹦出来的词是？",
+      "options": [
+        { "id": "opt1", "label": "开心 / 高兴", "feedback": "典型答案。「开心」是 Joy 类（高强度兴奋型）。今天会告诉你为什么单押 Joy 反而过得最累。" },
+        { "id": "opt2", "label": "平静 / 放松", "feedback": "能直接想到「平静」的人不多。Serenity 是 Fredrickson 10 种正面情绪里被享乐适应吃得最少的一种。" },
+        { "id": "opt3", "label": "感激 / 温暖", "feedback": "Gratitude 是积极心理学研究证据最厚的「温和好情绪」。Day36-38 还会专门讲它的练习方法。" },
+        { "id": "opt4", "label": "好奇 / 兴趣", "feedback": "Interest 是「永远保持快乐」最稳定的预测变量之一。Day34 会专门讲。" },
+        { "id": "opt5", "label": "希望 / 期待", "feedback": "Hope 是抗挫力最强的预测变量之一。能立刻想到 Hope 的人，长期幸福水平往往更稳。" },
+        { "id": "opt6", "label": "骄傲 / 自豪", "feedback": "Pride 跟 A 维度（成就）直接相关。Day30-32 会专门讲。" }
+      ],
+      "next": "p3"
+    },
+    {
+      "id": "p3",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去一周里，我体验最少的那种好情绪是 ____。」**\n\n可以从这 10 种里挑：开心 / 平静 / 感激 / 好奇 / 希望 / 骄傲 / 觉得好玩 / 被启发 / 敬畏 / 爱与温暖。",
+      "placeholder": "例如：「平静，最近一直忙忙叨叨的」「好奇，所有时间都在刷已经熟悉的内容」「希望，最近对未来没什么期待」「敬畏，我已经很久没被什么事「哇到」了」……",
+      "required": true,
+      "feedback": "这个「最少的那种」就是你今天最值得练一次的好情绪。这门课接下来 20 天会反复教你怎么把它捡回来。",
+      "next": "p4"
+    },
+    {
+      "id": "p4",
+      "type": "reading",
+      "title": "📖 今日完整阅读",
+      "subtitle": "好情绪不止一种 · 约 5 分钟",
+      "source": "readings/day15.md",
+      "buttonText": "读完了,开始做题",
+      "next": "p5"
+    },
+    {
+      "id": "p5",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Fredrickson 2009 年总结的 10 种正面情绪里，下面哪个**不在**清单里？",
+      "options": [
+        { "id": "opt1", "label": "Joy 喜悦", "feedback": "Joy 是 10 种里的第一个，是「高强度兴奋型」的代表。" },
+        { "id": "opt2", "label": "Serenity 平静", "feedback": "Serenity 是「温和持续型」的代表，几乎不被享乐适应吃掉。" },
+        { "id": "opt3", "label": "Awe 敬畏", "feedback": "Awe 是 Fredrickson 清单里的第 9 个，Day33 会专门讲。" },
+        { "id": "opt4", "label": "Jealousy 嫉妒", "feedback": "答对了。Jealousy（嫉妒）是负面情绪。完整清单是 Joy / Gratitude / Serenity / Interest / Hope / Pride / Amusement / Inspiration / Awe / Love。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4",
+      "next": "p6"
+    },
+    {
+      "id": "p6",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些属于「温和持续型」好情绪的特征？（多选）",
+      "options": [
+        { "id": "opt1", "label": "几乎不需要外部刺激，自己就能调出来", "feedback": "对，温和持续型的关键特征。" },
+        { "id": "opt2", "label": "强度不高，但持续时间长", "feedback": "对，对比高强度兴奋型。" },
+        { "id": "opt3", "label": "几乎不被享乐适应吃掉", "feedback": "对，这是温和好情绪最大的优势。" },
+        { "id": "opt4", "label": "必须靠消费 / 升职 / 旅游才能体验到", "feedback": "这是「高强度兴奋型」（Joy / Amusement）的特征，跟「温和持续型」相反。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": ["opt1", "opt2", "opt3"],
+      "allCorrectFeedback": "答对了。这三条共同点是「成本低、回报稳」，是这门课接下来 20 天反复要训练的方向。",
+      "next": "p7"
+    },
+    {
+      "id": "p7",
+      "type": "true_false",
+      "category": "knowledge",
+      "question": "「Fredrickson 的 Broaden-and-Build 理论说：正面情绪会让你『打开』注意力（broaden），并且在长期累积出心理资源（韧性、技能、关系），这是积极心理学最稳的结论之一。」这句话对吗？",
+      "options": [
+        { "id": "opt1", "label": "对", "feedback": "答对了。Broaden-and-Build 是 2001 年发表后被引用上万次的理论。它最反直觉的结论：好情绪的真正价值在「长期建账户」，跟「当下让你爽」不在一个层面。" },
+        { "id": "opt2", "label": "不对", "feedback": "再想想。这是 American Psychologist 上发表的、被反复实证的理论。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1",
+      "next": "p8"
+    },
+    {
+      "id": "p8",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪种活动**最不像** Serenity（平静）的入口？",
+      "options": [
+        { "id": "opt1", "label": "在窗边安静坐 10 分钟，听听远处的车声", "feedback": "这是典型的 Serenity 入口：低能量、安静、不需要外部刺激。" },
+        { "id": "opt2", "label": "雨天躺在床上听雨声", "feedback": "这是经典的 Serenity 入口，雨声是被研究反复证实的「白噪声放松源」。" },
+        { "id": "opt3", "label": "缓慢地呼吸 5 次", "feedback": "这是 Serenity 最便宜的入口，几乎任何场景都能做。" },
+        { "id": "opt4", "label": "立刻跑去蹦迪场放空", "feedback": "答对了。蹦迪触发的是 Joy（高强度兴奋型），跟 Serenity 完全不在一个频段。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4",
+      "next": "p9"
+    },
+    {
+      "id": "p9",
+      "type": "content",
+      "title": "💡 它和你有什么关系",
+      "body": "回想一下，过去 1 年你做的「为了让自己开心」的事，绝大多数是不是都在追 Joy / Amusement / Pride 这三种？\n\n- 吃顿好的（Joy）\n- 刷段子（Amusement）\n- 业绩冲刺（Pride）\n- 旅游（Joy）\n- 买买买（Joy）\n\n而你做过多少件**主动培养** Serenity / Gratitude / Interest / Hope 的事？\n\n- 在窗边安静坐 10 分钟（Serenity）\n- 睡前写 3 件值得感谢的事（Gratitude）\n- 主动学一个跟工作无关的新东西（Interest）\n- 写下「明年我希望发生的一件事」（Hope）\n\n这 4 件事都不需要外部刺激，也不会被享乐适应吃掉。\n\n但几乎没人做。\n\n因为它们「太轻」了，轻到大多数人觉得「这能算开心吗」。\n\n**它们的作用不在让你「开心」，在让你「不空虚」。**\n\n「累、寡淡、没劲」这种现代人的标准状态，对应的真正缺失，往往是温和好情绪缺位。",
+      "buttonText": "明白了",
+      "next": "p10"
+    },
+    {
+      "id": "p10",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**过去一周，你「主动」做过几件「专门为了让自己感受温和好情绪」（不是工作 / 任务 / 必须做的事）的事？**",
+      "options": [
+        { "id": "opt1", "label": "0 次（完全没有这种动作）", "feedback": "这是最常见的水平。多数成年人到了这个阶段，几乎不会主动给自己安排「温和好情绪时刻」。今天就是个起点。" },
+        { "id": "opt2", "label": "1-2 次（偶尔会刻意找）", "feedback": "典型水平。说明你心里其实有「需要被温柔对待」的种子，只是没规模化。" },
+        { "id": "opt3", "label": "3-5 次（经常会主动找）", "feedback": "相当不错。说明你已经在做这件事了。Day15-17 会让你把它结构化。" },
+        { "id": "opt4", "label": "6-10 次（几乎每天都有）", "feedback": "这是高水平。说明你已经把 Serenity / Gratitude / Interest 中至少一种变成了日常入口。" },
+        { "id": "opt5", "label": "10 次以上（已经是日常习惯了）", "feedback": "这是非常稳定的状态。这门课对你来说更多是给你「为什么这么做有效」的科学支撑。" }
+      ],
+      "next": "p11"
+    },
+    {
+      "id": "p11",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "朋友说「我今天好累，什么都不想干」。按今天讲的，下面哪个回应最贴近？",
+      "options": [
+        { "id": "opt1", "label": "「那你做点开心的事啊，蹦迪 / 吃大餐」", "feedback": "这是经典的「让累的人追 Joy」陷阱。她没力气搞外部刺激，所以做不到。" },
+        { "id": "opt2", "label": "「你应该正能量一点」", "feedback": "典型 toxic positivity（Day13 讲过）。" },
+        { "id": "opt3", "label": "「累的时候追 Joy（开心）做不到，可以试试 Serenity（平静）：听 5 分钟雨声 / 安静坐一会儿。或者 Gratitude：想一件今天有人为你做的小事」", "feedback": "答对了。当一个人没力气搞 Joy 时，温和好情绪（Serenity / Gratitude）才是合适的入口。这就是今天最核心的认知。" },
+        { "id": "opt4", "label": "「认命吧，没救」", "feedback": "这是负偏差在替你做判断。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt3",
+      "next": "p12"
+    },
+    {
+      "id": "p12",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "回想最近一次让你心里有「一丝暖意」的小事（Gratitude / Love / Inspiration 类）。它是什么样的？",
+      "options": [
+        { "id": "opt1", "label": "有人给我让座 / 倒水 / 一个微笑", "feedback": "这一类「陌生人善意」是 Gratitude 最便宜的来源。可以训练自己每天注意一次。" },
+        { "id": "opt2", "label": "看到孩子 / 宠物 / 亲人睡着或放松的样子", "feedback": "这一类是 Love / 温暖的代表。看到他人放松的状态，能直接触发自己的副交感神经（让你放松的那个系统）。" },
+        { "id": "opt3", "label": "收到一条出乎意料的关心消息", "feedback": "Gratitude 最强的版本就是这种「出乎意料的被关心」。今晚可以反向操作：发一条这样的消息给某个你想念的人，对方收到的暖意 = 你练习付出的暖意。" },
+        { "id": "opt4", "label": "看到一段让我想做点什么的故事 / 视频", "feedback": "这是 Inspiration（启发）。Inspiration 跟「想做点什么」直接相连，能直接催动 M 维度（意义）。" },
+        { "id": "opt5", "label": "想不起来最近有这种瞬间", "feedback": "能如实说出来很重要。说明你最近被「忙 / 累 / 寡淡」盖住了。今天的练习就是先从最便宜的入口（Serenity 30 秒）开始重新打开。" }
+      ],
+      "next": "p13"
+    },
+    {
+      "id": "p13",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些好情绪属于「不需要外部刺激就能自己调出来」的那一类？（多选）",
+      "options": [
+        { "id": "opt1", "label": "Serenity 平静", "feedback": "对，温和好情绪 4 入口之一。" },
+        { "id": "opt2", "label": "Gratitude 感激", "feedback": "对，研究证据最厚的一个。" },
+        { "id": "opt3", "label": "Interest 好奇", "feedback": "对，跟「永远保持快乐」高度相关。" },
+        { "id": "opt4", "label": "Hope 希望", "feedback": "对，抗挫力的核心组件。" },
+        { "id": "opt5", "label": "Joy 喜悦（必须靠外部惊喜）", "feedback": "Joy 必须靠外部刺激，所以反而是最贵、最容易被享乐适应吃掉的那一种。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": ["opt1", "opt2", "opt3", "opt4"],
+      "allCorrectFeedback": "答对了。这 4 种是积极心理学里被反复证实的「低成本好情绪入口」。Joy 必须靠外部刺激发动，所以是反例。",
+      "next": "p14"
+    },
+    {
+      "id": "p14",
+      "type": "true_false",
+      "category": "knowledge",
+      "question": "「Joy（喜悦）作为高强度兴奋型情绪，比 Serenity / Gratitude 这类温和情绪更容易被享乐适应吃掉。所以单押 Joy 的人长期幸福水平反而往往偏低。」这句话对吗？",
+      "options": [
+        { "id": "opt1", "label": "对", "feedback": "答对了。这是积极心理学里非常反直觉的一条结论：追「开心」追得最厉害的人，往往是日常稳定幸福水平最低的人，因为他们追的是被享乐适应吃得最狠的那一种。" },
+        { "id": "opt2", "label": "不对", "feedback": "再想想。Joy 的高强度恰恰是它被适应得最快的原因，跟温和情绪的稳定性正好相反。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1",
+      "next": "p15"
+    },
+    {
+      "id": "p15",
+      "type": "content",
+      "title": "🎯 今日任务：30 秒「温和好情绪」捕捉",
+      "body": "今天的微行动 30 秒。\n\n挑一种「温和好情绪」，主动去找一次。\n\n**Serenity 入口**：找一个相对安静的角落，闭眼听 30 秒身边的声音（远处的车声、键盘声、风扇声）。\n\n**Gratitude 入口**：想一件今天有人为你做的、虽然小但你心里有一丝暖意的事。一杯水、一句话、一个让你的位置、一条提醒消息。在心里默默说一句「谢谢」。\n\n**Interest 入口**：随便打开一个跟工作无关的话题（科普文章 / 陌生城市纪录片 / 没听过的歌），看 / 听 1 分钟。\n\n**Hope 入口**：写下一句「我希望接下来 7 天里发生一件 ____ 的事」。不用大。\n\n这 4 个入口里挑一个最容易做的，做一次。\n\n然后注意一下你身体里的微小变化：肩膀有没有松一点？呼吸有没有慢一点？\n\n**那个微小的变化，就是「温和好情绪」在起作用。**",
+      "buttonText": "我去试",
+      "next": "p16"
+    },
+    {
+      "id": "p16",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "4 个入口里，你今天最想做哪一个？",
+      "options": [
+        { "id": "opt1", "label": "Serenity 30 秒安静听声音", "feedback": "Serenity 是入门最便宜的一个，30 秒就能完成。如果今天累，就从这个开始。" },
+        { "id": "opt2", "label": "Gratitude 想一件有人对我好的小事", "feedback": "Gratitude 是研究证据最厚、起效最快的好情绪。每周做 3 次，2 个月后就有可测变化（Day36-38 会反复练）。" },
+        { "id": "opt3", "label": "Interest 看 1 分钟没看过的东西", "feedback": "Interest 是最容易被忽视的一种好情绪。「跟工作无关的兴趣」是 Day34 讲的「永远保持好奇」的入口。" },
+        { "id": "opt4", "label": "Hope 写下「我希望 7 天内发生 ____」", "feedback": "Hope 不需要大。哪怕写「我希望明天那顿饭吃得舒服」都算。Hope 一旦出现，会让你的「未来感」自然恢复。" }
+      ],
+      "next": "p17"
+    },
+    {
+      "id": "p17",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动（30 秒温和好情绪捕捉）最核心的作用是：",
+      "options": [
+        { "id": "opt1", "label": "让你瞬间变开心", "feedback": "不一定瞬间变开心。温和好情绪的作用是让你「不空虚」，跟「让你 high」不是一回事。" },
+        { "id": "opt2", "label": "训练你「不靠外部刺激也能调出好情绪」的能力，这是日常稳定幸福的关键", "feedback": "答对了。这就是今天最核心的认知：日常稳定幸福的关键，是「自己能调出来」的好情绪，跟「等外部给你」的好情绪是两套机制。" },
+        { "id": "opt3", "label": "假装自己很正能量", "feedback": "假装跟今天讲的完全不同。今天讲的是真实可调用的情绪能力。" },
+        { "id": "opt4", "label": "替代心理治疗", "feedback": "这是日常练习，跟治疗不在同一层。如果有持续的心理困扰，需要专业帮助。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2",
+      "next": "p18"
+    },
+    {
+      "id": "p18",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "观察你身边那些「过得相对稳的人」，他们身上你最能感受到的好情绪是？",
+      "options": [
+        { "id": "opt1", "label": "平静 / 不慌", "feedback": "「不慌」是 Serenity 的外在表现。这种人通常自己有「让自己慢下来」的小习惯（散步、冥想、独处）。" },
+        { "id": "opt2", "label": "感激 / 经常说谢谢", "feedback": "频繁说谢谢的人，Gratitude 维度往往很高，这是最稳定的好情绪资源。" },
+        { "id": "opt3", "label": "好奇 / 对很多事都有兴趣", "feedback": "对很多事感兴趣的人，往往老得很慢。Interest 是 Day34 要讲的「永远保持好奇」的核心。" },
+        { "id": "opt4", "label": "希望 / 对未来有期待", "feedback": "对未来有期待的人，抗挫力会显著更高。Hope 是抗挫力的核心组件。" },
+        { "id": "opt5", "label": "没仔细观察过", "feedback": "这一周可以特地留意一下身边「过得稳的人」。他们身上的「温和好情绪」往往不显眼，但极有学习价值。" }
+      ],
+      "next": "p19"
+    },
+    {
+      "id": "p19",
+      "type": "content",
+      "title": "⚔️ 场景模拟：温和好情绪怎么用",
+      "body": "下面三个场景，帮你看清「温和好情绪」在实际生活里怎么救场。",
+      "buttonText": "开始挑战",
+      "next": "p20"
+    },
+    {
+      "id": "p20",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李连续加班 3 天，回家瘫在沙发上，刷手机刷到凌晨 2 点，越刷越烦。\n\n按今天讲的，他最该做的是？",
+      "options": [
+        { "id": "opt1", "label": "立刻冲出去喝顿大酒、买点东西，强行追 Joy", "feedback": "Joy 需要他没有的能量。冲出去喝大酒只会让他第二天更崩。" },
+        { "id": "opt2", "label": "把手机放下，闭眼听 30 秒身边的声音（Serenity 入口），让神经系统先松一口气", "feedback": "答对了。累的时候追 Joy 是死路，但 Serenity 不需要能量。30 秒「不动 + 安静」就能启动副交感神经，是真正的救场动作。" },
+        { "id": "opt3", "label": "责怪自己「这点事都熬不住」", "feedback": "自我攻击是第二箭（Day13 讲过），让事情更糟。" },
+        { "id": "opt4", "label": "给自己定一个更狠的工作目标", "feedback": "这是把累的人当机器，会直接导致崩溃。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2",
+      "next": "p21"
+    },
+    {
+      "id": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张最近觉得「日子寡淡，每天都一样」，但她生活里没什么具体的坏事发生。\n\n按今天讲的，她真正缺的可能是？",
+      "options": [
+        { "id": "opt1", "label": "缺一段惊天动地的恋爱", "feedback": "恋爱可能让 Joy 短暂飙升，但「寡淡」不解决。寡淡是 Interest 缺位的特征。" },
+        { "id": "opt2", "label": "缺更多 Joy（强烈兴奋）的瞬间", "feedback": "Joy 上去几小时又下来。「日子都一样」是慢性问题，需要 Interest 这种持续型解药。" },
+        { "id": "opt3", "label": "缺 Interest（好奇）和 Inspiration（被启发）这两种温和好情绪。日常没有「新鲜的小事」，所以变得「日子都一样」", "feedback": "答对了。寡淡 = Interest（好奇）+ Inspiration（启发）维度低。下一步可以从「每天接触一件新东西」（陌生纪录片 / 没看过的播客）开始。" },
+        { "id": "opt4", "label": "缺一个职位变动", "feedback": "职位变动是外部条件，对 Interest 缺位帮助不大。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt3",
+      "next": "p22"
+    },
+    {
+      "id": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说：「我对生活没什么期待了。」他没有抑郁，工作收入也都正常。\n\n按今天讲的，他最该补的好情绪是？",
+      "options": [
+        { "id": "opt1", "label": "Joy（多花钱让自己开心）", "feedback": "Joy 不解决 Hope 缺位。「没期待」是关于未来的问题，跟「当下感官」不在同一层。" },
+        { "id": "opt2", "label": "Hope（希望）。「对生活没期待」是 Hope 维度的典型缺失，可以从「写下我希望 7 天内发生的一件事」开始重建未来感", "feedback": "答对了。「没期待」= Hope 维度的典型缺失。Hope 可以靠最小动作（写一句「7 天内希望发生 ____」）来逐步重建。" },
+        { "id": "opt3", "label": "Amusement（多刷段子）", "feedback": "Amusement 是当下消遣，跟 Hope 不在一个维度。" },
+        { "id": "opt4", "label": "立刻去看医生", "feedback": "如果「没期待」持续超过 2 周且影响日常功能，确实建议专业评估。但单单这一句不足以等同抑郁。Hope 练习是非常便宜的第一步。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2",
+      "next": "p23"
+    },
+    {
+      "id": "p23",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        { "id": "opt1", "label": "Fredrickson 总结了 10 种正面情绪，「开心」（Joy）只是其中 1 种", "feedback": "对，今天最核心的认知。" },
+        { "id": "opt2", "label": "Joy / Pride / Amusement 等「高强度兴奋型」好情绪需要外部刺激，且容易被享乐适应吃掉", "feedback": "对，单押 Joy 的人长期累。" },
+        { "id": "opt3", "label": "Serenity / Gratitude / Interest / Hope 等「温和持续型」好情绪不需要外部刺激，且几乎不被享乐适应吃掉", "feedback": "对，4 个温和好情绪入口。" },
+        { "id": "opt4", "label": "单押 Joy 的人长期幸福水平会更高", "feedback": "单押 Joy 反而是日常稳定幸福水平最低的状态。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": ["opt1", "opt2", "opt3"],
+      "allCorrectFeedback": "答对了。前三条是今天最该带走的，第四条是要拆掉的反直觉错觉。",
+      "next": "p24"
+    },
+    {
+      "id": "p24",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的 4 个入口选一个，做一次（30 秒），然后写下来：\n\n**「我做了 ____ 入口，做完后我身体 / 心里的微小变化是 ____。」**",
+      "placeholder": "例如：「我做了 Serenity 入口，听了 30 秒键盘声 + 远处车声，做完发现肩膀松了一点，呼吸变慢了。」「我做了 Gratitude 入口，想到今早邻居跟我打招呼那一下，做完心里有一丝暖意。」「我做了 Hope 入口，写下『我希望这周吃一顿好的』，做完发现自己嘴角上扬了一下。」",
+      "required": true,
+      "feedback": "这一句话是今天最重要的产物。请你试着把这个 30 秒动作变成每天一次的习惯，连续做 2 周。Day36-38 我们会专门讲 Gratitude 这类练习的「6-8 周累积效应」。",
+      "next": "p25"
+    },
+    {
+      "id": "p25",
+      "type": "summary",
+      "title": "今日认知总结",
+      "body": "今天你最该带走的，就一句话：\n\n> **「开心」只是好情绪里的一小块。**\n\n请记得三件事：\n\n1. **10 种正面情绪**：Joy / Gratitude / Serenity / Interest / Hope / Pride / Amusement / Inspiration / Awe / Love\n2. **温和好情绪 4 个入口**：Serenity / Gratitude / Interest / Hope（自己能调，几乎不被适应吃掉）\n3. **Broaden-and-Build**：好情绪不只让你「当下爽」，还在长期给你建心理资本账户\n\n明天我们继续 P 板块：\n\n**好心情会滚雪球（向上螺旋）。**\n\n明天见。",
+      "buttonText": "看今日报告",
+      "next": null
+    }
+  ]
+}

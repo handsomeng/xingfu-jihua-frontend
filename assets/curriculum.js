@@ -91,7 +91,7 @@ const ONBOARDING_DAY = {
 };
 
 // 当前已上线（有 day*.json）的天数。Day 0 是入门必经
-const AVAILABLE_DAYS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+const AVAILABLE_DAYS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 function getStageForDay(day) {
   if (day === 0) return ONBOARDING_DAY.stage;

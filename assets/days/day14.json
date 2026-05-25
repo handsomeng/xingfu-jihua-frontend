@@ -1,0 +1,331 @@
+{
+  "day": 14,
+  "stage": {
+    "name": "探索篇",
+    "stageNumber": 2,
+    "color": "#BFA158",
+    "bgColor": "#EFE7C8"
+  },
+  "theme": "幸福的五个来源",
+  "coreLine": "幸福有 5 条腿，缺一条都不稳",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "type": "content",
+      "body": "欢迎来到探索篇 Day14，第一阶段觉察篇你已经过关了。\n\n如果我现在问你「幸福是什么」，你脑子里冒出来的第一个画面，大概率是：\n\n中彩票 / 跟喜欢的人在一起 / 买到想买很久的东西 / 终于躺着不用动。\n\n这些场景的共同点是：\n\n**它们全都属于「开心」这一类感受。**\n\n但过去 30 年积极心理学最重要的发现是：\n\n**「幸福」并非「开心」这一种东西。**\n\n**它至少由 5 个完全不同的来源拼起来。**\n\n绝大多数人的痛苦其实不来自「不幸福」。真正的问题是：他们把全部赌注押在了 5 块里的 1 块上。\n\n那块享乐适应了，他们就以为自己「永远不幸福了」。\n\n今天我们把这 5 块完整地铺开看一遍。接下来 20 天挨个练。",
+      "buttonText": "开始今天",
+      "next": "p2"
+    },
+    {
+      "id": "p2",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "如果现在让你立刻说出「最近一次幸福的瞬间」，你脑子里冒出来的画面最像哪一种？",
+      "options": [
+        { "id": "opt1", "label": "跟特别在乎的人在一起的某个瞬间", "feedback": "这是 R（关系）维度的高光。R 被哈佛 80 多年追踪研究证实是预测长期幸福最稳定的变量。Day22-26 会专门讲。" },
+        { "id": "opt2", "label": "沉浸在某件事里、忘了时间的状态", "feedback": "这是 E（投入 / 心流）维度。Csikszentmihalyi 命名的 Flow 状态。Day18-21 会专门讲。" },
+        { "id": "opt3", "label": "觉得「自己做成了一件难事」的那一刻", "feedback": "这是 A（成就 / 掌控）维度。注意：是「做成」本身，跟「被看见」是两件事。Day30-32 会专门讲。" },
+        { "id": "opt4", "label": "单纯心情好、平静、温暖的某个瞬间", "feedback": "这是 P（正面情绪）维度。多数人以为幸福只有这一种，今天会告诉你「远不止」。" },
+        { "id": "opt5", "label": "觉得「这件事有意义」的某个时刻", "feedback": "这是 M（意义）维度。能立刻想到这一类的人很少，说明你已经有相对清晰的意义感。Day27-29 会专门讲。" }
+      ],
+      "next": "p3"
+    },
+    {
+      "id": "p3",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去 1-2 年，我把最多时间和精力投入的那件事是 ____。」**\n\n可以是工作、学习、感情、做某项目、健身、副业、带孩子等任何事。",
+      "placeholder": "例如：「过去两年我几乎所有精力都在做这个项目」「我大部分时间在准备考试」「我大部分精力在跟某个人的关系上」「我都在带孩子」……",
+      "required": true,
+      "feedback": "这件事我们今天结束前会回来看一眼，看看它对应的是 PERMA 5 维里的哪一块。",
+      "next": "p4"
+    },
+    {
+      "id": "p4",
+      "type": "reading",
+      "title": "📖 今日完整阅读",
+      "subtitle": "幸福的五个来源 · 约 5 分钟",
+      "source": "readings/day14.md",
+      "buttonText": "读完了,开始做题",
+      "next": "p5"
+    },
+    {
+      "id": "p5",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Seligman 在 2011 年《Flourish》里提出的 PERMA 模型，5 个英文首字母分别对应的是？",
+      "options": [
+        { "id": "opt1", "label": "Positive emotion / Engagement / Relationships / Meaning / Accomplishment", "feedback": "答对了。P 正面情绪 / E 投入 / R 关系 / M 意义 / A 成就。" },
+        { "id": "opt2", "label": "Pleasure / Engagement / Riches / Money / Achievement", "feedback": "P / R / M 都对错了。R 是 Relationships（关系），M 是 Meaning（意义）。" },
+        { "id": "opt3", "label": "Practice / Effort / Result / Money / Action", "feedback": "这是凑出来的词。PERMA 是 Seligman 2011 提出的有学术依据的模型。" },
+        { "id": "opt4", "label": "Power / Energy / Romance / Money / Ability", "feedback": "无关词。请回去阅读 P / E / R / M / A 各自的定义。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1",
+      "next": "p6"
+    },
+    {
+      "id": "p6",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "关于 PERMA 5 个维度的关系，下面哪些说法是对的？（多选）",
+      "options": [
+        { "id": "opt1", "label": "5 个维度彼此独立。某一块满分，另一块可以是 0 分", "feedback": "对，PERMA 的独立性。" },
+        { "id": "opt2", "label": "5 个维度又相互连接。最强的那一块可以撬动最弱的那一块", "feedback": "对，PERMA 的杠杆性。" },
+        { "id": "opt3", "label": "你不必 5 维都满分，但应该知道自己最弱的是哪一块", "feedback": "对，PERMA 是「分布图」的用法。" },
+        { "id": "opt4", "label": "你必须 5 维全部 10 分才算幸福", "feedback": "Seligman 反复强调 PERMA 是「分布图」，跟「总分赛」不是同一回事。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": ["opt1", "opt2", "opt3"],
+      "allCorrectFeedback": "答对了。前三条是 PERMA 模型最该带走的关键性质。",
+      "next": "p7"
+    },
+    {
+      "id": "p7",
+      "type": "true_false",
+      "category": "knowledge",
+      "question": "「Seligman 2002 年提出的 Authentic Happiness 只有 3 个元素（愉悦 / 投入 / 意义），2011 年的 PERMA 增加了 R（关系）和 A（成就）两个，因为他发现这两块前 3 块没法包含。」这句话对吗？",
+      "options": [
+        { "id": "opt1", "label": "对", "feedback": "答对了。这是 Seligman 9 年间研究演进的直接结果，R 和 A 的加入让模型从「3 维」升级到了「5 维」。" },
+        { "id": "opt2", "label": "不对", "feedback": "再想想。Seligman 在《Flourish》开篇专门解释过这次升级的原因。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1",
+      "next": "p8"
+    },
+    {
+      "id": "p8",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪句话**最不符合**今天讲的 A（Accomplishment 成就）维度？",
+      "options": [
+        { "id": "opt1", "label": "A 是「做成一件事」本身带来的满足感", "feedback": "这是对的，A 的核心是「做成」这件事本身。" },
+        { "id": "opt2", "label": "A 包含跑完一个半马、写完一本书、学会一个新技能", "feedback": "这是对的，A 的范围包含所有能让你说「我把这事干成了」的事。" },
+        { "id": "opt3", "label": "A 是「外部成功」，比如升职、加薪、出名", "feedback": "答对了。这正是最容易被混淆的一点。A 是「做成」本身，跟「外部成功」（升职、出名）不是一回事。否则就跟 Day2「我们都追错了」讲的钱、名、身材陷阱重叠了。" },
+        { "id": "opt4", "label": "A 维度强但其他维度弱的人，享乐适应会让 A 也回落，回落时全部塌掉", "feedback": "这是对的，单押 A 的工作狂典型风险。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt3",
+      "next": "p9"
+    },
+    {
+      "id": "p9",
+      "type": "content",
+      "title": "💡 它和你有什么关系",
+      "body": "回想一下你过去 1-2 年的状态：\n\n- 你拼命追的东西，是不是几乎都集中在 P（更开心）或 A（更成功）这两块？\n- 你有没有刻意维护过 R（关系）？上次主动约老朋友吃饭是什么时候？\n- 你有没有最近一次「沉进去忘了时间」的体验（E）？\n- 你心里有没有一个清晰的「我为什么这么活」的答案（M）？\n\n绝大多数人的分布都是「单腿支撑」的：\n\n- **P 8 / A 8 但 R 3 / M 2**：看起来开心、看起来成功，里面孤独又空\n- **R 8 / M 7 但 P 3 / E 2**：关系好、有信念，但日常没什么乐趣\n- **A 9 但其他全 4**：工作狂的典型。享乐适应会让 A 也回落，回落时全部塌掉\n\n接下来 20 天我们要一块一块讲。\n\n**你不用 5 块都满分。**\n\n但你至少要知道：哪一块是你最弱的、最能撬动整体幸福的杠杆。",
+      "buttonText": "明白了",
+      "next": "p10"
+    },
+    {
+      "id": "p10",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**回想过去 2 年，你投入时间最多的方向，主要落在 PERMA 哪一块？**\n\n不要选「平均」，强迫自己挑一个主押的方向。",
+      "options": [
+        { "id": "opt1", "label": "几乎全部押在 P（追各种短期开心 / 心情 / 享受）", "feedback": "单押 P 的人会被享乐适应吃掉所有努力。Day4 讲过：开心会快速变成「新常态」。接下来你最该补的可能是 E 或 M。" },
+        { "id": "opt2", "label": "几乎全部押在 E（沉迷某项专业 / 兴趣 / 技能）", "feedback": "E 单押的人在心流时是最幸福的，但日常依赖那个状态。如果丢掉那件事，整个人会塌。最该补的常常是 R。" },
+        { "id": "opt3", "label": "几乎全部押在 R（关系 / 家庭 / 恋爱）", "feedback": "R 单押的人在关系好时极幸福，但风险也最大。一段关系破裂 = 整个幸福系统塌掉。最该补的常常是 A 或 M。" },
+        { "id": "opt4", "label": "几乎全部押在 M（追求某个理想 / 信念 / 大事业）", "feedback": "M 单押的人有最强的抗挫力，但日常容易没乐趣（P 低）。最该补的常常是 P 或 R。" },
+        { "id": "opt5", "label": "几乎全部押在 A（升职 / 业绩 / 外部成功）", "feedback": "单押 A 是中国 25-40 岁人群最常见的状态。享乐适应会让 A 也回落，回落时全部塌。最该补的几乎一定是 R。" },
+        { "id": "opt6", "label": "比较分散，没有单押", "feedback": "能不单押的人比想象的少。如果你确实分散，那 PERMA 的「分布图」就是你下一步精修的工具。" }
+      ],
+      "next": "p11"
+    },
+    {
+      "id": "p11",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小李 PERMA 自评：P 8 / E 7 / R 3 / M 2 / A 8。\n\n他下一步最应该重点投入的是？",
+      "options": [
+        { "id": "opt1", "label": "P（继续追更多开心）", "feedback": "P 8 已经够高了。继续追 P 会被享乐适应吃掉。" },
+        { "id": "opt2", "label": "A（再升一级职位）", "feedback": "A 8 已经够高。继续追只会让落差更大。" },
+        { "id": "opt3", "label": "R 和 M（最弱的两块，撬动空间最大）", "feedback": "答对了。R 3 / M 2 是真正的杠杆点。把 R 拉到 5、M 拉到 4，整体幸福水平会比把 A 推到 9 显著得多。" },
+        { "id": "opt4", "label": "5 块都全力推", "feedback": "5 块同时推是没法持续的。「分布图」的用法是聚焦最弱的那一两块。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt3",
+      "next": "p12"
+    },
+    {
+      "id": "p12",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "回想最近一次「沉进去、忘了时间」的体验（E 维度），那是多久之前？",
+      "options": [
+        { "id": "opt1", "label": "这周就有过", "feedback": "E 维度还挺活跃。这说明你心里那条「忘记时间的入口」还开着，是非常好的资源。" },
+        { "id": "opt2", "label": "上一两周有过", "feedback": "典型水平。E 在现代人里频率被手机大幅压低。Day18-21 会讲怎么把这个频率提上来。" },
+        { "id": "opt3", "label": "这两个月有过", "feedback": "这个频率偏低。一个月以上没有过深度投入的体验，说明被「碎片任务」切割得比较严重。" },
+        { "id": "opt4", "label": "想不起来最近一次", "feedback": "这是 E 维度低的典型信号。多数人到了这一步，是因为「能让我沉进去的事」被慢慢边缘化了。Day18-21 会专门讲怎么找回。" },
+        { "id": "opt5", "label": "几乎从来没有过这种体验", "feedback": "能如实说出来很重要。E 维度可以被重新建立。Day20-21 会讲「找到你的超能力」，那一类活动通常就是 E 的入口。" }
+      ],
+      "next": "p13"
+    },
+    {
+      "id": "p13",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些属于 R（Relationships 关系）维度的核心特征？（多选）",
+      "options": [
+        { "id": "opt1", "label": "跟「能让你真正放松、不用表演」的人定期相处", "feedback": "对，R 的核心特征。" },
+        { "id": "opt2", "label": "在难的时候有人能接住你", "feedback": "对，R 的真正价值。" },
+        { "id": "opt3", "label": "你也能稳定地接住身边的人", "feedback": "对，R 是双向的。" },
+        { "id": "opt4", "label": "朋友圈点赞数特别高", "feedback": "朋友圈点赞跟真实关系几乎没有相关。哈佛追踪研究里测的是「真正交心」的关系。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": ["opt1", "opt2", "opt3"],
+      "allCorrectFeedback": "答对了。R 是「连接质量」，跟「关系数量」或「社交存在感」不是一回事。",
+      "next": "p14"
+    },
+    {
+      "id": "p14",
+      "type": "true_false",
+      "category": "knowledge",
+      "question": "「哈佛 Study of Adult Development 追踪了 80 多年，结论是：关系质量是预测长期幸福最稳定的变量，比收入、健康、智商都更强。」这句话对吗？",
+      "options": [
+        { "id": "opt1", "label": "对", "feedback": "答对了。这是积极心理学最有说服力的纵向研究结论。Robert Waldinger（这项研究第 4 任主任）2023 年的最新总结再次确认了这一点。" },
+        { "id": "opt2", "label": "不对", "feedback": "再想想。这是被多次验证、跨 80 年的稳健结论。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1",
+      "next": "p15"
+    },
+    {
+      "id": "p15",
+      "type": "content",
+      "title": "🎯 今日任务：把 PERMA 当成你的「幸福地图」",
+      "body": "今天的微行动 1 分钟。\n\n如果你做过 Day10 的 PERMA 自评，把那 5 个分数重新看一遍。\n如果没做过，今天补打一次：\n\n> P 正面情绪：__/10\n> E 投入：__/10\n> R 关系：__/10\n> M 意义：__/10\n> A 成就：__/10\n\n然后做两件事：\n\n**1. 圈出最弱的那一块。** 这是你接下来 20 天的主要工作方向。\n\n**2. 找出最强的那一块。** 这是你的「资源」，可以用来撬动最弱的那一块。\n\n举例：\n\n- 你 R 强 / M 弱 → 问你最信任的人「你觉得你为什么而活」\n- 你 A 强 / E 弱 → 从你擅长的那件事里找「能让你忘记时间」的版本\n- 你 P 强 / R 弱 → 邀请最近让你开心的事的「源头人」一起做一次\n\n最强的那一块永远是撬动最弱那一块的杠杆。",
+      "buttonText": "我去打分",
+      "next": "p16"
+    },
+    {
+      "id": "p16",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你 PERMA 5 维里，最想先补的那一块是？",
+      "options": [
+        { "id": "opt1", "label": "P 正面情绪（让日常多一些好心情）", "feedback": "Day15-17 会专门讲 P，扩大「好情绪」种类，对抗享乐适应。" },
+        { "id": "opt2", "label": "E 投入 / 心流（找到能让我沉进去的事）", "feedback": "Day18-21 会专门讲 E，找到你的心流入口。" },
+        { "id": "opt3", "label": "R 关系（重建被真正接住的连接）", "feedback": "Day22-26 会专门讲 R。R 是被研究证据最厚的一块，回报也最大。" },
+        { "id": "opt4", "label": "M 意义（搞清楚我为什么这么活）", "feedback": "Day27-29 会专门讲 M。这是最难的一块，也是最稳的一块。一旦建立，其他 4 块会自动跟上。" },
+        { "id": "opt5", "label": "A 成就 / 掌控（找回「我把这事干成了」的满足感）", "feedback": "Day30-32 会专门讲 A。注意：今天讲的 A 不是外部成功，是「做成」本身。" }
+      ],
+      "next": "p17"
+    },
+    {
+      "id": "p17",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动（把 PERMA 当幸福地图，圈出最弱 + 最强）最核心的作用是：",
+      "options": [
+        { "id": "opt1", "label": "让你 5 维都满分", "feedback": "5 维都满分是不必要也做不到的目标。" },
+        { "id": "opt2", "label": "让你看到自己的「分布」和「杠杆点」，集中火力在最有撬动力的那一两块", "feedback": "答对了。PERMA 真正的用法是分布 + 杠杆。把 2 分拉到 4 分，比把 8 分拉到 9 分性价比高得多。" },
+        { "id": "opt3", "label": "让你跟别人比谁 5 维更高", "feedback": "跟别人比 PERMA 是 Day10 反复警告过的陷阱（社会比较）。" },
+        { "id": "opt4", "label": "给你一个虚荣的总分", "feedback": "总分没有意义，分布才是真正的指南。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2",
+      "next": "p18"
+    },
+    {
+      "id": "p18",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "观察你身边那些「过得比较稳的人」，他们的 PERMA 分布最像哪一种？",
+      "options": [
+        { "id": "opt1", "label": "5 维都没特别高，但都不低，整体比较均衡", "feedback": "这是典型的「整体稳」型。Seligman 在《Flourish》里特别推崇这种状态，叫 flourishing。" },
+        { "id": "opt2", "label": "有 1-2 块特别强（比如 R 和 M），其他几块也不算低", "feedback": "这是「有支柱型」。R 或 M 强的人在任何打击下都不容易塌，是另一种稳的形式。" },
+        { "id": "opt3", "label": "有 1 块超高，其他比较拉胯", "feedback": "这种「单腿稳」状态其实并不真稳。看起来风光，一旦那一块出问题就全塌。" },
+        { "id": "opt4", "label": "我没仔细观察过", "feedback": "这周可以留意一下身边那些状态稳的人，看他们 PERMA 哪几块明显。「他做对了什么」往往比「我做错了什么」更值得看。" }
+      ],
+      "next": "p19"
+    },
+    {
+      "id": "p19",
+      "type": "content",
+      "title": "⚔️ 场景模拟：PERMA 怎么在生活里用",
+      "body": "下面三个场景，帮你看清「5 维分布」在实际生活里怎么指导决策。",
+      "buttonText": "开始挑战",
+      "next": "p20"
+    },
+    {
+      "id": "p20",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李 PERMA 自评：P 8 / E 7 / R 3 / M 2 / A 9。他最近升了职，但晚上经常一个人在出租屋里发呆。他对自己说：「我应该再拼一把，拿到更高职位就好了。」\n\n按今天讲的，他这套逻辑哪里有问题？",
+      "options": [
+        { "id": "opt1", "label": "没问题，确实应该再拼", "feedback": "继续追 A 是被享乐适应吃掉所有努力的捷径。" },
+        { "id": "opt2", "label": "A 已经 9 分了，继续追 A 边际收益极小。他的真正问题是 R 3 / M 2，最该投入的是这两块", "feedback": "答对了。9 分的 A 拉到 10 分性价比极低，2 分的 M 拉到 4 分性价比极高。这就是「分布图」的核心用法。" },
+        { "id": "opt3", "label": "他应该立刻换城市", "feedback": "换城市是大决策，先看清杠杆点再做。" },
+        { "id": "opt4", "label": "他应该多刷视频放松", "feedback": "刷视频跟任何一块 PERMA 都无关，是消耗注意力的反向操作。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2",
+      "next": "p21"
+    },
+    {
+      "id": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张感情破裂后觉得「整个人都塌了」。她复盘自己 PERMA：P 6 / E 3 / R 9（之前几乎全押在那段关系上）/ M 4 / A 5。\n\n按今天讲的，她最关键的下一步是？",
+      "options": [
+        { "id": "opt1", "label": "立刻找下一段关系填补 R", "feedback": "立刻找下一段关系填补，是重复同一个错误。R 单押的脆弱性还在。" },
+        { "id": "opt2", "label": "接受自己之前是「R 单押型」，下一步先慢慢把 E、M、A 的分数都抬起来，让 5 维之间形成支撑，不再让任何一块被单点决定", "feedback": "答对了。「整个人都塌」的真正原因是 R 是她唯一的支柱。建立其他维度的支撑，比立刻修补 R 重要得多。" },
+        { "id": "opt3", "label": "完全放弃 R，专心搞事业", "feedback": "完全放弃 R 是矫枉过正，也不可能。R 还是需要重建，只是先不能单押。" },
+        { "id": "opt4", "label": "等下一段感情自然出现", "feedback": "这是被动等待，对修复整体 PERMA 没有作用。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2",
+      "next": "p22"
+    },
+    {
+      "id": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说：「我什么都不缺，但我就是不开心，是不是我有病。」他打 PERMA：P 5 / E 3 / R 5 / M 2 / A 7。\n\n按今天讲的，他的真问题最可能是？",
+      "options": [
+        { "id": "opt1", "label": "他确实有病", "feedback": "「有病」这个词太重，跟今天讲的「PERMA 5 维结构」更相关。" },
+        { "id": "opt2", "label": "他卡在 M 2 上：「我什么都有，但我不知道我为什么要活成现在这样」。M 是他真正的杠杆点", "feedback": "答对了。「什么都有但不开心」在中产 25-40 岁里特别普遍，几乎都对应 M 2-3 分。这正是 25-35 岁人群常说的「quarter-life crisis」。Day27-29 会专门讲这一块。" },
+        { "id": "opt3", "label": "他应该再多赚点钱", "feedback": "钱在他这里不能解决问题，因为 A 已经 7 分了。" },
+        { "id": "opt4", "label": "他应该结婚", "feedback": "结婚不解决 M 缺失。R 拉到 7 也救不了 M 2。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2",
+      "next": "p23"
+    },
+    {
+      "id": "p23",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        { "id": "opt1", "label": "幸福由 P / E / R / M / A 5 个独立来源拼起来，「开心」只是其中一块", "feedback": "对，PERMA 的核心命题。" },
+        { "id": "opt2", "label": "PERMA 真正的价值在「分布图」，不在「总分」", "feedback": "对，今天反复强调过。" },
+        { "id": "opt3", "label": "单押任何一维都有「享乐适应 / 单点失效」的脆弱性", "feedback": "对，三个单押案例都讲过。" },
+        { "id": "opt4", "label": "接下来 20 天需要 5 维同时全力推", "feedback": "5 维同时推没法持续。聚焦最弱的 1-2 块才是 PERMA 的正确用法。" }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": ["opt1", "opt2", "opt3"],
+      "allCorrectFeedback": "答对了。前三条是 PERMA 模型最该带走的，第四条是常见误用。",
+      "next": "p24"
+    },
+    {
+      "id": "p24",
+      "type": "text",
+      "category": "awareness",
+      "question": "回到 p3 你写的那件「过去 1-2 年最投入的事」。\n\n它对应的是 PERMA 5 维里的哪一块（或哪几块）？\n\n**「我这件事 ____ 主要对应的是 ____ 维度。它的强项是 ____，它没满足的维度是 ____。」**",
+      "placeholder": "例如：「我这两年都在拼工作，主要对应 A 和 E。强项是做成感和投入感，没满足的是 R 和 M，导致我下班后特别空虚。」「我这两年都在维护一段感情，主要对应 R。强项是连接感，没满足的是 A 和 E，导致我对自己有点失去掌控感。」……",
+      "required": true,
+      "feedback": "这一句话是今天最重要的产物。它在帮你做一件事：把模糊的「过得不够好」翻译成具体的「我缺的是哪块」。",
+      "next": "p25"
+    },
+    {
+      "id": "p25",
+      "type": "summary",
+      "title": "探索篇 · 今日认知总结",
+      "body": "今天你最该带走的，就一句话：\n\n> **幸福有 5 条腿，缺一条都不稳。**\n\n请记得三件事：\n\n1. **P / E / R / M / A**：5 个独立又相互连接的幸福来源\n2. **分布 > 总分**：找出最弱的那一块，那是你的杠杆点\n3. **杠杆**：最强的那一块永远是撬动最弱那一块的工具\n\n接下来 20 天我们挨个走：\n\n- **Day 15-17** P 正面情绪\n- **Day 18-21** E 投入 / 心流\n- **Day 22-26** R 关系\n- **Day 27-29** M 意义\n- **Day 30-32** A 成就\n- **Day 33-34** 跨维度（敬畏感 / 好奇心）\n\n明天先开始 P：\n\n**「好情绪」远不止「开心」一种。**\n\n明天见。",
+      "buttonText": "看今日报告",
+      "next": null
+    }
+  ]
+}
