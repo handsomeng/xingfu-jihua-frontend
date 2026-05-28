@@ -1,0 +1,558 @@
+{
+  "day": 46,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "五分钟呼吸法",
+  "coreLine": "方框呼吸法是最便宜的情绪急救",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入练习篇第 12 天，正念系列第 2 天。\n\n先做个小测试。\n\n下次你紧张的时候（比如开会前 5 分钟、跟人吵架前、面试前），观察你自己的呼吸：\n\n- 频率：是不是变快了？\n- 深度：是不是变浅了？\n- 位置：是不是从肚子跑到了胸口加肩膀？\n\n绝大多数人答案都是「是」。\n\n这就是问题所在。你一焦虑，呼吸就给大脑发信号说「危险来了」，大脑收到信号又让你更焦虑。一圈圈滚。\n\n反过来这条路也通。你主动把呼吸调慢调深，副交感神经被打开，心率变异性上升，杏仁核冷下来，1 分钟内你又恢复理性。\n\n这件事便宜到不可思议。\n\n不花钱，不用工具，不用换地方，任何场景都能用。海豹突击队、急救室医生、F1 车手、奥运冠军全在用。\n\nWeil（哈佛医学院教授）讲过一句话：\n\n> **如果只让你学一件健康习惯，那就是呼吸。**\n\n今天就把呼吸这件事讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你紧张 / 焦虑 / 生气的时候，平时通常会做什么？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "硬扛过去，等情绪自己消",
+          "feedback": "最常见的做法。硬扛就是让大脑自己熬，能熬过去，但代价是身体一直紧绷。今天教你一个 60 秒就见效的工具。"
+        },
+        {
+          "id": "opt2",
+          "label": "刷手机 / 抽烟 / 喝水转移注意力",
+          "feedback": "典型的回避型应对。短期管用，长期攒焦虑。今天的呼吸法跟刷手机一样快，方向反过来。"
+        },
+        {
+          "id": "opt3",
+          "label": "跟人吐槽 / 找人聊",
+          "feedback": "社交型应对，关系维度。有效，但有前提（要有合适的人）。呼吸法没前提，任何场景都能用。"
+        },
+        {
+          "id": "opt4",
+          "label": "我会主动用呼吸 / 冥想等方法调节",
+          "feedback": "你已经有完整工具了。今天把 3 套方法做个对比，看哪一套最适合你的场景。"
+        },
+        {
+          "id": "opt5",
+          "label": "没注意过自己怎么处理的",
+          "feedback": "能如实说出来很重要。今天会让你看到自己情绪反应的真实链路。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去 1 周里我最紧张 / 焦虑 / 生气的一个具体瞬间是 ____，当时我的呼吸状态大概是 ____。」**\n\n不必长。30 秒能写完就行。",
+      "placeholder": "例如：「周三跟客户开会前 5 分钟，呼吸又快又浅，全集中在胸口」「周末跟我妈打电话她说了一句让我炸的话，那一刻我屏住了呼吸 + 牙关咬紧」「周一晚上想到第二天要演讲，躺床上心跳很快，呼吸根本停不下来」「想不起来」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "方框呼吸法的标准节奏是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "吸 2 秒、呼 2 秒",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "吸 4 秒、屏 4 秒、呼 4 秒、屏 4 秒（一条边 4 秒，凑成一个「方盒」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "吸 10 秒、呼 10 秒",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "想到就吸，想到就呼",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是「呼吸法能调节情绪」的真实神经机制？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "慢呼气延长，副交感神经（迷走神经）被激活，心率往下走",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "主动控制呼吸，心率变异性提升，杏仁核活动下降",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "鼻腔吸气，嗅球的节律会影响海马和杏仁核（Zelano 2016）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "呼吸有玄学功效，跟生理没关系",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「4-7-8 呼吸法是 Weil（哈佛医学院教授）推广的方法：吸 4 秒、屏 7 秒、呼 8 秒。呼气是吸气的 2 倍长，对睡前入睡帮助最大，因为长呼气最直接激活副交感神经。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪种状态**最不像**「正确的腹式呼吸」？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "吸气时肚子鼓起来，肩膀几乎不动",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "呼气时肚子收回去，注意力放在下腹",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "一只手放胸口，一只手放肚子，吸气时肚子那只手抬起来",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "耸着肩，用胸口快速浅吸气",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "呼吸是你身体里唯一一个「自动运行 + 可手动接管」的系统。\n\n心跳、消化、血压你都管不了。但呼吸你随时能接管。\n\n这意味着什么？\n\n这意味着呼吸是你能直接操控自主神经系统的唯一开关。\n\n现代人 90% 的情绪问题来自一个事实：交感神经（紧张模式）长期超载，副交感神经（放松模式）几乎不被激活。\n\n具体表现：\n\n- 心跳偏快（哪怕坐着不动）\n- 呼吸又浅又快（每分钟 18 到 25 次，正常应该是 12 到 15 次）\n- 肩膀长期紧绷\n- 入睡困难加半夜醒\n- 容易爆，容易哭\n\n3 套呼吸法管 3 种问题：\n\n| 方法 | 节奏 | 主场景 |\n|---|---|---|\n| 方框呼吸法 | 4-4-4-4 | 紧张前快速冷静（开会前、面试前、吵架前） |\n| 4-7-8 呼吸法 | 4-7-8 | 睡前入睡（呼气长，最深度激活副交感） |\n| 同调呼吸 | 5.5-5.5（每分钟 5.5 次） | 长期心率变异性训练加日常基线提升 |\n\n3 套都是工具，不是宗教。挑一个最适合你当前场景的就够。\n\n研究数据：\n\n- Brown 2013：每天 20 分钟慢呼吸训练，4 周后心率变异性显著提升、焦虑分数下降\n- Zaccaro 2018 综述：慢呼吸（每分钟少于 10 次）对副交感激活、情绪调节、专注力提升的证据稳定\n- 急救室医生在抢救场景外用方框呼吸法，错误率下降\n\n成本：5 分钟。\n回报：60 秒内能感觉到的身体变化。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你目前对自己呼吸的觉察程度自评（0 几乎从不注意，10 经常主动观察）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0–2 分",
+        "3–4 分",
+        "5–6 分",
+        "7–8 分",
+        "9–10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小王明天要在 200 人面前演讲，他想在上台前 5 分钟用呼吸法快速冷静。按今天讲的，他应该选？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "4-7-8 呼吸法（睡前用）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "方框呼吸法 4-4-4-4，做 5 轮大约 80 秒，重复几次直到上台",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "屏住呼吸 1 分钟",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "深呼 30 次（过度换气）",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面哪个场景你最容易给自己留 5 分钟做呼吸练习？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "早晨刚醒躺床上",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "通勤路上（地铁 / 车里）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "工作中某次会议 / 任务切换的间隙",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "睡前躺床上",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "我每个场景都很难留出来",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是练呼吸法的**坑**？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "用胸式 + 耸肩呼吸，越练越焦虑",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "一开始就追求长时间（比如直接做 30 分钟），强度过大反而放弃",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "在不安全场景（开车 / 走楼梯）做闭眼深呼吸",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "每次只做 5 分钟，先把习惯建立起来",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「低血压、孕期、严重哮喘的人在做长屏息（比如 4-7-8 的『屏 7 秒』）时可能出现头晕或不适。这类人应该从短时间起步（比如 4-4-4-4 改成 3-3-3-3），有不适立刻停，必要时先咨询医生。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「方框呼吸法 5 轮」",
+      "next": "p16",
+      "buttonText": "我去做",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。\n\n**Step 1**：找一个固定时段当锚点。建议三选一：\n- 早晨起床后第一件事（在床上做完再下床）\n- 午后 3 点容易犯困那段\n- 睡前躺床上熄灯后\n\n**Step 2**：调整姿势。坐姿或躺姿都可以，但**必须**先做对腹式呼吸：\n- 一只手放胸口，一只手放下腹\n- 用鼻子吸气，吸气时下腹那只手要抬起来（胸口的尽量不动）\n- 这一步做对了再开始计时\n\n**Step 3**：做 5 轮方框呼吸法：\n- 吸气 4 秒（鼻子吸，下腹鼓）\n- 屏息 4 秒\n- 呼气 4 秒（嘴或鼻呼，下腹收）\n- 屏息 4 秒\n- 1 轮 = 16 秒，5 轮 = 80 秒\n\n**Step 4**：剩下时间静坐 / 静躺感受身体变化（心跳是不是慢了？肩膀是不是松了？）。\n\n**安全提醒**：低血压 / 孕期 / 哮喘者把节奏改成 3-3-3-3 或 4-4-4 不屏息。有任何不适立刻停。\n\n明天 Day47 转向身体运动维度。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你预感最容易卡的是哪一步？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "找时段（一天里挤不出 5 分钟）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "找对腹式呼吸（一吸气还是耸肩）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "4 秒太长 / 太短把控不准节奏",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "屏息时心慌或不舒服",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "都容易卡",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你显得很懂养生",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 5 分钟亲身体验「主动控制呼吸，副交感被激活，身体松下来」的真实链路，把呼吸内化成日常可调用的情绪急救工具",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让你立刻变成冥想大师",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「情绪一直比较稳，关键时刻不慌」的人，最大的特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们呼吸明显比较深、比较慢",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们紧张时会主动停下来「调一下」（深吸一口气 / 闭眼几秒）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们睡得好、心率低",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把呼吸法装进生活",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「具体的呼吸法动作」在实际生活里怎么挑。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李每晚躺床上脑子停不下来，平均要 1 小时才能入睡。\n\n按今天讲的，他应该选？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "数羊到 1000 只",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "躺床上熄灯后做 4-7-8 呼吸法 4 轮（大约 76 秒）：吸 4 秒、屏 7 秒、呼 8 秒。呼气是吸气 2 倍长，最深度激活副交感，比方框呼吸法更适合催眠",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "喝助眠保健品",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "强迫自己「别想了」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张明天要做季度汇报，今天就开始焦虑，心跳整天偏快。\n\n按今天讲的，她应该选？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "强迫自己别焦虑",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把同调呼吸（5.5-5.5）当背景练习。今天找 2 到 3 个时段（早中晚各 5 分钟），每分钟 5.5 次的节奏，整体提升心率变异性，让基线情绪稳下来",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "喝酒压一下",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "取消汇报",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周跟伴侣吵架，感觉自己快要爆了。\n\n按今天讲的，他应该选？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "继续吵",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "跟伴侣说「我需要 2 分钟」，走到另一个房间，做 5 轮方框呼吸法 4-4-4-4（大约 80 秒）加静坐 1 分钟。等心率降下来再回去谈",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "摔门走人",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "屏住呼吸到最后憋不住爆发",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "方框呼吸法 4-4-4-4 适合「快速冷静」（开会前 / 吵架前），海豹突击队和急救室医生在用",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "4-7-8 呼吸法的关键是呼气长（睡前最有效），长呼气最直接激活副交感神经",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "慢呼吸（每分钟少于 10 次）能提升心率变异性、降低焦虑（Brown 2013 / Zaccaro 2018 综述）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "呼吸越快越浅越能放松",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你的「明天 5 分钟呼吸练习计划」：\n\n**「明天我做呼吸法的时段是 ____（具体时间），方法选 ____（方框 / 4-7-8 / 同调），姿势是 ____（坐 / 躺），保护规则是 ____。」**",
+      "placeholder": "例如：「明天早上 7:00 刚醒坐床上做方框呼吸法 5 轮，保护规则：手机扔床头柜不看」「明天晚上 11:00 熄灯后躺床上做 4-7-8 共 4 轮，保护规则：不开手电、不听播客」「明天午后 3:00 在办公室椅子上做同调呼吸 5 分钟，保护规则：关上门加设勿扰」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 46 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **方框呼吸法是最便宜的情绪急救。**\n\n请记得三件事：\n\n1. **3 套呼吸法各管一类场景**：方框 4-4-4-4（快速冷静）/ 4-7-8（睡前入睡）/ 同调 5.5-5.5（长期心率变异性训练）\n2. **腹式呼吸是基础**：耸肩加浅胸式呼吸越练越焦虑。先把腹式做对再谈节奏\n3. **呼吸是唯一能直接操控自主神经的开关**：60 秒就能让杏仁核冷却下来\n\n明天练习篇 Day 13：\n\n**Day47：动起来 5 分钟（身体运动跟情绪调节的直接通路）。**\n\n明天见。"
+    }
+  ]
+}

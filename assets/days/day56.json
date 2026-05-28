@@ -1,0 +1,558 @@
+{
+  "day": 56,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "学会说不",
+  "coreLine": "守住边界 = 守住自己",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入练习篇关系板块第 1 天（练习篇第 22 天）。\n\n回想一下你最近一周。\n\n- 有没有答应了一件你心里其实不想做的事？\n- 有没有因为怕对方失望，硬撑下来加了一次班、垫了一笔钱、陪了一次饭？\n- 有没有人在深夜发请求过来，你明知道困得不行还是回了？\n\n上面 3 条至少中了 1 条，今天就是给你写的。\n\n你可能以为「会拒绝的人」就是「凶 / 冷漠 / 不懂事」。\n\nBrown 在《敢于脆弱》里说过一句反常识的话：最有同理心的人，边界感最强。\n\n讨好型看上去温暖，本质是耗到底之后变怨恨。一个不会拒绝的人，长期下来，对最亲近的人最容易爆发。\n\n今天把「学会说不」这件事讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "过去 1 个月里，你答应了多少件「心里其实不想做」的事？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "没数过，但感觉每天都在答应",
+          "feedback": "典型的讨好型状态。今天的 4 步话术直接针对你。"
+        },
+        {
+          "id": "opt2",
+          "label": "一周大约 3-5 件",
+          "feedback": "中等讨好。今天会让你看到这些『微让步』累积起来代价有多大。"
+        },
+        {
+          "id": "opt3",
+          "label": "一周大约 1-2 件",
+          "feedback": "相对健康。说明你已经有部分边界感。今天再加固一下。"
+        },
+        {
+          "id": "opt4",
+          "label": "几乎没有，我想拒绝就拒绝",
+          "feedback": "很好。说明你边界感已经在线，今天可以校准细节。"
+        },
+        {
+          "id": "opt5",
+          "label": "我从来不答应自己不想做的事",
+          "feedback": "能如实说出来很重要。如果真是这样，今天重点看『边界 ≠ 冷漠』那一段。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "写下一件你过去 1 个月「答应了但事后后悔」的事：\n\n**「我答应了 ____（谁）____（什么事），事后后悔的原因是 ____。」**",
+      "placeholder": "例如：「我答应了同事帮她改方案，结果改到凌晨 2 点，我自己的事一行没动」「我答应了妈妈周末一定回家，结果我那天本来想睡到自然醒」「我答应了朋友借钱，事后他没提还，我每次见他都别扭」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Brown 在《敢于脆弱》里关于「同理心强的人」的核心观点是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "同理心强的人最容易讨好别人",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "最有同理心的人，边界感最强",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "同理心跟边界没关系",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "边界感强的人没有同理心",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "Cloud 和 Townsend《边界》里的「边界 4 个领域」包括哪些？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "物理边界（身体 / 空间 / 物品）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "时间边界（工作时间 / 私人时间）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "情绪边界（你的情绪 vs 对方的情绪）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "数字边界（消息回复速度 / 深夜请求）",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3, opt4"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Cloud 和 Townsend《边界》的核心是：你为自己负责（自己的情绪 / 行动 / 价值观），同时也不为别人的情绪反应负责。对方因为你拒绝而不高兴，那是对方的课题，你不用把它当成自己的失败。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪一句话**最不像**「健康的边界」？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「我知道你急，这次帮不了，你试试找小李。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「我这周排满了，下周可以。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「晚上 11 点之后我不看工作消息，明早回复你。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "「我帮你吧，反正我也没什么重要的事（其实当晚有事）。」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "中国成年人边界感弱，常见 3 个根源。\n\n**根源 1：被教育「懂事 = 让步」**\n小时候你被反复说「乖」「听话」「不要让大人难做」。结果你长成了一个对自己的需求过敏、对别人的需求过度敏感的大人。\n\n**根源 2：怕被讨厌，反而被剥削**\n你以为「我对所有人好，大家都喜欢我」。实际上是：怕被讨厌的人最容易被剥削。受欢迎跟被尊重是两件事。前者靠让步，后者靠边界。\n\n**根源 3：把「拒绝」跟「冷漠」混为一谈**\n你心里有个等号：拒绝 = 不爱了 = 关系破裂。健康关系的标志恰恰相反，双方都能说不，关系才长得稳。\n\n3 个根源合起来，你不停答应，不停透支，某一天突然爆发或者彻底冷掉。\n\n破局的工具叫「4 步拒绝话术」：\n\n1. **共情对方**：「我知道你急 / 我理解这事不容易」\n2. **简短陈述拒绝**：「这次帮不了 / 我这周排不下」\n3. **不解释过多**：解释越长越像找借口，对方反而抓住你的解释来反驳\n4. **不强求和谐**：对方不高兴是对方的课题，你不用负责把对方哄好\n\nAdams 2014 那项研究里：边界感越强的人，职业倦怠分数越低，差距很显著。机制简单：边界感强的人把「自己的能量」当有限资源管理，讨好型把它当无限资源透支。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你目前的边界感自评（0 几乎没有边界，10 边界清晰且能稳定执行）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0–2 分",
+        "3–4 分",
+        "5–6 分",
+        "7–8 分",
+        "9–10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小王深夜 11 点收到同事消息「帮我看一下方案，明早 9 点要交」。按今天讲的，他最健康的回应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "立刻爬起来看到凌晨 2 点",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「我知道你急（共情）。我现在已经下班了，明早 8 点起来帮你看 30 分钟（简短陈述边界 + 不解释过多 + 不强求和谐）。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "已读不回，第二天装作没看见",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "「你怎么这么晚还发消息？太不职业了！」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面 4 类边界你目前最弱的是哪一类？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "物理边界（身体 / 空间被随意侵入）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "时间边界（工作 / 私人时间被随意占用）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "情绪边界（替别人扛情绪 / 替别人难过）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "数字边界（深夜消息 / 秒回压力）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "4 个都弱",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些属于「4 步拒绝话术」的步骤？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "共情对方（「我知道你急」「我理解这事不容易」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "简短陈述拒绝（「这次帮不了」「我这周排不下」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "不解释过多（解释越长越像找借口）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "不强求和谐（对方不高兴是对方的课题）",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3, opt4"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「『怕被讨厌』跟『被尊重』反着走。讨好型短期看人缘好，长期会被周围人当成『反正她不会拒绝 / 反正他无所谓』的免费资源。Adams 2014 等研究反复证明：边界清晰的人，职业倦怠分数更低，长期人际质量反而更高。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「用 4 步话术拒绝 1 件事」",
+      "next": "p16",
+      "buttonText": "我去做",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。\n\n**Step 1**：打开你的微信 / 邮箱 / 备忘录，找一个**今天或明天必须回复的请求**（同事派活、朋友借钱、家人催办、群里拉你做事，都行）。\n\n**Step 2**：判断这件事你「心里其实不想做」。\n\n**Step 3**：用 4 步话术写出回应文案：\n\n1. 共情对方（1 句）：「我知道你 ____」\n2. 简短陈述拒绝（1 句）：「这次帮不了 / 我这周排不下 / 这个我不合适」\n3. 不解释过多：把所有「因为…所以…」的句子全删\n4. 不强求和谐：删掉所有「不好意思」「对不起」「以后一定补上」之类的过度道歉\n\n**Step 4**：发出去。今晚回到 p24 复盘：发了吗？对方什么反应？你自己什么感觉？\n\n> 你今天的目标是「发出去」，目标不是「让对方满意」。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你预感这条 4 步话术发出去后，自己最大的卡点会是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "写到一半忍不住加解释（「因为最近事多 + 因为…」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "写完不敢发，删了重写 N 遍",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "发出去 1 分钟后立刻反悔，撤回",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "对方回了「哦」一个字，我就开始焦虑",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "我没卡点，能直接发",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你显得强势",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 1 次具体的「发出去」让你亲身体验：对方的反应可能很平淡，你怕的灾难根本不会发生。把「边界 = 关系破裂」这个错误等号打破",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "让你跟讨厌的人撕破脸",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「看上去活得很稳 + 不容易被消耗 + 关系还都挺铁」的人，最大的共同点是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们会拒绝，且拒绝得干净不拖泥带水",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们不替别人扛情绪，对方不高兴他们也不慌",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们时间 / 精力分得清，工作时间认真工作，私人时间彻底关机",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：4 步话术怎么落地",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「4 步话术」在不同关系里怎么用。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】同事下班前 5 分钟发来：「这个紧急方案你帮我接一下吧，今晚 10 点要交。」小李其实今晚有约。\n\n按今天讲的，他最好的回应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「行，没问题」，然后取消约会",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「我知道你急（共情）。今晚我有约接不了（简短拒绝）。你试试找小王，或者把交付时间跟领导申请到明早。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「你怎么总是临时抓人？你自己时间都不会管吗？」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "已读不回",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】妈妈打电话来：「这个周末你一定要回来，你叔叔家有事，咱们一家都要去。」小张这周末本来想休息一天。\n\n按今天讲的，他最好的回应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「好的妈，我一定回。」然后周末累得想哭",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「妈，我知道你想全家都到（共情）。这周末我实在排不开（简短拒绝）。下次类似的事提前 1 周告诉我，我能挪。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「你怎么又来安排我？我都多大了！」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "直接挂电话",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】好朋友半夜 12 点发消息：「我跟我对象吵架了，能不能给我打个电话聊聊？」小周自己也累得不行。\n\n按今天讲的，他最好的回应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "立刻打过去聊到 3 点，第二天上班崩溃",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「我看到了（共情）。我现在也快撑不住了，今晚先睡。明天午休时给你打电话，咱俩 30 分钟好好聊（简短拒绝 + 给一个具体替代方案 + 不解释过多）。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「你能不能别老把我当情绪垃圾桶？」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "关机",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Brown：最有同理心的人，边界感最强",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Cloud 和 Townsend：你为自己负责，不为别人的情绪反应负责",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "4 步拒绝话术：共情 + 简短拒绝 + 不解释过多 + 不强求和谐",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "Adams 2014：边界感越强的人，职业倦怠分数越低",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3, opt4"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你今天 / 明天要发出去的那条 4 步话术：\n\n**「我打算对 ____（谁）拒绝 ____（什么事）。我的 4 步话术是：1. 共情：____；2. 简短拒绝：____；3. 删掉的解释 / 道歉是：____；4. 我已经准备好对方不高兴时不去哄。」**",
+      "placeholder": "例如：「我打算对同事小王拒绝『下周接他的方案』。1. 共情：我知道你这周很忙；2. 简短拒绝：这次帮不了，你试试找小李；3. 删掉的解释：『因为我最近也忙 + 因为我家里有事 + 不好意思啊』全删；4. 已经准备好他冷淡一两天。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 56 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **守住边界 = 守住自己。**\n\n请记得三件事：\n\n1. **Brown**：最有同理心的人，边界感最强。讨好型表面温暖，本质是耗到底之后变怨恨\n2. **Cloud 和 Townsend**：你为自己负责，不为别人的情绪反应负责\n3. **4 步拒绝话术**：共情 + 简短拒绝 + 不解释过多 + 不强求和谐\n\n明天练习篇 Day 23（关系板块第 2 天）：\n\n**Day57：吵架了怎么修（修复 vs 输赢 / Gottman 修复尝试 / 4 句关系急救话术）。**\n\n明天见。"
+    }
+  ]
+}

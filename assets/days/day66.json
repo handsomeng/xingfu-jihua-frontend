@@ -1,0 +1,553 @@
+{
+  "day": 66,
+  "stage": {
+    "name": "内化篇",
+    "stageNumber": 4,
+    "color": "#7AA8D6",
+    "bgColor": "#D5E5F0"
+  },
+  "theme": "让幸福成习惯",
+  "coreLine": "让幸福像刷牙一样自动",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入内化篇第 5 天。\n\n先问你一个问题：今天早上刷牙，你有没有用「意志力」？\n\n你大概没想过这事。也没纠结过「今天要不要刷牙」。睁眼，走到洗手间，挤牙膏，开始刷。从头到尾大脑没参与决策。\n\n这就是习惯的力量。\n\n现在再想昨天 Day65 你挑出来的那 5 个工具：感恩、品味、ACR、写日记、给情绪命名。\n\n你打算靠什么让它们每天都发生？\n\n九成的人答案是：「我尽量坚持。」\n\n这条答案就是问题所在。\n\n「靠意志力坚持」走错了方向。意志力是消耗品，今天有明天就没。能跑到 71 天的人，靠的是把这些工具**装进自动化流程**，不是咬牙坚持。\n\nFogg 在斯坦福做了 30 年行为设计研究，凝出一条公式：**行为 = 动机 × 能力 × 提示**。Wood 在 2019 年那本《好习惯，坏习惯》里用一句话总结：成年人 43% 的日常行为，是无意识自动发生的。\n\n今天我们把「幸福工具怎么变成自动行为」讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "过去一年里，你有没有靠「咬牙坚持」想养成一个习惯（健身 / 早睡 / 写日记），结果断在第 2 到 4 周？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "有，断过不止一次",
+          "feedback": "典型现象。问题不在毅力，在方法。今天讲的公式直接针对『靠意志力 → 断』这条死循环。"
+        },
+        {
+          "id": "opt2",
+          "label": "有过 1 次",
+          "feedback": "常见。今天会让你看到第 2 到 4 周断的真正原因，给你换一种方法。"
+        },
+        {
+          "id": "opt3",
+          "label": "想过，连开始都没开始",
+          "feedback": "能说出来很关键。今天会给你一个低到几乎不可能失败的启动方式。"
+        },
+        {
+          "id": "opt4",
+          "label": "没断过，目前在坚持中",
+          "feedback": "极少数。你身上大概率已经具备今天讲的 3 个要素之一。今天来对照看看。"
+        },
+        {
+          "id": "opt5",
+          "label": "从来没尝试过",
+          "feedback": "也行。今天会让你看到为什么大多数人『尝试』本身就走错了第一步。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「我过去尝试过、最终没坚持下来的 1 个习惯是 ____。当时断在 ____ 阶段，断的原因是 ____。」**",
+      "placeholder": "例如：「健身，断在第 3 周，加班几天后再也没去」「写日记，断在第 5 天，那天太累就跳了，跳了一次就再没续上」「冥想，根本没开始，下载了应用一次没打开」。",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Fogg 微习惯的行为公式里，三件东西分别是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "动机 / 能力 / 提示",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "钱 / 动作 / 计划",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "心态 / 态度 / 毅力",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "方法 / 目标 / 压力",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "Wood 2019《好习惯，坏习惯》的核心研究发现，下面哪些对？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "成年人约 43% 的日常行为是无意识自动发生的（习惯）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "习惯靠重复 + 稳定的环境形成，跟意志力关系不大",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "想改习惯，改环境往往比改心态更有效",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "想养成新习惯，最好的方法是设一个宏大目标然后逼自己",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Lally 2010 在伦敦大学学院做过一项习惯形成研究，发现日常新习惯平均要 66 天才能自动化，范围在 18 到 254 天，看任务难度。『21 天养成一个习惯』流传很广，但缺乏证据。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Fogg 微习惯配方 3 件套，正确的写法是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "设一个大目标 + 找一个伙伴监督 + 每天打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "在「现有习惯」之后，做「新微行为」+「立即庆祝」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "每天早起 + 每天写日记 + 每天运动",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "设奖励 + 设惩罚 + 设打卡群",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "你过去养习惯断在第 2 到 4 周，大概率落在这 3 个坑里。\n\n**坑 1：靠动机硬启动**\n\n你靠「今天我特别有动力」开始。第 1 周动力满格，做得到。第 2 周动力下降，做得吃力。第 3 周动力没了，断。Fogg 的核心结论：动机是波动量，靠它启动，等于把房子盖在沙子上。\n\n**坑 2：目标定太大**\n\n你说「我要每天写 500 字日记 / 每天健身 30 分钟 / 每天冥想 15 分钟」。第 1 天能做，第 5 天累、忙、心情不好做不到，跳一次，再也没续上。Fogg 的解法是把行为缩小到**几乎不可能失败**的程度：1 句感恩、1 个深蹲、1 次深呼吸。\n\n**坑 3：没绑触发器**\n\n你想着「今天找个时间做一下」。结果一天过去你都没想起来。Wood 的研究说得很清楚：习惯需要稳定的环境提示。没有提示，就没有行为。\n\n3 个坑合起来，70% 的人养习惯卡在第 2 到 4 周。\n\n破局公式只有 1 句话：\n\n**在「现有习惯」之后，做「小到不可能失败的新行为」+「立即庆祝一下」。**\n\n3 个例子：\n\n- 刷完牙之后，写 3 件好事的第 1 件，小声说一句「棒」\n- 坐到工位之后，做 3 次深呼吸，心里说一句「开始」\n- 关掉电脑下班之后，写 1 行今天的感恩，微笑 2 秒\n\n跟 Day65 配套：你选好的 5 个工具，今天用这条公式把它们各贴到 1 个日常锚点上。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "你目前 5 个工具的自动化程度自评（0 完全靠意志力或经常忘，10 不需要想就发生）：",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0 到 2 分",
+        "3 到 4 分",
+        "5 到 6 分",
+        "7 到 8 分",
+        "9 到 10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小赵想养成「每天感恩 3 件事」，连续 2 周断了 3 次。按今天讲的，他最该改的是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "找一个监督群每天打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把「3 件事」缩到「1 件事」，明确绑到一个现有动作（如刷完牙立刻写），写完小声说「棒」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "每天定个闹钟，闹钟一响必须写",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "给自己设惩罚，断 1 天罚 50 元",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面哪个「现有习惯」最适合做你的锚点（即每天最稳定发生的那件事）？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "起床后第一杯水或第一口咖啡",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "刷牙（早或晚）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "坐到工位开机",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "关电脑下班或走出公司",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "躺到床上准备睡觉",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些属于「环境设计」层面的习惯堆叠技巧？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "把日记本放在床头柜，触手可及",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "在手机锁屏或桌面贴一个 3 件好事的提醒",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "把零食柜门反着关，放到不顺手的位置（反向应用：减少坏习惯）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "把目标贴在墙上，每天看一眼立志",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「微习惯配方里的『立即庆祝』听起来很傻，但 Fogg 强调这是 3 件套里最关键的一步。庆祝动作（拍手、微笑、心里说『棒』）会触发大脑的多巴胺反馈，让神经回路记住『这个行为 = 好』，加速习惯形成。少了这一步，配方只剩骨架。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「写下 1 个微习惯配方」",
+      "next": "p16",
+      "buttonText": "我去写",
+      "type": "content",
+      "body": "今天的微行动只有 1 个：用微习惯公式写下 1 个微习惯，今天就启动。\n\n**Step 1**：从昨天 Day65 选的 5 个工具里挑 1 个最想固化的（不必贪多，1 个就够）。\n\n**Step 2**：填空。\n\n> **在 ____（现有习惯）之后，做 ____（小到不可能失败的新行为）+ ____（立即庆祝动作）。**\n\n3 个填法举例：\n\n- 刷完牙之后，写 1 件好事，小声说一句「棒」\n- 坐到工位之后，做 3 次深呼吸，心里说「开始」\n- 把头靠到枕头之后，想 1 个今天的好瞬间，微笑 2 秒\n\n**Step 3**：今天执行 1 次。注意 3 件事。\n\n1. 行为务必「小到不可能失败」（30 秒能完成）\n2. 庆祝务必「立即」（动作完成 0 到 3 秒内）\n3. 别评价好坏，做了就算成功\n\n**Step 4**：明天起连续做 7 天，第 8 天回来评估自动化程度。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你预感自己最容易卡在 3 件套的哪一件？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "找锚点（不知道贴在哪件现有事情后面）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把行为缩小（总想「既然做了就多做点」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "立即庆祝（觉得很尴尬，做不出来）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "都容易卡",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你今天做点事",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 1 次成功体验，让你亲身感受到「小到不可能失败 + 立即庆祝」怎么把行为从「靠意志力」切到「自动启动」，把这个底层机制内化下来",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "立刻形成习惯",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你观察过的那种「日子稳 + 状态长期不崩」的人，他们身上最显眼的特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "生活里有几件雷打不动的小事，看起来「也没多努力」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "对环境敏感，会主动调整自己周围的物件位置",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "做小事时表情挺平静，看起来不像在「咬牙坚持」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把幸福工具装进日常",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「微习惯公式」在实际生活里怎么落地。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李想每天写「3 件好事」，连续 2 周断了 4 次。原因是「晚上太累，到床上就刷手机，根本不想写日记」。\n\n按今天讲的，他最该改的是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "强迫自己睡前必须写",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把「3 件事」减到「1 件事 + 1 句话」，锚点从「睡前」换到一个更早的稳定时点，比如「刷完牙立即」，写完小声说「棒」。1 句话 30 秒能完成",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "不写日记了，换别的工具",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "把日记本搬到办公室，下班前写",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张想每天做 30 分钟正念冥想，下载了应用 1 个月，一次没打开。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt2",
+          "label": "把「30 分钟」砍到「3 次呼吸」（30 秒），绑到「坐到工位」这个锚点上，做完心里说一句「在场了」",
+          "feedback": ""
+        },
+        {
+          "id": "opt1",
+          "label": "找个冥想群打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "等「心情好」的时候开始",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "换一个更贵的应用",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说「我已经按微习惯公式做了 30 天，也没觉得特别变化，这套是不是不管用？」\n\n按今天讲的，最合理的回应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "是的，这套不管用，换一套",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "30 天对一些行为已经够，对另一些行为只到一半。Lally 2010 研究里平均要 66 天，范围 18 到 254 天看任务难度。所以现在是『在路上』，不是『不管用』。继续做，记录自动化程度，到 66 天再评估",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "加大动作量",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "放弃",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些对？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Fogg 行为公式：行为 = 动机 × 能力 × 提示。动机不稳定，发力点在能力（缩小行为）和提示（绑触发器）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Wood 研究显示成年人约 43% 日常行为是无意识自动发生的，习惯主要靠重复 + 稳定环境",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Lally 2010 研究里日常新习惯平均 66 天形成，范围 18 到 254 天",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "养习惯的核心是靠意志力坚持",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你的第 1 个微习惯配方：\n\n**「在 ____（现有习惯）之后，做 ____（小到不可能失败的新行为）+ ____（立即庆祝动作）。从今天开始，连续做 7 天。」**",
+      "placeholder": "例如：「刷完牙之后，写 1 件好事，小声说一句『棒』。」「坐到工位之后，做 3 次深呼吸，心里说『开始』。」「把头靠到枕头之后，想 1 个今天的好瞬间，微笑 2 秒。」",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "内化篇 · Day 66 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **让幸福像刷牙一样自动。**\n\n请记得三件事：\n\n1. **Fogg 行为公式**：行为 = 动机 × 能力 × 提示。发力点在能力（缩小）和提示（绑锚点），别赌动机\n2. **微习惯 3 件套**：在锚点之后，做微行为，立即庆祝，3 件缺一不可\n3. **66 天关口**：Lally 2010 平均 66 天形成习惯，今天刚好是 Day66，巧合也是提醒\n\n明天内化篇 Day 6：\n\n**Day67：晨 / 日 / 晚 3 节奏（把工具串成一天的固定节拍）。**\n\n明天见。"
+    }
+  ]
+}

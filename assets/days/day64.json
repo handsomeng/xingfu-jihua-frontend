@@ -1,0 +1,553 @@
+{
+  "day": 64,
+  "stage": {
+    "name": "内化篇",
+    "stageNumber": 4,
+    "color": "#7AA8D6",
+    "bgColor": "#D5E5F0"
+  },
+  "theme": "给情绪起个名",
+  "coreLine": "「给它起名就能驯服它」的进阶版，靠情绪粒度真正把情绪调下来",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入内化篇第 3 天。\n\n先做一个 10 秒小测试。\n\n回想你最近一次「心情不好」。让你立刻用 3 个词描述当时的感受，你能写出来吗？\n\n多数人写不出来。多数人能想到的就是「不爽」「难受」「烦」「累」。\n\n再换个方向：你最近一次「开心」，你能用 3 个词描述吗？\n\n多数人也只能写出「挺好的」「还行」「不错」。\n\n这就是问题。**你给自己情绪打的标签太粗了**。\n\n粗到什么程度？你心里一团毛线缠在一起，你只能说「我现在很不爽」。然后你做什么？\n\n迁怒身边的人。暴食。刷短视频到凌晨 3 点。失眠。\n\n那团毛线没人拆，它就走暗道。\n\nSiegel 有句口头禅你可能听过：**给它起名，就能驯服它**。\n\n今天我们把这句口头禅的进阶版讲清楚。**起一个名还不够。你需要起一个准的名**。\n\n加州大学洛杉矶分校的 Lieberman 在 2007 年用脑成像证明过：给情绪起名字这个动作本身就在调节情绪。Barrett 在《情绪是怎么产生的》里给出了升级方法。她叫它「情绪粒度」。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你日常用来描述自己情绪的词大概有多少个？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "3 个以内：开心 / 不爽 / 还行",
+          "feedback": "这是低粒度状态。今天的练习直接针对你。情绪粒度越低，调节情绪越难。"
+        },
+        {
+          "id": "opt2",
+          "label": "5 个左右：加上累、烦",
+          "feedback": "典型水平。多数人在这一档。今天会教你把词库扩到 15 个以上。"
+        },
+        {
+          "id": "opt3",
+          "label": "10 个左右",
+          "feedback": "中等粒度。已经比多数人强。今天再加固一档。"
+        },
+        {
+          "id": "opt4",
+          "label": "20 个以上，能区分细微差别",
+          "feedback": "高粒度。Barrett 研究里，这个水平的人心理健康指标全线更好。"
+        },
+        {
+          "id": "opt5",
+          "label": "我从没想过这个问题",
+          "feedback": "能如实说出来很重要。今天会让你看到情绪粒度是一种可练的能力。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「我最近一次明显的情绪波动是 ____。当时我心里的感受用一个词来形容是 ____。」**",
+      "placeholder": "例如：「上周三老板临时改方案，我心里的感受是『憋屈』」「昨晚跟孩子吵了一架，我心里的感受是『心疼又恼火混在一起』」「今早地铁挤，我心里的感受是『烦』」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Lieberman 2007 加州大学洛杉矶分校的脑成像研究里，让被试看负面图片，分成两组（A 组给情绪命名 / B 组描述图片）。结果是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "两组没差别",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "A 组（命名情绪）杏仁核激活下降，前额叶（右侧腹外侧前额叶）激活上升",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "A 组杏仁核激活上升",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "这是个虚构研究",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是「高情绪粒度」的特征？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "能在「沮丧 / 失望 / 挫败 / 无力 / 灰心」之间区分细微差别",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "能在「欣慰 / 释然 / 雀跃 / 平静的满足 / 被看见的暖」之间区分",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Barrett 研究里跟更好的心理健康、更低酒精摄入、更少求医次数相关",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "把所有负面情绪都叫「不好」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Kashdan, Barrett, McKnight 2015 的实证研究表明：情绪粒度训练可以显著提升情绪调节能力。也就是说情绪粒度可练，不是天生固定。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪种描述**最像低粒度**？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "我现在有点失望，混着一点无力感",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "我心里有种说不上来的释然，像放下了什么",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我现在就觉得不爽，反正就是不爽",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "中国成年人情绪粒度普遍偏低。原因有 3 个。\n\n**原因 1：文化里「忍住情绪 = 成熟」**\n你从小被教「别哭」「忍着点」「这点小事别矫情」。结果你练出来的能力是「压住情绪」，没练出来的能力是「识别情绪」。压住的情绪没消失，它走暗道。\n\n**原因 2：情绪词汇本身被简化**\n你常用的情绪词可能就 5 到 8 个：开心 / 难过 / 生气 / 害怕 / 烦 / 累 / 还行。Barrett 研究里高粒度的人，日常活跃使用的情绪词在 20 到 30 个以上。词不够，你心里有 10 种不同感受都被你叫成「不爽」。\n\n**原因 3：「说出来 = 矫情」的暗规则**\n你跟身边人说「我今天有点失落」，对方可能回你「想这么多干嘛」。久而久之你也不说了。不说，不练，词库一直停在 5 到 8 个。\n\n3 个原因合起来，你心里那团毛线一直没人拆，它就走暗道。\n\n**走暗道的常见表现**：\n\n- 迁怒：跟同事憋的气，回家冲家人发火\n- 暴食 / 暴饮 / 暴刷：用身体反应代替情绪识别\n- 失眠：白天没消化的情绪夜里出来「加班」\n- 莫名躯体化：胃痛 / 头痛 / 后背紧\n\n破局非常便宜。**遇到情绪波动停 10 秒，写 3 个候选情绪词，选最贴的那个**。\n\n这个动作做下去，词库扩展，粒度提升，情绪自然走前门。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你目前的「情绪粒度」自评（0 几乎只会说『不爽 / 还行』，10 能精准区分 20 种以上细微差别）**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0 到 2 分",
+        "3 到 4 分",
+        "5 到 6 分",
+        "7 到 8 分",
+        "9 到 10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小王说「我从小被教不能表达情绪，现在就是只会说『还行』『挺好』『不爽』」。按今天讲的，他最容易上手的训练入口是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "立刻读 10 本心理学书",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "每天遇到情绪波动停 10 秒，写 3 个候选情绪词，选最贴的那个。1 次 10 秒，1 天 3 到 5 次",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "戒掉所有情绪",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "等情绪自动消失",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你最容易把哪一类情绪打成「粗标签」？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "负面里偏低能量类（失望 / 沮丧 / 无力 / 灰心，都叫「难过」或「不爽」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "负面里偏高能量类（恼火 / 委屈 / 不服 / 怨，都叫「生气」或「烦」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "正面类（欣慰 / 释然 / 雀跃 / 满足，都叫「开心」或「还行」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "复杂混合类（心疼又恼火 / 又喜又担心，直接说「说不清」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "全都容易粗",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些属于耶鲁 Brackett「识别 / 理解 / 命名 / 表达调节」4 步法的正确步骤？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "识别：注意身体信号（胸闷 / 喉咙紧 / 肩膀僵）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "理解：什么触发了它（哪件事 / 哪句话 / 哪个想法）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "命名：用精确的词给它起名（停 10 秒，写 3 个候选）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "表达和调节：用合适的方式让它走出去",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3, opt4"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「未命名的情绪不会自己消失，它会走暗道：迁怒 / 暴食 / 暴饮 / 失眠 / 躯体化。命名情绪等于让它走前门，进入可处理通道。这就是为什么『忍住情绪 = 成熟』在心理学上站不住。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：10 秒乘 3 候选词练习",
+      "next": "p16",
+      "buttonText": "我去做",
+      "type": "content",
+      "body": "今天的微行动 30 秒，可以重复多次。\n\n**第 1 步**：今天接下来遇到任何情绪波动（哪怕只是一点点不爽 / 一点点高兴），按暂停。\n\n**第 2 步**：停 10 秒。在心里或纸上写 3 个候选情绪词。\n\n**第 3 步**：从 3 个候选里挑最贴的那一个。\n\n**第 4 步**：观察这个动作做完后，情绪强度有什么变化。\n\n**给你一份「扩词库」小抄**（可以截图保存）：\n\n**负面低能量**：失望 / 沮丧 / 挫败 / 无力 / 灰心 / 茫然 / 空 / 倦 / 闷 / 沉\n**负面高能量**：恼火 / 委屈 / 不服 / 怨 / 急 / 慌 / 焦虑 / 紧张 / 不安 / 抓狂\n**复杂混合**：心疼又恼火 / 又喜又担心 / 既松又空 / 既感激又愧疚 / 既爱又怕\n**正面**：欣慰 / 释然 / 雀跃 / 平静的满足 / 被看见的暖 / 踏实 / 笃定 / 心动 / 感恩 / 自在\n\n注意：\n\n- 不必每次都用得对，重要的是「停 10 秒 + 拆 3 个」这个动作本身\n- 不必追求「准」，先追求「细」\n- 不必每天 10 次，今天能做到 3 次就够"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面哪个场景你预感今天最容易练到 10 秒 + 3 候选词？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "工作里收到一条让人不舒服的消息时",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "跟家人意见不一致时",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "一件小事忽然让你心情好的时候",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "通勤路上无聊或烦躁时",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "晚上躺床上回想今天时",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你显得有文化",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "通过「停 10 秒 + 3 候选词 + 选最贴」这个具体动作，激活给情绪起名的神经机制（杏仁核降，前额叶升），同时长期扩词库提升情绪粒度",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让你立刻不再有情绪",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「情绪稳，能跟人说清楚自己感受」的人，最大的特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们能精确说出当下的感受用的是哪个词",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们不躲负面情绪，直接命名它",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们能把复杂感受拆开（「我心疼她，同时也有点恼火，因为她又没听我话」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把命名练进日常",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「10 秒 + 3 候选词」在实际生活里怎么用。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李开会被领导当众否了一个方案，下来就觉得「特别烦」，回家冲家人发火。\n\n按今天讲的，他应该怎么做？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "忍住，告诉自己「成熟点」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "下来后停 10 秒，写 3 个候选词：「委屈 / 不服 / 觉得不被信任」。选最贴的是「觉得不被信任」。命名完情绪强度下降，回家不再冲家人发火",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "立刻辞职",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "喝酒压下去",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张孩子月考没考好，她心里「乱乱的」。\n\n按今天讲的，她应该怎么做？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "不管它",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "停 10 秒，写 3 个候选词：「心疼 / 失望 / 担心他将来」。她发现 3 个都占一点，混合在一起。光是把它拆开，她已经知道自己想说的是「我心疼你这次没考好，但更担心你将来怎么应对挫折」，沟通就不会变成训斥",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "直接训孩子一顿",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "假装没事",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说「我接到老朋友突然打来的电话，心里一下涌上来很多东西，我说不出来是什么」。\n\n按今天讲的，他应该怎么做？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "挂掉电话",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "停 10 秒，给那「涌上来的东西」找 3 个候选词：「感动 / 怀念 / 一点愧疚（很久没主动联系）」。识别出来后他在通话里就能更真诚地说「听到你声音我有点感动，也有点愧疚没主动找你」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "装作没事",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "永远不接电话",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Lieberman 2007 脑成像研究证明：给情绪命名时杏仁核激活下降，前额叶激活上升",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Barrett 提出情绪粒度，高粒度的人心理健康指标更好",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Kashdan, Barrett, McKnight 2015 证明情绪粒度可以训练",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "忍住情绪就是成熟，情绪不命名也会自己消失",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你今天第一次「10 秒 + 3 候选词」练习的实况：\n\n**「今天我遇到的情绪波动是 ____。我写下来的 3 个候选词是 ____ / ____ / ____。我选的最贴的是 ____。命名完之后我感觉到的变化是 ____。」**",
+      "placeholder": "例如：「今天我遇到的情绪波动是下午跟同事吵了几句。3 个候选词是『生气 / 委屈 / 觉得没被尊重』。最贴的是『觉得没被尊重』。命名完之后我意识到自己想要的应该是想被听见，吵赢这个目标不在一个层，火气小了一半。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "内化篇 · Day 64 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **给情绪起一个准的名，它就走前门。**\n\n请记得三件事：\n\n1. **Lieberman 2007 给情绪起名研究**：命名情绪本身就在神经层面调节情绪（杏仁核降，前额叶升）\n2. **Barrett 情绪粒度**：高粒度跟更好的心理健康、更低酒精摄入、更少求医次数相关。粒度可练\n3. **「识别 / 理解 / 命名 / 表达调节」4 步加上 10 秒 + 3 候选词**：今天主练「命名」\n\n明天内化篇 Day 4：\n\n**Day65：从情绪到需求（命名完之后下一步：识别这个情绪在告诉你什么）。**\n\n明天见。"
+    }
+  ]
+}

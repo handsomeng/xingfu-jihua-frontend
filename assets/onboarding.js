@@ -1,5 +1,13 @@
-// 幸福计划 · Onboarding 滑卡 + 兑换码 sheet
+// 幸福计划 · Onboarding 滑卡 + 兑换码 sheet (沉浸式 v3)
 (function () {
+  // 已 onboarded + 已兑换 → 直跳首页（除非 ?force=1）
+  if (XingfuRedeem.isOnboarded() && XingfuRedeem.isRedeemed()) {
+    if (!new URLSearchParams(location.search).has("force")) {
+      location.replace("index.html");
+      return;
+    }
+  }
+
   const track = document.getElementById("track");
   const dots = Array.from(document.querySelectorAll(".dot"));
   const nextBtn = document.getElementById("next-btn");
@@ -19,8 +27,9 @@
     current = Math.max(0, Math.min(SLIDE_COUNT - 1, idx));
     track.style.transform = `translateX(-${current * 100}%)`;
     dots.forEach((d, i) => d.classList.toggle("active", i === current));
-    nextBtn.style.opacity = current === SLIDE_COUNT - 1 ? 0 : 1;
-    nextBtn.style.pointerEvents = current === SLIDE_COUNT - 1 ? "none" : "auto";
+    const last = current === SLIDE_COUNT - 1;
+    nextBtn.style.opacity = last ? 0 : 1;
+    nextBtn.style.pointerEvents = last ? "none" : "auto";
   }
 
   nextBtn.onclick = () => goSlide(current + 1);
@@ -31,9 +40,7 @@
   // 触摸滑动
   let startX = 0, dx = 0, swiping = false;
   track.addEventListener("touchstart", e => {
-    startX = e.touches[0].clientX;
-    dx = 0;
-    swiping = true;
+    startX = e.touches[0].clientX; dx = 0; swiping = true;
     track.style.transition = "none";
   }, { passive: true });
   track.addEventListener("touchmove", e => {
@@ -52,7 +59,7 @@
     else goSlide(current);
   });
 
-  // ============ Redeem Sheet ============
+  // Redeem sheet
   function openSheet() {
     overlay.classList.add("open");
     sheet.classList.add("open");
@@ -68,39 +75,23 @@
 
   submitBtn.onclick = () => {
     const code = (input.value || "").trim();
-    if (!code) {
-      shakeAndShow("请输入兑换码");
-      return;
-    }
+    if (!code) { shakeAndShow("请输入兑换码"); return; }
     if (XingfuRedeem.redeem(code)) {
       XingfuRedeem.markOnboarded();
-      // 成功
       submitBtn.disabled = true;
-      submitBtn.textContent = "✓ 解锁成功，准备进入";
+      submitBtn.textContent = "✓ 解 锁 成 功";
       setTimeout(() => location.href = "index.html", 500);
     } else {
       shakeAndShow("兑换码不对，再核对一下？");
     }
   };
-
-  input.addEventListener("keydown", e => {
-    if (e.key === "Enter") submitBtn.click();
-  });
+  input.addEventListener("keydown", e => { if (e.key === "Enter") submitBtn.click(); });
 
   function shakeAndShow(msg) {
     err.textContent = msg;
     sheet.classList.remove("shake");
-    void sheet.offsetWidth; // restart animation
+    void sheet.offsetWidth;
     sheet.classList.add("shake");
-  }
-
-  // 已 onboarded + 已兑换的用户访问 onboarding，直接跳首页
-  if (XingfuRedeem.isOnboarded() && XingfuRedeem.isRedeemed()) {
-    // 但允许 ?force=1 强制重看
-    if (!new URLSearchParams(location.search).has("force")) {
-      location.replace("index.html");
-      return;
-    }
   }
 
   goSlide(0);

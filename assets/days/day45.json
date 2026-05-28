@@ -1,0 +1,563 @@
+{
+  "day": 45,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "把心拉回当下",
+  "coreLine": "正念是好好待在此刻",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入练习篇第 11 天，正念第 1 天。\n\n先做一个 5 秒小测试。\n\n闭上眼睛，问自己：**「我此刻在想什么？」**\n\n睁开眼睛，看看刚才在想的内容。\n\n90% 的人答案分三类：\n\n- 在重放刚才发生的某件事\n- 在预演等会要做的某件事\n- 在评判某个人 / 某件事 / 自己\n\n只有 5% 左右的人答案是「我在感受自己此刻的呼吸」「我注意到屁股坐着的感觉」「我听到了空调声」。\n\n差别就在这里：**你的注意力很少待在「此刻」。它要么在过去，要么在未来，要么在评判。**\n\n2010 年，哈佛的 Killingsworth 用手机随机采样 1.5 万人，得出一个反直觉的结论：\n\n**人有 47% 的清醒时间在走神。而走神的时候人更不幸福，哪怕走神的内容是开心的事。**\n\n破局的方法叫 **正念**。\n\nKabat-Zinn 1979 年在麻省大学医学中心开了一门 8 周课程，叫**正念减压**。他给正念下的工作定义只有一句话：\n\n**「有意地，对当下，不加评判地，注意。」**\n\n今天我们把正念讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "刚才那个「闭眼 5 秒看自己在想什么」的小测试，你的答案最像哪类？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "在重放刚才发生的某件事",
+          "feedback": "这是典型的『过去模式』。注意力被卡在已经发生的事情上反复加工。今天的练习会让你看到怎么把它拉回来。"
+        },
+        {
+          "id": "opt2",
+          "label": "在预演等会要做的某件事",
+          "feedback": "这是典型的『未来模式』。注意力提前消耗在还没发生的事情上。Killingsworth 实验里这一类占比最高。"
+        },
+        {
+          "id": "opt3",
+          "label": "在评判某个人 / 某件事 / 自己",
+          "feedback": "这是典型的『评判模式』。Kabat-Zinn 把它列为正念最大的拦路虎。今天会教你怎么做到『注意但不评判』。"
+        },
+        {
+          "id": "opt4",
+          "label": "我注意到了此刻的呼吸 / 身体 / 周围声音",
+          "feedback": "极佳。说明你已经有一定的当下感。今天再加固方法。"
+        },
+        {
+          "id": "opt5",
+          "label": "我脑子一片乱，几个都有",
+          "feedback": "能如实说出来很重要。这恰恰是默认模式网络在跑的标准状态。今天的练习直接针对它。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去 24 小时里，我注意到自己『心在别处』最明显的一个瞬间是 ____。」**\n\n不必大事。可以是吃饭时想工作、跟人说话时想手机、洗澡时预演明天的会议。",
+      "placeholder": "例如：「昨晚陪孩子读绘本，我整本书都在想明天的方案」「今早洗澡，全程在脑子里跟前同事吵架」「中午吃面，吃完才发现什么味道都没记住」「想不起来，因为我一直心都在别处，根本没意识到」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Kabat-Zinn 1979 年在麻省大学医学中心创立的 8 周正念课程叫什么？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "正念认知疗法",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "正念减压",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "接纳承诺疗法",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "认知行为疗法",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "Kabat-Zinn 给正念下的工作定义包含哪几个关键词？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "有意地",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "对当下",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "不加评判地",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "必须打坐 30 分钟以上",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Killingsworth & Gilbert 2010 年发表的手机随机采样实验（1.5 万人）显示：人有 47% 的清醒时间在走神，而走神时人更不幸福，哪怕走神的内容是开心的事。结论是『走神的脑子是不幸福的脑子』。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪个状态**最像**正念？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "一边洗碗一边想明天的会，水的温度都没注意",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "一边走路一边刷短视频，到家发现不记得走了哪条路",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "洗碗时把注意力放在水温、泡沫的触感、碗的重量上",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "强迫自己脑子里什么都不想",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt3"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "现代人走神严重有 3 个原因。\n\n**原因 1：默认模式网络天生爱跑。**\n你的大脑有一组脑区叫默认模式网络。一旦你没在专心做一件事，它就自动启动，开始回放过去、预演未来、评判自己。这是大脑的「待机模式」，全天候在跑。Killingsworth 的 47% 走神率指的就是它。\n\n**原因 2：手机加多任务把注意力训练成「跳跳乐」。**\n你的注意力被各种通知、短视频、消息切割得稀碎。在一件事上停留 30 秒的能力被磨没。结果是：哪怕你想专注当下，注意力也会自动跳走。\n\n**原因 3：「评判脑」抢占当下。**\n你做任何事时大脑都在并行跑一个评论员：「这事做得不够好 / 这个人怎么这样 / 我是不是又搞砸了」。评论员在跑的时候，当下就被它盖住了。\n\n3 个原因合起来，你 47% 时间在走神。同样的一天，你跟一个会正念的人，体验密度差好几倍。\n\n破局非常便宜：\n\n**每天 1 到 3 次主动「把心拉回来」，每次 30 秒到 3 分钟，注意力锚定在身体 / 呼吸 / 声音。**\n\n正念跟放空、跟冥想都不在一个层。放空是脑子里什么都不想（其实做不到）。冥想是正式打坐的一类训练。正念是一种**注意力的状态**，可以在洗碗 / 走路 / 刷牙 / 排队时随时进入。\n\nKabat-Zinn 实验里：8 周正念减压课程后，参与者的焦虑分数显著下降，慢性疼痛感知下降，幸福度上升。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你目前一天「真正待在当下」的清醒时间占比自评（0 几乎为零，10 大部分时间都在当下）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0–2 分",
+        "3–4 分",
+        "5–6 分",
+        "7–8 分",
+        "9–10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "走神时大脑里最活跃的脑区网络叫什么？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "默认模式网络",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "多巴胺奖赏网络",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "前庭网络",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "大脑皮层 V1 区",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你最常走神的场景是哪一个？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "吃饭时（边吃边刷手机 / 边想工作）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "跟人说话时（脑子里在想下一件事 / 准备反驳）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "通勤时（全程刷手机 / 听播客但没在听）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "洗澡 / 刷牙 / 走路时（自动模式，全程脑内剧场）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "跟孩子 / 伴侣相处时（人在心不在）",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是正念可以**直接嵌入**的日常场景？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "洗碗时把注意力放在水温、泡沫、碗的触感上",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "走路时感受脚掌着地的感觉，听周围的声音",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "刷牙时注意水温、牙刷震动、嘴里的味道",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "必须每天打坐 30 分钟，否则不算正念",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「正念跟『放空脑子』跟『冥想打坐』都不在一个层。放空要脑子里什么都不想（其实做不到）。冥想是正式打坐的一类训练。正念是一种**注意力的状态**：有意地把注意力放到当下，不加评判。三者可以有交叉，但是同一件事。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「3 步呼吸空间」",
+      "next": "p16",
+      "buttonText": "我去做",
+      "type": "content",
+      "body": "今天的微行动 5 分钟，做一次正念减压课里的经典练习「3 步呼吸空间」。\n\n找一个安静的位置坐下，手机静音。按下面 3 步走，每步约 1 分钟。\n\n**第 1 步 · 觉察（约 1 分钟）**\n闭眼，问自己：「此刻我身体什么感觉？此刻我脑子里有什么念头？此刻我有什么情绪？」不去改变它，只是注意到。\n\n**第 2 步 · 收拢到呼吸（约 1 分钟）**\n把全部注意力收到呼吸上。注意鼻孔进气出气的温度差，注意胸口起伏，注意肚子鼓起回落。注意力一跑就轻轻拉回来。一跑就拉，不评判，不自责。\n\n**第 3 步 · 扩展到全身（约 1 分钟）**\n注意力从呼吸扩展到整个身体。从头顶到脚趾，扫一遍。注意哪里紧、哪里松、哪里有感觉、哪里没感觉。\n\n睁眼，结束。\n\n提示：注意力会跑无数次。这非常正常。**每一次「注意到自己跑了，再拉回来」就是一次正念训练**。跑得越多，训练机会越多。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "3 步呼吸空间这个练习，你预感最容易卡在哪一步？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "第 1 步觉察：根本说不清此刻身体 / 念头 / 情绪是什么",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "第 2 步呼吸：注意力跑得太频繁，根本拉不回来",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "第 3 步全身扫描：感受不到身体，扫一圈跟没扫一样",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "整体：根本坐不住 3 分钟",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "我不会卡，挺顺的",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天 3 步呼吸空间这个微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你 3 分钟放空，彻底休息",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用一次「觉察 → 收拢 → 扩展」的完整训练，让你亲身体验「注意力被拉回当下」的肌肉感，把正念从概念变成可调用的能力",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让你立刻心情好",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「整个人看起来很稳，不容易被外界搅乱」的人，最大的特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们说话之前会停一下，不急着回",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们做一件事时全部注意力都在那件事上，不分心",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们对自己的情绪有觉察，知道自己此刻在烦 / 在急 / 在累",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "他们不评判别人，也不评判自己",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把正念装进日常",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「具体的正念动作」在实际生活里怎么做。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李吃饭全程刷手机，吃完根本不记得吃了什么味道。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "强迫自己永远不刷手机",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "在每顿饭的「第一口前停 10 秒」做一次迷你正念：把手机扣过来，注意食物的颜色、气味、温度，吃下去后注意嘴里的味道。10 秒一次，先把当下感的肌肉调出来",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "不吃饭",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "把手机砸了",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张跟孩子玩时大脑全在工作，孩子说话她经常「嗯嗯啊啊」但没听见。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "接受现实",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "设一个「跟孩子玩之前先做 30 秒 3 步呼吸空间」的开关：觉察自己刚才在想什么 → 收到呼吸 → 扩展到身体。30 秒后再开始玩。等于给注意力做了一次「重启」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "立刻辞职",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "把孩子送去托管",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周做 3 分钟呼吸空间时，注意力一直跑，他懊恼到放弃。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "放弃练习",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "重新理解一件事：「注意力跑掉 → 注意到 → 拉回来」这个循环本身就是正念。跑得越多，训练机会越多。每一次拉回来都是一次「正念俯卧撑」。不评判自己跑神，本身就是 Kabat-Zinn 强调的核心",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "喝咖啡再练",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "等心静下来再练",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Kabat-Zinn 1979 年创立正念减压课程，给正念的工作定义是「有意地，对当下，不加评判地，注意」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Killingsworth & Gilbert 2010 实验显示人有 47% 清醒时间在走神，且走神时人更不幸福",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "正念可以嵌入洗碗 / 走路 / 刷牙等日常活动，不必专门打坐",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "正念的核心要求是脑子里什么念头都不能有，必须完全空白",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你今天的「3 步呼吸空间」计划：\n\n**「我今天打算在 ____（具体时段 + 地点）做一次 3 步呼吸空间，时长 ____ 分钟。如果注意力跑掉，我会提醒自己 ____。」**",
+      "placeholder": "例如：「我今天打算在午饭后 13:30 在工位上做一次 3 步呼吸空间，时长 3 分钟。如果注意力跑掉，我会提醒自己『跑了就拉回来，跑得越多训练越多』」「我今天打算在晚上 22:30 上床前在卧室做一次，时长 3 分钟。如果注意力跑掉，我会提醒自己『不评判，只观察』」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 45 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **正念是好好待在此刻。**\n\n请记得三件事：\n\n1. **Kabat-Zinn 工作定义**：有意地，对当下，不加评判地，注意\n2. **Killingsworth 47%**：人有近一半清醒时间在走神，且走神时更不幸福\n3. **3 步呼吸空间**：觉察 → 收拢呼吸 → 扩展全身，每天 1 到 3 次，每次 3 分钟\n\n明天练习篇 Day 12：\n\n**Day46：呼吸怎么调（4-7-8 呼吸 + 方框呼吸 + 副交感激活机制）。**\n\n明天见。"
+    }
+  ]
+}

@@ -4,30 +4,36 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#FBF6E9" />
 <title>幸福计划</title>
-<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="assets/immersive.css" />
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-<div class="app-container">
 
-  <div class="top-bar">
-    <a href="index.html" class="icon-btn" aria-label="返回">←</a>
-    <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width: 0%"></div></div>
-    <span class="progress-text" id="progress-text">0/27</span>
+<div class="paper-bg"></div>
+<div class="paper-light"></div>
+<div class="paper-light-2"></div>
+<div class="paper-vignette"></div>
+
+<div class="app-shell imm-day-shell">
+
+  <div class="imm-topbar">
+    <button id="prev-btn" class="imm-icon-btn" aria-label="上一页" disabled style="opacity:0;pointer-events:none">←</button>
+    <div class="imm-topbar-title" id="top-progress-text">DAY · LOADING</div>
+    <a href="index.html" class="imm-icon-btn" aria-label="返回首页">✕</a>
+  </div>
+  <div class="imm-day-progress-bar">
+    <div class="imm-day-progress-fill" id="progress-fill" style="width:0"></div>
   </div>
 
-  <div class="day-header">
-    <div class="day-label" id="day-label">DAY 1 · 觉察篇</div>
-    <h2 class="day-theme" id="day-theme">…</h2>
-  </div>
+  <div id="day-header-slot"></div>
 
   <div id="page-root"></div>
 
-  <div style="height: 40px"></div>
-
 </div>
 
+<script src="assets/curriculum.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

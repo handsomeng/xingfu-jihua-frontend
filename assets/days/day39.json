@@ -1,0 +1,558 @@
+{
+  "day": 39,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "慢下来品一品",
+  "coreLine": "把当下的好放大、延长、记住",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入练习篇第 5 天。\n\n先做一个 30 秒的小测试。\n\n回想你昨天有没有吃过一顿「还行」的饭。你能立刻回想起来：\n\n- 那顿饭的味道是什么？\n- 第一口你心里有什么反应？\n- 吃完后你身体什么感觉？\n\n90% 的人 30 秒内只能想起来一句话：「就还行」。\n\n现在再想另一件事：你昨天用手机刷了多少时间？\n\n多数人答案是「3 到 5 小时」。\n\n差别就在这里。你的注意力大量花在了「消耗」上，几乎没花在「品味」上。\n\n吃饭你边吃边刷手机。喝咖啡你边喝边看消息。看见好天气你边走边发微信。\n\n结果是好事在你身边发生但没真正进入你。日子虽然过得不差，但你「记不住」加「感觉不到」。\n\n破局的方法叫**品味**。\n\nBryant 和 Veroff 在 2007 年出过一本书专门讲它。他们的核心论点是：\n\n**你拥有什么不重要，你品到了多少才重要。**\n\n今天我们把品味讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你最近一次「吃饭时不刷手机加专心品味食物」的状态是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "几乎没有这种状态",
+          "feedback": "这是现代人典型状态。注意力被切割到吃饭都不专心。今天的练习直接针对你。"
+        },
+        {
+          "id": "opt2",
+          "label": "偶尔某顿（一周 1 次以下）",
+          "feedback": "典型水平。今天会教你具体怎么把这 1 次扩展到 3 次。"
+        },
+        {
+          "id": "opt3",
+          "label": "每周 2 到 3 次",
+          "feedback": "相对健康。说明你已经有部分品味习惯。今天再加固。"
+        },
+        {
+          "id": "opt4",
+          "label": "几乎每顿都不刷手机",
+          "feedback": "极佳。说明你已经有完整品味实践。"
+        },
+        {
+          "id": "opt5",
+          "label": "我从没想过吃饭还要「品味」",
+          "feedback": "能如实说出来很重要。今天会让你看到品味是一种可学的能力。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去 1 周里我『真正品味过』的 1 个具体瞬间是 ____。」**\n\n不必大事。可以是一口饭、一阵风、一次拥抱、一段对话。",
+      "placeholder": "例如：「周五早晨那杯咖啡，我没看手机，看着窗外慢慢喝了 10 分钟」「上周末跟我女儿一起看树叶，她蹲下来看了 5 分钟」「跟我妈视频时她笑了，我停下来认真看了她 30 秒」「想不起来」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Bryant 和 Veroff 2007 年的《品味》把品味分成几大类？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "1 类：单纯享受",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "4 类：预品、当下品、回味、分享品",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "10 类",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "这是个虚构概念",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是「具体的品味动作」？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "吃饭前 30 秒认真闻一下味道再开始吃",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "看到日落或好天气时主动停 30 秒加用眼睛「扫」一遍",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "跟伴侣或孩子有美好瞬间时主动说「这一刻挺好」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "边吃饭边刷手机",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Lyubomirsky 在《幸福的方法》里反复证明：品味是 12 大幸福干预之一，效应稳定。具体动作越具体（比如『吃第一口前闻 30 秒』），效果越可重复。『模糊地享受生活』反而效果不明显。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪种状态**最不像**品味？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "吃第一口饭前停 30 秒闻一下",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "看到好天气主动走 5 分钟不刷手机",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "跟伴侣亲密时停 30 秒「刻意感受」这一刻",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "边走边刷短视频边听播客",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "现代人品味缺位有 3 个原因。\n\n**原因 1：多任务习惯**\n\n你被训练得「必须同时做几件事才有效率」。吃饭刷手机、走路看消息、跟人聊天想工作、跟孩子玩想明天的事。结果是所有事都在做，但没一件被真正品到。\n\n**原因 2：信息过载导致注意力碎片化**\n\n你的注意力被各种通知、消息、短视频切割得稀碎。「在一件事上停留 5 分钟」的能力被磨没。品味需要停留。\n\n**原因 3：「下一个」心态**\n\n你总在想「下一个要做什么、下一个目标、下一个版本」。当下的好被自动忽略，因为大脑认为「这只是路过」。\n\n3 个原因合起来，品味缺位。同样一杯咖啡、一顿饭、一段对话，你跟一个会品味的人感受的「密度」差 10 倍。\n\n破局非常便宜：\n\n**每天主动留 1 到 3 个「品味时段」，每段 3 到 5 分钟，注意力锚定在当下。**\n\n具体动作：\n\n- 早晨第一口咖啡或茶：3 分钟不看手机，认真闻加慢慢喝\n- 午饭第一口：30 秒闻加 30 秒慢咬加注意味道\n- 通勤路上看一次天、树、光 30 秒\n- 跟伴侣或孩子的某个亲密瞬间：停下来 30 秒「刻意感受」\n- 晚饭后散步 5 分钟，不带耳机\n\n注意：品味不等于「享乐主义」，也不等于「什么都细品 5 小时」。它是**在生活中主动留出几个「短暂的停留」**，每段几分钟就够。\n\nLyubomirsky 的实验里：每天 2 到 3 次每次 3 到 5 分钟，4 周后整体生活满意度显著上升。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你目前一天品味时段的频次自评（0 几乎没有，10 每天 5 次以上）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0 到 2 分",
+        "3 到 4 分",
+        "5 到 6 分",
+        "7 到 8 分",
+        "9 到 10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小李说「我吃饭必须刷手机，不然觉得浪费时间」。按今天讲的，他最容易上手的品味入口是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "强迫自己永远不刷手机",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "从每顿饭「第一口前 30 秒不刷手机加闻一下」开始。1 个动作 30 秒。习惯后再扩到整顿饭",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "戒掉手机",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "不吃饭",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面哪一类品味时段你最容易在日常加进去？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "食物或饮品类（咖啡、第一口饭、一杯酒）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "自然或感官类（天空、树、风、光）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "人际类（伴侣、孩子、父母亲密瞬间）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "身体类（洗澡、拉伸、走路时的脚感）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "创造或工作类（做对一件事后停下来感受）",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是 4 类品味的正确分类？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "预品：提前想象一件好事的发生",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "当下品：当好事正在发生时刻意感受",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "回味：事后回想或拿出照片重温",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "分享品：跟某个人讲这件好事或一起回顾",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3, opt4"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「品味跟享乐主义是两件事。享乐主义是『追求更多享受』，品味是『把现有的东西品得更深』。前者跟享乐适应（Day4）相关，会持续衰减。后者反向，把已经在的东西放大，反而抗享乐适应。这是为什么品味是被反复推荐的可持续幸福工具。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「明天 3 个品味时段」",
+      "next": "p16",
+      "buttonText": "我去想",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。\n\n**第 1 步**：从下面 8 个候选时段里挑 3 个明天可以做品味的具体时段。\n\n1. 早晨第一口咖啡或茶（3 分钟不看手机）\n2. 早晨刷牙时（30 秒感受水温加牙刷的触感）\n3. 通勤路上一次（30 秒看天、树、光）\n4. 午饭第一口（30 秒闻加慢咬加注意味道）\n5. 下午一次（喝水或站起来伸展 30 秒）\n6. 晚饭后散步 5 分钟（不带耳机）\n7. 跟家人的某个亲密瞬间（停 30 秒「刻意感受」）\n8. 睡前躺床上（30 秒感受身体放松）\n\n**第 2 步**：写下明天的 3 个具体时段。\n\n**第 3 步**：每个时段定一个「保护规则」：不刷手机、不想下一件事、注意力锚定当下。\n\n**第 4 步**：明天晚上回到 p24 答案做复盘：3 个时段做到几个？感觉怎样？"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你预感最容易卡的是哪一类？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "食物或饮品（习惯性刷手机吃饭）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "自然或感官（习惯性低头不看天）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "人际（亲密瞬间想下一件事）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "身体（对身体感觉不敏感）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "都容易卡",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你显得有情调",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 3 个具体短时段乘以 30 秒等于 90 秒，让你亲身体验「主动停留到当下密度」的差异，把品味内化成日常可调用的能力",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让你立刻幸福",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「日子过得有滋味加看上去节奏稳」的人，最大的特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们注意力能在一件事上停留",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们经常「停下来感受」，不急着去下一件",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们对小细节有反应（一杯茶、一段光、一个表情都能「哇」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把品味装进日常",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「具体的品味动作」在实际生活里怎么做。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李每天通勤 40 分钟，全程刷手机，到家累得不想说话。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "强迫自己 40 分钟不刷手机",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把通勤的 40 分钟拆成「前 5 分钟不刷手机，主动看天、看人、看建筑」加后 35 分钟随意。第 5 分钟的品味累积起来，他到家时的疲劳感会显著下降",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "不再通勤",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "戒手机",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张跟孩子一起玩时她总想着工作。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "接受现实",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "在跟孩子玩的中间设 1 个 30 秒的「刻意停留」：当孩子有一个让人想笑的瞬间时，停下来看他 30 秒，注意他的表情、声音、动作。这 30 秒之后，当晚回想孩子时记忆密度会明显上升",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "立刻辞职",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "把孩子交给老人",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说「我心情不好的时候根本品不动」。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "强迫自己品",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "心情不好时换一类品味：用回味的方式拿出过去的照片、视频、录音重温一个具体的好瞬间，或者用分享品的方式跟朋友聊起一个共同的好回忆。这两类比当下品在低气压时更容易做",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "放弃品味",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "喝酒",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Bryant 和 Veroff 2007 把品味分 4 类：预品、当下品、回味、分享品",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "品味跟享乐主义反着来：把现有的东西品得更深，反而抗享乐适应",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "每天 2 到 3 次每次 3 到 5 分钟品味，4 周后整体生活满意度显著上升（Lyubomirsky）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "品味必须花大段时间才有效",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你的「明天 3 个品味时段」：\n\n**「明天我打算做的 3 个品味时段是：1. ____（具体时段加动作加时长）；2. ____；3. ____。保护规则是 ____。」**",
+      "placeholder": "例如：「1. 早晨 7:00 第一杯咖啡 3 分钟不看手机；2. 午饭 12:30 第一口前闻 30 秒；3. 晚上 9:00 跟女儿读绘本时停下来看她 30 秒。保护规则：不刷手机加不想下一件事。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 39 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **把当下的好放大、延长、记住。**\n\n请记得三件事：\n\n1. **Bryant 和 Veroff 4 类**：预品、当下品、回味、分享品\n2. **品味反享乐适应**：把现有的品深，对抗 Day4 的衰减机制\n3. **每天 2 到 3 次乘 3 到 5 分钟**：低门槛高回报的可持续工具\n\n明天练习篇 Day 6：\n\n**Day40：怎么品才到位（5 感品味技巧加具体动作清单）。**\n\n明天见。"
+    }
+  ]
+}

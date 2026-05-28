@@ -1,0 +1,548 @@
+{
+  "day": 63,
+  "stage": {
+    "name": "内化篇",
+    "stageNumber": 4,
+    "color": "#7AA8D6",
+    "bgColor": "#D5E5F0"
+  },
+  "theme": "幸福日记怎么写",
+  "coreLine": "简单模板能长期坚持",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入内化篇第 2 天。\n\n昨天 Day 62 你做了一次 Pennebaker 的表达写作：4 天，每次 20 分钟，把一件压在心里的事写到底。\n\n这种写法很猛，但有个明显的问题。\n\n它累。需要安静的房间，需要 20 分钟连续时间，需要心理空间去翻一件难的事。\n\n适合「特殊事件」，不适合「每天做」。\n\n你要让书写变成一个能跟你过完接下来几十年的工具，得换一个版本。\n\n短。稳定。门槛极低。一天只占你 3 到 5 分钟。\n\n这就是「幸福日记」的日常版本。\n\nSeligman 2005 年的实验里有个很短的练习叫「三件好事」：每天睡前写 3 件今天发生的好事，加上为什么发生。\n\n结果让所有人惊讶：做完 1 周，幸福感上升，抑郁分数下降，效果还能撑半年。\n\n每天 5 分钟。坚持 1 周。半年之后还在起作用。\n\n今天把这套日常书写讲清楚，给你 3 套从 3 分钟到 10 分钟的模板，让你挑一个能坚持的版本。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你过去 1 年里\"每天写点什么\"的最长连续天数是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "0 天 / 几乎没写过",
+          "feedback": "中国成年人里这是最常见的状态。今天教你 3 分钟版本，门槛低到几乎不会被卡住。"
+        },
+        {
+          "id": "opt2",
+          "label": "1-3 天",
+          "feedback": "典型的\"开始 3 天就停\"。今天会拆开这种坚持不下来的具体设计原因。"
+        },
+        {
+          "id": "opt3",
+          "label": "1-2 周",
+          "feedback": "有过短期成功的体验。今天教你怎么把短期变长期。"
+        },
+        {
+          "id": "opt4",
+          "label": "1 个月以上",
+          "feedback": "你已经在长期书写者里了。今天的模板会让你更高效。"
+        },
+        {
+          "id": "opt5",
+          "label": "我一直在写",
+          "feedback": "极少数。今天给你的可能是个新模板，可以试试。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去我尝试'每天写日记 / 写感恩 / 写复盘'的时候，最容易卡住的原因是 ____。」**",
+      "placeholder": "例如：「写了 3 天就忘了」「不知道写什么」「写得太长，每天 30 分钟坚持不下来」「电子版找不到入口，纸笔忘记带」「写完没人看，觉得没意义」「跟工作打卡混在一起，变成任务」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Seligman 2005 年那个「三件好事」的实验里，每天写 3 件好事加为什么发生，做 1 周后的效果大概能撑多久？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "1 天",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "1 周",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "1 个月",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "6 个月",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是「日常版幸福日记」能长期坚持的关键设计？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "模板简单（3 句话 / 3 件事就够，不堆字数）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "时长固定（3-10 分钟，到点就停，不超时）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "触发明确（跟睡前 / 起床 / 晚饭后这种固定时段绑）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "每天必须写满 1000 字才有效",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Pennebaker 的表达写作（4 天，每次 20 分钟，翻一件难事）是给『特殊事件』用的，长期每天做反而会反复揭伤口、加重负担。日常版本应该用更短更稳定的模板，比如三件好事 3 到 5 分钟版。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪种写法**最不像**「能长期坚持的幸福日记」？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "睡前 3 分钟写 3 件今天的好事，加一句为什么",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "起床后 5 分钟写「今天最想做的 1 件小事」加 1 个感谢",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "晚饭后 10 分钟，5 个区块每个写 1 到 2 句",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "周末抽 2 小时一次性把这一周的事全写完",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "为什么大多数人「写日记 3 天就停」？\n\n3 个具体的设计错误。\n\n**错误 1：模板太重**\n一上来就给自己定「每天写 1000 字 / 写满 1 页 A4」。第 1 天有兴致能撑过，第 3 天就开始拖。\n\n**错误 2：时段不固定**\n今天饭前写，明天睡前写，后天通勤路上想起来再补一下。没有触发器，大脑不会自动启动。\n\n**错误 3：跟现有习惯不挂钩**\n书写本身没有外部线索。要是不跟「睡前刷牙后」「早晨第一杯咖啡」「晚饭收拾完」这种已经稳定的动作绑在一起，它就要靠你每天「自己想起来」。靠记性的事，绝大多数都坚持不了。\n\n3 个错误合起来，结论是这样：你想写，但这套设计本身就坚持不下来。\n\n破局的方法：\n\n**模板简单，时长固定，触发明确，跟现有习惯绑。**\n\n这 4 条做对了，写日记就跟刷牙一样自动。\n\n具体的 4 个长期坚持设计：\n\n1. **固定时段**：睡前 / 起床 / 晚饭后挑一个。一旦选定就不要换。\n2. **跟现有习惯绑**（习惯叠加）：刷牙完，写 3 件好事。喝完早上第一杯咖啡，写明天 1 个小目标。\n3. **容许跳过，不容许超过 2 天**：完美主义是日记的大敌（Day 58 讲过）。跳 1 天没事，第 3 天必须接回来。\n4. **月底回看 1 次**：把这个月写的翻一遍。回味（Day 39-40 讲过）让旧的好事被你重新品 1 次。\n\n这一套合起来，就是一个真正能跟你过完几十年的工具。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你目前对\"每天 3 到 5 分钟写一份幸福日记\"的可接受程度（0 完全不接受，10 立刻就能开始）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0–2 分",
+        "3–4 分",
+        "5–6 分",
+        "7–8 分",
+        "9–10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小王说\"我也想写日记，但每次想到要写就觉得累，不知道从哪儿开始\"。按今天讲的，他最容易上手的入口是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "立刻买一本 200 页的精装日记本，定每天 1000 字",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "从「3-2-1」3 分钟版本开始：3 件好事，加 2 个我做到的，加 1 个明天小目标。睡前刷完牙就写，写在床头柜的便利贴上。一周后再看要不要扩",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "找一个最贵的日记 App 订阅",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "等到心情好了再开始",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面 3 套日常模板，你直觉里最适合自己的是哪一个？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「3-2-1」3 分钟版：3 件好事，加 2 个我做到的，加 1 个明天小目标",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「三件好事加为什么」5 分钟版：3 件好事，每件加一句为什么发生（Seligman 2005）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「5 区块」10 分钟版：今天发生了什么 / 我感受到什么 / 我学到什么 / 我感谢什么 / 我明天想做什么",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我想自己改一套",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "关于「纸笔本子跟手机 App」，下面哪些说法是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "纸笔写得慢，但能让信息被更深加工（Mueller & Oppenheimer 2014）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "App 方便检索和提醒，适合需要月底回看的人",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "两者都行，关键是你能真的坚持下来的那一个",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "必须用纸笔，用 App 完全无效",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「『日记要写很多才有用』是错的。3 句话坚持 6 个月，效果远好于 1 次写 3000 字然后停掉。三件好事实验里参与者每天只写 3 行，效果就持续了 6 个月。日常书写的关键词是『短加久』，不是『长加一次性』。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟搭好你的「幸福日记」起点",
+      "next": "p16",
+      "buttonText": "我去做",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。\n\n**Step 1**：从 3 套模板里挑 1 个（要是都吃不准就选「3-2-1」3 分钟版）。\n\n- **「3-2-1」3 分钟版**：3 件好事，加 2 个我做到的，加 1 个明天小目标\n- **「三件好事加为什么」5 分钟版**：3 件好事每件加一句为什么发生\n- **「5 区块」10 分钟版**：今天发生了什么 / 我感受到什么 / 我学到什么 / 我感谢什么 / 我明天想做什么\n\n**Step 2**：决定载体。纸笔（一个固定本子 / 一摞便利贴）或者 App（备忘录 / Notion / 任意笔记软件）。挑你今晚就能立刻开始的那个。\n\n**Step 3**：决定时段加触发器。挑一个固定时段（睡前 / 起床 / 晚饭后），跟现有习惯绑。\n\n- 睡前刷完牙，写\n- 早晨第一杯咖啡喝完，写\n- 晚饭收拾完碗筷，写\n\n**Step 4**：今晚就写第 1 次。不论今天发生了什么，都按选好的模板写完。然后把本子放到固定位置（床头柜 / 桌面），或把 App 放到手机首页。\n\n**Step 5**：跟自己说一句「跳 1 天没事，超过 2 天必须接回来」。完美主义是日记的大敌。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你打算用哪种载体？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "纸笔本子（更深加工，仪式感更强）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "手机备忘录 / 笔记 App（方便随时写，月底好搜索）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "床头柜便利贴（最低门槛，写完一张换一张）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "还没想好",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你看起来很自律",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把\"写日记\"从一个模糊的好习惯，变成具体的 1 个模板加 1 个触发器加 1 个载体加今晚就开始的第 1 次。先把启动门槛压到最低，再谈坚持",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让你立刻变幸福",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种\"写日记真的坚持下来了 1 年以上\"的人，最大的共同特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们写得很短（3 句话 / 几行就完事）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们有固定时段（睡前 / 早晨某一刻，不会换）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们跳了几天不会自责，第 3 天接回来就行",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么让幸福日记真正落地",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面 3 个场景，帮你看清\"日常版幸福日记\"在实际生活里怎么用。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李买了 1 本精装日记本，第 1 天写满 2 页，第 2 天写了半页，第 3 天就停了，本子在桌上放了 3 个月没动。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "再买一个更贵的本子",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把精装本子收起来。换一摞便利贴放床头，跟睡前刷牙绑，每天只写 3 件好事 3 行字。先跑 2 周再说要不要换回大本子",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "强迫自己每天必须写满 2 页",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "放弃写日记",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张说\"我每天太忙，根本想不起来写\"。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "想起来再写",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用习惯叠加把日记跟一个已有的稳定动作绑死。例如「晚上 10 点关电脑 → 打开备忘录 → 写 3 行」。让动作 A 自动触发动作 B，不用记性",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "设 10 个闹钟提醒自己",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "等忙完这阵子再开始",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周写了 18 天，第 19 天忘了写，第 20 天他想\"完了，连续记录断了\"，干脆全停了。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "接受\"连续记录断了\"，永远停下",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "直接在第 20 天写当天的，不补第 19 天。提醒自己「跳 1 天没事，超过 2 天必须接回来」。这次是第 2 天，刚好接得回",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "把前 18 天的全删掉重新开始",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "找别人写代笔",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Seligman 2005 三件好事实验：每天 3 件好事加为什么发生，做 1 周效果能撑半年",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "长期坚持的关键设计是：模板简单，时长固定，触发明确，跟现有习惯绑（习惯叠加）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Pennebaker 表达写作是「特殊事件」工具，不适合天天做，日常应该用更短的模板",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "日记必须每天写满 1000 字才有效",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你的「幸福日记起点设置」：\n\n**「我选的模板是 ____；载体是 ____；时段是 ____；触发器（跟现有习惯绑）是 ____ → 写。今晚我会在 ____ 写第 1 次。」**",
+      "placeholder": "例如：「模板：3-2-1 3 分钟版；载体：床头柜便利贴；时段：睡前；触发器：刷完牙 → 写；今晚 23:00 写第 1 次。」「模板：三件好事加为什么 5 分钟版；载体：备忘录 App；时段：晚饭后；触发器：洗完碗 → 写；今晚 20:30 写第 1 次。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "内化篇 · Day 63 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **简单模板能长期坚持。3 句话坚持 6 个月，远好于 1 次写 3000 字然后停掉。**\n\n请记得三件事：\n\n1. **Seligman 2005 三件好事**：每天 3 行，做 1 周，效果能撑半年\n2. **长期坚持四件套**：模板简单，时长固定，触发明确，跟现有习惯绑\n3. **跳 1 天没事，超过 2 天必须接回来**：完美主义是日记的大敌\n\n明天内化篇 Day 3：\n\n**Day64：幸福不是终点（重新理解\"目标\"跟\"过程\"的关系）。**\n\n明天见。"
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "day": 47,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "动一动就变好",
+  "coreLine": "运动是最便宜的抗抑郁药",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入练习篇第 13 天。从今天起进入身体篇。\n\n先听一个反直觉的事实。\n\n1999 年杜克大学 Blumenthal 团队做了一个实验，叫 SMILE。他们找来 156 名中老年抑郁症患者，随机分成三组：\n\n- A 组：单纯运动（每周 3 次，每次 30 分钟有氧）\n- B 组：抗抑郁药（舍曲林，常见的一种）\n- C 组：运动加药一起上\n\n16 周后所有人复评抑郁分数。\n\n结果让心理学界震了一下：**三组的缓解率几乎一样，都在 60% 到 70% 之间。**\n\n更扎心的是 10 个月后的随访：**单纯运动组的复发率反而最低。**\n\n也就是说，每周 90 分钟散步左右的强度，效果跟主流抗抑郁药打平，长期防复发还更稳。\n\n但你身边 90% 心情不好的人都在等同一句话：「等我心情好了再去运动。」\n\n这句话本身想反了。今天我们就把它掰直。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你最近 1 周的运动状态是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "基本没动，每天步数 5000 以下",
+          "feedback": "这是中国都市人典型状态。今天会给你一个 5 分钟门槛的入口，专门破『启动难』。"
+        },
+        {
+          "id": "opt2",
+          "label": "偶尔走两步，每周 1 到 2 次散步或拉伸",
+          "feedback": "已经比 60% 的人好。今天教你怎么把 1 到 2 次稳到 3 次。"
+        },
+        {
+          "id": "opt3",
+          "label": "有固定运动习惯，每周 3 次以上 30 分钟",
+          "feedback": "相当不错。今天会让你看到这个习惯在大脑里到底做了什么。"
+        },
+        {
+          "id": "opt4",
+          "label": "高强度训练党，每周 5 次以上",
+          "feedback": "身体已经在最佳剂量区。今天会让你理解为什么你心情通常稳。"
+        },
+        {
+          "id": "opt5",
+          "label": "想动但每次到点就找借口",
+          "feedback": "这一类最有救。卡点全在『启动』，今天的微行动专门解决它。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去 1 个月里我最近一次『动完明显感觉更好』的瞬间是 ____。」**\n\n不必是健身房。可以是爬楼梯、遛狗、骑车、跟孩子追跑、搬家。",
+      "placeholder": "例如：「上周六陪我妈去公园走了 40 分钟，回来心情松了一截」「跟同事去打了一局羽毛球，那天晚上特别好睡」「搬完家累瘫了，但脑子里那些破事全没了」「想不起来，最近真的一次都没有」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Blumenthal 1999 SMILE 实验的核心结论是什么？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "抗抑郁药完全没用",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "单纯运动组（每周 3 次 30 分钟有氧）跟舍曲林组的缓解率打平，10 个月后运动组复发率最低",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "运动只对轻度抑郁有效",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "只有高强度运动才管用",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "运动改善心情的生理机制包括哪些？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "脑源性神经营养因子上调，海马区长出新神经元",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "内啡肽、多巴胺、血清素三路齐发",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "慢性炎症因子下降，压力反应系统被调回正常",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "大脑产生大量「开心荷尔蒙」叫「运动素」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Mead 2008 那篇高规格的循证医学综述汇总了多个随机对照实验，得出一个结论：运动对抑郁症的改善幅度算下来是显著大效应，量级跟主流心理治疗、抗抑郁药的效应区间重叠。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "世界卫生组织给普通成年人推荐的「最低有效运动剂量」是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "每天必须跑 10 公里",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "每周 150 分钟中等强度（比如步行 6.5 公里 / 小时），每次 10 分钟以上。或者每周 75 分钟高强度",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "每周 7 天，每天 1 小时高强度",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "必须办健身房年卡才有效",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "为什么「等我心情好了再去运动」想反了？\n\n行为激活理论（Lewinsohn 1974）讲得很清楚。抑郁状态下大脑的奖赏回路是「低响应」的。你越不动，脑子里多巴胺、血清素、内啡肽越平。越平你越觉得什么都没意思。越没意思你越不想动。这是一个自我加固的下行螺旋。\n\n破局的方法不在情绪那边，在行为那边。**先动起来，心情才会跟上。**\n\n具体到生理层面：\n\n- 一次 10 分钟快走，内啡肽、多巴胺、血清素三路同时分泌\n- 持续 4 到 6 周规律运动，脑源性神经营养因子上调，海马区长出新神经元（成人神经发生）\n- 同期，慢性炎症因子（白介素 6、C 反应蛋白）下降，压力反应系统对压力的过激反应被调回正常\n\n合起来：你的大脑硬件被一点点重塑成「更抗压加更容易开心」的版本。\n\n成本多便宜？\n\n哈佛 Lee 2019 年发表的一项研究跟踪 18000 名老年女性 4 年多。**每天 4400 步组的死亡率比 2700 步组低 41%。** 4400 步换算下来大约 35 分钟散步。\n\n也就是说，把一天里的「不动」换成「走 35 分钟」，回报是把死亡率切掉将近一半。心情的回报远比这早到。\n\n注意：今天的目标不在「健身」，在「破启动」。明天会教你具体怎么选项目跟配剂量。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**过去 1 个月你「动完心情明显好转」这种体验出现的频次自评（0 几乎没有，10 每周都有几次）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0 到 2 分",
+        "3 到 4 分",
+        "5 到 6 分",
+        "7 到 8 分",
+        "9 到 10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Lewinsohn 1974 提出的「行为激活理论」，最反常识的结论是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "心情好的时候去运动效果最佳",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "先动起来，心情会跟上。等心情好再动这个顺序想反了",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "抑郁的人不能运动",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "必须先吃药再运动",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你过去最常用的「不动的理由」是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "太累了，没力气",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "没时间，工作排满",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "心情不好，提不起劲",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "一动就要换衣服、出门、找场地，门槛太高",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "怕坚持不下来，索性不开始",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些属于「低门槛但有效」的运动入口？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "换鞋下楼绕小区走 5 分钟",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "客厅地板上做 7 分钟高强度间歇训练",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "爬 4 层楼梯代替电梯",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "必须办健身房年卡，办了才算开始",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「哈佛 Lee 2019 年的研究证明：每天 4400 步组的死亡率比 2700 步组低 41%。所以日常散步 35 分钟级别的活动，已经在剂量曲线上有显著回报，不用一上来就追求 1 万步。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「换鞋下楼走 5 分钟 或 客厅 7 分钟高强度间歇训练」",
+      "next": "p16",
+      "buttonText": "我去动",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。两个选项任选一个，门槛压到最低。\n\n**第 1 步**：在下面两条里选一条（凭今天的身体状态选）：\n\n- **A. 换鞋下楼走 5 分钟**：穿外套，换鞋，下楼，出门，走 5 分钟（任意方向），回来。不带手机最好。带手机也不刷。\n- **B. 客厅 7 分钟高强度间歇训练**：找一块 2 平米空地。打开任意 7 分钟视频（YouTube、B 站、Keep 都有标准款）。开始跟做。中间想停就停。\n\n**第 2 步**：动作要点只有一个。**先把鞋穿上，或者先把视频点开**。这一步过了，后面 95% 的人都能走完。\n\n**第 3 步**：动完立刻坐下来，30 秒不刷手机，留意身体感觉。心跳、呼吸、头脑里的「嗡嗡声」有没有变小。\n\n**第 4 步**：把这 30 秒的身体感觉，跟动之前对比一下。这一份对比就是你身体给你的证据。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "刚才两个微行动你更倾向选哪个？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "A. 换鞋下楼走 5 分钟（户外派）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "B. 客厅 7 分钟高强度间歇训练（不出门派）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "两个都做（贪心派）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "都不想做，但选一个最不抗拒的：A",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "都不想做，但选一个最不抗拒的：B",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你今天就练出腹肌",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 5 到 7 分钟极低门槛动作，让你亲身体验「先动，心情跟上」这个顺序，把行为激活原理变成你身体里的一次具体证据",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "燃烧脂肪",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「心情常年比较稳，不太容易陷入低谷」的人，最大的共同特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们有规律运动习惯（每周 3 次以上）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们日常走得多（步数稳定在 6000 以上）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们心情一低落就靠「动」破局（散步、健身房、球场）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把「动一动」用起来",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「动起来」在不同状态下具体怎么操作。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李说「我最近抑郁了，根本爬不起床，等我心情好点再去运动」。\n\n按今天讲的，他应该？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "等心情好再开始",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "把目标砍到底：每天起床后只做一件事，把鞋穿上下楼走 3 分钟。先动，心情会在 1 到 2 周内跟上。这就是行为激活的标准用法",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "立刻去办健身房年卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "直接跑半马",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张说「我工作每天 10 小时坐着，没时间运动」。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "辞职",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用碎片化策略：每天爬 4 层楼梯代电梯，加中午饭后走 10 分钟，加下班前椅子上做 5 个深蹲。一天累计就接近世界卫生组织推荐的 30 分钟中等强度，不用挤出大块时间",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "必须每天去健身房 1 小时",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "没办法，认命",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说「我下雨天根本不想出门，运动计划一断就再也接不上」。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "等天晴再说",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "准备一个「室内备用方案」：下雨天默认切到客厅 7 分钟高强度间歇训练视频或者跳绳 5 分钟。规则是「天气改方案，不停」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "干脆放弃运动",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "搬家到沙漠",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Blumenthal 1999 SMILE 实验里，单纯运动组跟舍曲林组缓解率打平，10 个月后运动组复发率最低",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "行为激活理论（Lewinsohn 1974）：先动起来，心情才会跟上。「等心情好再动」想反了",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "世界卫生组织最低有效剂量：每周 150 分钟中等强度，每次 10 分钟以上。可以分散累计",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "运动只对轻度抑郁有效，对中重度完全没用",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你明天的「5 分钟启动计划」：\n\n**「明天我打算做的微行动是：____（选 A 还是 B，加具体时段）。我会在 ____ 时间触发它。动完后我会留 30 秒观察身体感觉 ____。如果遇到 ____ 这种情况，我的备用方案是 ____。」**",
+      "placeholder": "例如：「明天我打算做的微行动是：A. 早上 8:00 出门前换鞋下楼走 5 分钟。我会用闹钟在 7:55 触发它。动完后我会留 30 秒观察呼吸跟心跳。如果下雨，备用方案是客厅 7 分钟高强度间歇训练。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 47 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **运动是最便宜的抗抑郁药。先动，心情才会跟上。**\n\n请记得三件事：\n\n1. **Blumenthal 1999 SMILE 实验**：每周 3 次 30 分钟有氧，效果跟舍曲林打平，长期防复发更稳\n2. **行为激活理论**：等心情好再动这个顺序想反了。先动，再等心情\n3. **最低有效剂量低到夸张**：每周 150 分钟中等强度（每天 35 分钟散步即可），世界卫生组织推荐线\n\n明天身体篇 Day 2：\n\n**Day48：选对你的运动（项目类型、强度、频次怎么配对）。**\n\n明天见。"
+    }
+  ]
+}

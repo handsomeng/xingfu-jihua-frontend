@@ -4,20 +4,23 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="theme-color" content="#FAF6EE" />
+<meta name="theme-color" content="#FBF6E9" />
 <title>欢迎 · 幸福计划</title>
-<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="assets/immersive.css" />
 </head>
 <body class="onboarding-body">
 
+<div class="paper-bg"></div>
+<div class="paper-light"></div>
+<div class="paper-light-2"></div>
+<div class="paper-vignette"></div>
+
 <div class="onboarding-shell">
 
-  <!-- 顶栏：跳过 -->
   <header class="onboarding-top">
-    <button class="onboarding-skip" id="skip-btn">跳过</button>
+    <button class="onboarding-skip" id="skip-btn">跳 过</button>
   </header>
 
-  <!-- 滑动卡片区 -->
   <div class="onboarding-viewport">
     <div class="onboarding-track" id="track">
 
@@ -28,7 +31,7 @@
           <div class="onboarding-spark spark-c">✦</div>
           <div class="onboarding-orb"></div>
         </div>
-        <div class="onboarding-eyebrow">第一件事</div>
+        <div class="onboarding-eyebrow">first things first</div>
         <h1 class="onboarding-title">
           把幸福，<br/>从一种运气，<br/>变成一种本事。
         </h1>
@@ -45,19 +48,19 @@
           </div>
           <div class="onboarding-step">
             <div class="onboarding-step-no">2</div>
-            <div class="onboarding-step-label">19 道小题<br/>边做边觉察</div>
+            <div class="onboarding-step-label">做几道小题<br/>边做边觉察</div>
           </div>
           <div class="onboarding-step">
             <div class="onboarding-step-no">3</div>
-            <div class="onboarding-step-label">AI 教练给你<br/>一份今日报告</div>
+            <div class="onboarding-step-label">教练给你<br/>一封今日信</div>
           </div>
         </div>
-        <div class="onboarding-eyebrow">怎么练</div>
+        <div class="onboarding-eyebrow">how it works</div>
         <h1 class="onboarding-title">
           每天 15 分钟<br/>陪你走 71 天。
         </h1>
         <p class="onboarding-subtitle">
-          不需要打卡焦虑。<br/>每天读一段、做几道题、看一份只属于你的报告。
+          不需要打卡焦虑。<br/>每天读一段、做几道题、看一份只属于你的信。
         </p>
       </section>
 
@@ -67,7 +70,7 @@
           <div class="onboarding-pill">Seligman · PERMA</div>
           <div class="onboarding-pill">哈佛 80 年追踪</div>
         </div>
-        <div class="onboarding-eyebrow">为什么靠谱</div>
+        <div class="onboarding-eyebrow">why it works</div>
         <h1 class="onboarding-title">
           底层是<br/>被反复验证的科学。
         </h1>
@@ -75,35 +78,33 @@
           积极心理学过去 40 年最稳的几条研究，<br/>翻译成你日常能用上的小动作。
         </p>
         <div class="onboarding-cta-wrap">
-          <button class="btn-primary" id="start-btn">开始今天</button>
+          <button class="btn-primary" id="start-btn">开 始 今 天</button>
         </div>
       </section>
 
     </div>
   </div>
 
-  <!-- 进度点 + 主 CTA（前两页） -->
   <footer class="onboarding-bottom">
     <div class="onboarding-dots">
       <span class="dot active" data-go="0"></span>
       <span class="dot" data-go="1"></span>
       <span class="dot" data-go="2"></span>
     </div>
-    <button class="btn-primary onboarding-next" id="next-btn">下一页</button>
+    <button class="btn-primary onboarding-next" id="next-btn" style="max-width: 320px;">下 一 页</button>
   </footer>
 
 </div>
 
-<!-- 兑换码 sheet（点开始时弹出） -->
 <div class="redeem-overlay" id="redeem-overlay"></div>
 <div class="redeem-sheet" id="redeem-sheet">
   <div class="sheet-handle"></div>
-  <h2 class="redeem-title">请输入兑换码</h2>
+  <h2 class="redeem-title">请 输 入 兑 换 码</h2>
   <p class="redeem-subtitle">没有兑换码？<br/>联系拉你来的那个朋友要一个。</p>
   <input id="redeem-input" class="redeem-input" placeholder="例：FYQS-2026" autocomplete="off" autocapitalize="characters" spellcheck="false" />
   <div class="redeem-error" id="redeem-error"></div>
-  <button class="btn-primary" id="redeem-submit">解锁，开始</button>
-  <button class="btn-ghost" id="redeem-cancel">先回去看看</button>
+  <button class="btn-primary" id="redeem-submit" style="margin-bottom: 10px;">解 锁，开 始</button>
+  <button class="btn-ghost" id="redeem-cancel">先 回 去 看 看</button>
 </div>
 
 <script src="assets/redeem.js"></script>

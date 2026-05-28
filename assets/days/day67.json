@@ -1,0 +1,558 @@
+{
+  "day": 67,
+  "stage": {
+    "name": "内化篇",
+    "stageNumber": 4,
+    "color": "#7AA8D6",
+    "bgColor": "#D5E5F0"
+  },
+  "theme": "换着花样来练",
+  "coreLine": "花样能防享乐适应。同一件好事换着玩，效果不会一路掉下去。",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入内化篇第 6 天。\n\n先做个 30 秒小测试。\n\n回想你 Day62 之后开始写「幸福日记」。第 1 天写完什么感觉？第 7 天写完什么感觉？第 14 天呢？\n\n多数人的轨迹长这样：\n\n- 第 1 天：「哇，原来写出来这么清楚。」\n- 第 7 天：「还行，今天稍微敷衍。」\n- 第 14 天：「嗯，写完了。打卡完成。」\n\n工具没变。你也没偷懒。可那种「新鲜的击中感」一天比一天淡。\n\n这件事 Day4 我们讲过，名字叫**享乐适应**：再好的事重复几次，大脑就麻了。\n\n坏消息：所有幸福练习都得过这一关。\n\n好消息：有个非常便宜的破解法，叫**花样**。\n\nSheldon 跟 Lyubomirsky 2012 年做过一个 8 周实验，直接证明：同一组幸福活动，每周换形式做的那组，8 周后幸福度提升明显高于不换形式那组。\n\n今天我们把这件事讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "回想你前 66 天里坚持得最久的那个练习（感恩 / 品味 / 三件好事 / 善行 / 任意），你现在的状态是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "刚开始没几天，新鲜感还在",
+          "feedback": "正在新鲜期。今天先存着今天讲的方法，2 周后正用得上。"
+        },
+        {
+          "id": "opt2",
+          "label": "做了 1-2 周，明显感觉\"没有第一周激动\"",
+          "feedback": "典型衰减信号。今天讲的花样直接处理这一段。"
+        },
+        {
+          "id": "opt3",
+          "label": "做了 2 周以上，已经像刷牙一样平淡",
+          "feedback": "已经进入\"平稳期\"。这是好事（说明结构稳了），同时也到了该注入花样的节点。"
+        },
+        {
+          "id": "opt4",
+          "label": "做几天就停了，没坚持下来",
+          "feedback": "有可能工具不对你（回看 Day65），也可能没换花样导致提前疲惫。今天给你后一种的解法。"
+        },
+        {
+          "id": "opt5",
+          "label": "我前面没真正坚持过任何一个",
+          "feedback": "能如实说出来很重要。今天讲完会让你看到：很多人停下来，是因为没人告诉过他\"可以换着玩\"。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去 66 天里，我最早出现『再做也没第一次那种感觉』的那个练习是 ____。」**\n\n不必精确。写下你脑子里第一个跳出来的练习名字 + 出现衰减大概在第几天。",
+      "placeholder": "例如：「感恩日记，大概第 8 天开始没第一次那种感动」「品味第一口咖啡，第 5 天就感觉变成走流程」「写三件好事，第 10 天开始觉得每天写来写去都那几件」「想不起来」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Sheldon & Lyubomirsky 2012 年的 8 周花样实验，证明了什么？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "同一组幸福活动，每周换形式做的那组，8 周后幸福度提升明显高于不换形式那组",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "只要做幸福练习，做不做无所谓",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "换花样会让人精神分裂",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "这是个没被验证的说法",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是给一个幸福练习「注入花样」的具体路径？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "换形式（感恩写信 → 感恩短信 → 当面说）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "换对象（这周感恩家人，下周感恩老同事，再下周感恩陌生人）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "换时段（早晨感恩跟睡前感恩，感受不同）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "干脆放弃，每天换一种新工具，谁都不用稳定下来",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Lyubomirsky, Sheldon & Schkade 2005 可持续幸福模型提出：可持续的幸福提升，靠花样 + 欣赏这两个轮子同时转。光靠花样没有欣赏，会变成新鲜感成瘾；光靠欣赏没有花样，会陷入享乐适应。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪句话对「习惯化」的理解最准确？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "习惯化全是坏事，所有事都该常换",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "习惯化是双刃剑：好事被习惯化会失去欣喜（这时要靠花样救），流程被习惯化反而省力气（运动 / 感恩本身的执行流程稳下来更好）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "习惯化跟幸福没关系",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "只要变化够多，就不会有习惯化",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "很多人前 66 天的练习走着走着就停了，根本原因有 3 个。\n\n**原因 1：以为「做得越熟越好」**\n你在工作上被训练成「熟能生巧」。这条在工作技能上成立，对幸福练习反效果。同一种写法做到第 20 天，大脑早就猜得到结果，奖赏回路就关了。\n\n**原因 2：把「稳定流程」跟「稳定内容」搞混了**\nDay66 教你流程稳定（固定时段 + 固定时长 + 固定触发动作）。这条要守。可内容上每天写同样 3 件好事 / 感谢同样的人 / 品味同一杯咖啡，那是另一回事。流程要稳，内容要换。\n\n**原因 3：没人告诉过你「可以换花样」**\n传统说法是「坚持就是胜利」。坚持的是结构。内容里没有花样，坚持 8 周自己就会掉。\n\n3 个原因合起来，多数人在第 2-3 周就停了。停掉之后归因到「我没毅力」，其实是「我没换花样」。\n\n破局非常便宜：\n\n**保持 Day66 定下来的时段和时长，每周给内容换 1 个维度（形式 / 对象 / 时段挑 1 个换）。**\n\n举几个例子：\n\n- 感恩练习：本周写信，下周发短信，再下周当面说，再下周写在便签贴墙上\n- 品味：本周品咖啡，下周品天气，再下周品散步时的脚感，再下周品跟孩子说话的瞬间\n- 三件好事：本周写「今天 3 件好事」，下周写「今天 3 个让我感谢的人」，再下周写「今天 3 个让我学到东西的瞬间」，再下周写「今天 3 个让我笑的细节」\n- 善行：本周帮陌生人 1 件，下周给老朋友发关怀消息，再下周给同事写感谢卡\n\nSheldon 跟 Lyubomirsky 2012 实验里，花样组 8 周后的幸福度提升明显高于固定组。同样的工具，光是换了花样，效果就完全不一样。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你目前正在坚持的那个练习，\"内容上的新鲜度\"自评（0 完全卡住，10 每周都在换）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0–2 分",
+        "3–4 分",
+        "5–6 分",
+        "7–8 分",
+        "9–10 分"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小李说「我感恩日记写到第 12 天，每天感谢老婆、孩子、健康，已经写吐了」。按今天讲的，他最容易上手的花样改造是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "直接放弃感恩日记",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "保留每天 3 行的流程，本周改成「今天 3 个让我感谢的陌生人」（换对象），下周改成「今天 3 件本来差点出问题但没出的事」（换视角）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "换一个完全不同的工具，比如冥想",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "每天写 30 件感恩",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面 3 个花样维度里，你直觉最想先换的是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "换形式（写 / 说 / 录音 / 发消息）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "换对象（家人 / 老朋友 / 同事 / 陌生人 / 自己）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "换时段（早晨 / 通勤 / 午休 / 睡前）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "换主题（感恩什么 / 品什么 / 帮谁）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "不确定",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些说法是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Lyubomirsky, Sheldon & Schkade 2005 可持续幸福模型：可持续幸福 = 花样 + 欣赏 两个轮子",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Sheldon & Lyubomirsky 2012 实验：同一组活动，每周变化形式那组 8 周后效果明显高于不变形式那组",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Quoidbach 2010 品味五策略里也强调花样是其中一维",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "只要每天换不同的工具就最有效，结构不重要",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「『同一件事做得越熟越好』这句话对工作技能成立，对幸福练习反而有反效果。因为幸福练习的核心是『情绪反应』，而情绪反应对重复刺激会自动钝化（享乐适应）。所以要在固定结构里换不同的内容刺激。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「给一个练习换 1 种做法」",
+      "next": "p16",
+      "buttonText": "我去想",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。\n\n**第 1 步**：从前 66 天工具里挑 1 个你正在坚持（或最近停掉）的练习。\n\n**第 2 步**：从下面 4 个花样维度里挑 1 个最容易动的：\n\n- **换形式**：写 / 语音 / 当面说 / 发消息 / 录视频\n- **换对象**：家人 / 老朋友 / 同事 / 陌生人 / 自己\n- **换时段**：早晨 / 通勤 / 午休 / 晚饭后 / 睡前\n- **换主题**：感恩什么 / 品什么 / 帮谁 / 写什么\n\n**第 3 步**：写下你接下来 1 周的具体改动（保留时段 + 时长 + 触发动作不变）。\n\n**第 4 步**：定一个验证锚点。1 周后回看：换花样后的执行率、感受新鲜度跟之前对比怎么样。\n\n参考例子：\n- 「感恩日记本来每天睡前写 3 行家人。改动：这周睡前改成给对方发 1 条 30 秒语音。下周再换成当面说。验证锚点：1 周后看连续完成天数 + 对方是否回复了我。」\n- 「品味第一口咖啡本来每天早上 7 点 30 秒。改动：本周换成每天换一个对象（咖啡 / 天空 / 通勤时的光 / 跟孩子打招呼那一秒）。验证锚点：1 周后看哪个对象最有反应。」"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你预感最容易卡住的环节是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "挑哪个练习改（觉得每个都该改）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "挑哪个维度换（4 个都看着可行）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "写具体改动（道理懂，落到周一就含糊）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "1 周后回来验证（多半就忘了）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "都不卡",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你显得有创意",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "给你前 66 天的工具加上花样这一维，把 Day66 的「稳定结构」跟 Day67 的「变化内容」拼成一个能持续 8 周以上的实操形态",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让你立刻幸福",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「坚持某件好事好几年还没腻」的人，最大的特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们流程稳定，可内容经常换",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们对「换花样」这件事有天然敏感度",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们不会硬撑「按一种方式做下去」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把花样装进现有练习",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「在不打破 Day66 节奏的前提下注入花样」的具体动作。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李感恩日记写到第 14 天，每天写老婆、孩子、健康。开始觉得「在重复同一句话」。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "加大量到每天 10 件",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "保留每天 3 行 × 睡前 3 分钟的结构不变，本周改成「今天 3 个让我感谢的陌生人」（换对象 + 换主题）。下周再换成「今天 3 件本来差点出问题但没出的事」（换视角）。1 周后回看执行率 + 新鲜感",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "直接放弃感恩日记",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "换冥想",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张品味第一口咖啡做了 3 周，从第 8 天开始就「自动化」了，感觉跟没做差不多。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "强迫自己更专注",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "保留每天早上 30 秒的结构，本周开始每天换一个品味对象（周一咖啡 / 周二天空 / 周三通勤路上的某束光 / 周四跟孩子打招呼那一秒 / 周五午饭第一口 / 周末散步时的脚感）。1 周后挑出最有反应的那 1-2 个，作为下周的主轴",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "放弃品味",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "改成品味 5 分钟",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说「我每周给同事写一封感谢卡，写到第 4 周已经不知道写什么了」。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "硬写",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "保留每周 1 封 × 周五下午写的结构，开始轮换对象（这周同事 / 下周老朋友 / 再下周父母 / 再下周陌生服务者比如理发师外卖员 / 再下周给自己）。同时换形式（写卡 / 发语音 / 当面说 / 录小视频）。8 周一个完整循环",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "放弃感谢卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "改成每天写 5 封",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些说法是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Sheldon & Lyubomirsky 2012：同一组幸福活动，每周换形式那组 8 周后幸福度提升明显高于不换形式那组",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Lyubomirsky, Sheldon & Schkade 2005 可持续幸福模型：花样 + 欣赏是可持续幸福的两个轮子",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Day66 教结构稳定，Day67 教内容变化，两者一起用才能撑过 8 周以上",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "只要每天换一个新工具就最有效，结构完全不重要",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你的「1 个练习 × 1 个花样维度 × 1 周改动」：\n\n**「我接下来 1 周改造的练习是 ____。我要换的维度是 ____（形式 / 对象 / 时段 / 主题挑 1 个）。具体改动是 ____。验证锚点是 1 周后回看 ____。」**",
+      "placeholder": "例如：「练习：感恩日记。换的维度：对象。具体改动：本周睡前 3 行从家人换成 3 个陌生人（外卖员 / 同事孩子 / 小区保洁）。验证锚点：1 周后看执行天数和新鲜感自评对比。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "内化篇 · Day 67 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **结构守住，内容换着玩。**\n\n请记得三件事：\n\n1. **Sheldon & Lyubomirsky 2012**：花样组 8 周后幸福度提升明显高于固定组\n2. **2005 可持续幸福模型**：花样 + 欣赏 两个轮子一起转，幸福才持久\n3. **4 个花样维度**：换形式 / 换对象 / 换时段 / 换主题，每周挑 1 个动\n\n明天内化篇 Day 7：\n\n**Day68：把每天的小幸福串成长期叙事（人生叙事 + 周复盘的衔接）。**\n\n明天见。"
+    }
+  ]
+}

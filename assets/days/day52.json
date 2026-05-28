@@ -1,0 +1,576 @@
+{
+  "day": 52,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "对自己好一点",
+  "coreLine": "自我关怀和自尊不是一回事",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入练习篇第 18 天。\n\n先回答你三个问题。\n\n你搞砸一件事之后，脑子里冒出来的第一句话是什么。\n你对自己说的那句话，敢不敢原封不动甩给一个朋友听。\n如果今天搞砸这件事的是你朋友，你会怎么跟他讲。\n\n你大概率会发现，你对朋友的语气，跟你对自己的语气，完全是两个人在说话。\n\n朋友搞砸，你说「没事，谁都会犯错，先休息一下」。\n你自己搞砸，你说「我怎么这么蠢，又来了，废物」。\n\n这是很多中国成年人的真实状态。对外人比对自己温柔得多。\n\n破局的工具叫自我关怀。\n\nNeff（德州大学奥斯汀分校心理学教授）从 2003 年开始做这个研究，到现在二十多年。她的核心论点就一句话。\n\n对自己狠不会让你更进步。对自己好才会。\n\n今天我们把它讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你搞砸一件事时，对自己说话的常见语气是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "很狠，经常骂自己「蠢」「废物」「又来了」",
+          "feedback": "这是典型状态。今天的练习直接针对你。"
+        },
+        {
+          "id": "opt2",
+          "label": "比较严厉，但不会用太重的词",
+          "feedback": "常见水平。今天会让你看到『严厉』跟『有效』不在一个层。"
+        },
+        {
+          "id": "opt3",
+          "label": "中性，会复盘，不带情绪",
+          "feedback": "中性已经比骂自己好很多。今天再加一层温度。"
+        },
+        {
+          "id": "opt4",
+          "label": "比较温和，会安慰自己一下",
+          "feedback": "极佳。今天给你一套更系统的方法把它固化下来。"
+        },
+        {
+          "id": "opt5",
+          "label": "没观察过",
+          "feedback": "能如实说不知道很重要。今天的练习会让你第一次听见自己的内心独白。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「我最近一次搞砸的事是 ____。当时我对自己说的话是 ____。」**\n\n不必大事。可以是工作上的小失误、跟家人的一次冲突、忘了一件该做的事。",
+      "placeholder": "例如：「上周三忘了给客户回邮件，自己跟自己说『你怎么这么不靠谱，活该被骂』」「昨天对孩子发火，事后跟自己说『你不配当妈』」「项目延期了，自己跟自己说『又搞砸了，废物』」「想不起来」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Neff 讲的自我关怀三要素是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "自信 / 自律 / 自尊",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "自我友善 / 共同人性 / 正念",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "努力 / 复盘 / 进步",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "这是个鸡汤概念",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是自我关怀和自尊的区别？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "自尊依赖跟别人比、依赖成就，自我关怀不依赖比较和成就",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "自尊在你搞砸时会塌，自我关怀在你搞砸时依然在场",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Neff 和 Vonk 2009 年的研究显示，自我关怀比自尊更能预测情绪稳定",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "它们其实一模一样，叫法不同",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Breines 和 Chen 2012 年那个实验里，被引导对自己有自我关怀的人，犯错之后反而更愿意改进、更愿意承担责任，并没有变懒。这跟很多人直觉相反（很多人会担心『对自己好』等于『放纵自己』），但研究反复证伪了这个担心。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪一句**最不像**自我关怀？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「这是个难受的时刻。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「难受是每个人都有的，我不孤单。」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「我能怎么对自己好一点？」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "「你怎么这么蠢，又来了，废物。」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "为什么很多中国成年人对自己特别狠。有三个常见原因。\n\n第一，从小被「对自己狠才会进步」训练长大。家长、老师、教练嘴里挂的都是「不许哭」「再来一遍」「别给自己找借口」。你被反复教育，温柔等于放纵，严厉等于认真。结果是你长大后只会用一种语气跟自己讲话，就是骂。\n\n第二，把自尊当成自我价值的全部。你被训练成「必须靠成就才能感觉自己 OK」。考试好我才 OK，工资高我才 OK，瘦下来我才 OK。一旦搞砸，自尊立刻塌，剩下来的就是骂自己。\n\n第三，「共同人性」缺失，孤立感被放大。你搞砸的时候，第一反应是「只有我才会犯这种错」。这种孤立感会把痛苦再往大里推一截。研究反复证明，知道「别人也会这样」本身就能降低痛苦强度。\n\n三个原因合起来。你对自己的语气比对最讨厌的同事还狠。长期内耗。抑郁风险往上走，拖延行为变多。\n\n破局便宜得超出你想象。\n\n学 Neff 的「自我关怀小练习」，30 秒一组。\n\n三句话。\n\n第一句，「这是个难受的时刻」。这是正念，先承认痛苦在场。\n第二句，「难受是每个人都有的」。这是共同人性，你不孤单。\n第三句，「我能怎么对自己好一点」。这是自我友善，换语气。\n\n三句话，30 秒。每天搞砸时做 1 到 3 次。\n\n提醒一下。自我关怀不等于自怜，也不等于找借口。它要求你承认事实，然后换语气。该改的还是要改，只是改的时候用对朋友的语气，不用对仇人的语气。\n\nNeff 和 Vonk 2009 年的实验给出一个清楚结论。自我关怀高的人，情绪稳定度比自尊高的人显著更高，而且不依赖外部成功。换句话说，搞砸时自尊会塌，自我关怀不会。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "**你目前对自己的自我关怀自评（0 几乎从来不温柔，10 搞砸时依然能在场）：**",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "0–2 分",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "3–4 分",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "5–6 分",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "7–8 分",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "9–10 分",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小李说「我要是对自己温柔，就再也不会努力了，会变成废物」。按今天讲的，他最该看到的是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他说得对，所以继续骂自己",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Breines 和 Chen 2012 年那个实验证明，被引导自我关怀的人犯错之后反而更愿意改进。「对自己好」跟「放纵自己」不在一个层。苛责的人反而拖延更多",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "立刻去学怎么提自尊",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "没救了",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "下面三句自我关怀小练习里，哪一句你最难说出口？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「这是个难受的时刻」（承认痛苦）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「难受是每个人都有的」（共同人性）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「我能怎么对自己好一点」（换语气）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "三句都难",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "三句都不难",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是 Neff 三要素的正确对照？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「自我友善」对应「自我评判」的反面",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「共同人性」对应「孤立感」的反面",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「正念」对应「过度认同」的反面",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "自我关怀要求你否认事实、找借口",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「自尊要求你『感觉自己比别人好』，所以它依赖比较和成就，外部一塌它就塌。自我关怀只要求你『在搞砸时依然在场』，不依赖比较和成就。所以 Neff 和 Vonk 2009 年那项研究发现，自我关怀比自尊更能预测长期情绪稳定，而且不会随成败大幅波动。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟自我关怀小练习",
+      "next": "p16",
+      "buttonText": "我去做",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。\n\n第一步，从今天回想一件搞砸的小事。不必大事。可以是回错一句话、忘了一件事、跟人起了小冲突、一次拖延。\n\n第二步，做一次 30 秒的自我关怀小练习。\n\n「这是个难受的时刻」。停一下，承认。\n「难受是每个人都有的」。停一下，想一个跟你同样会犯这个错的具体的人。\n「我能怎么对自己好一点」。说一句你会对朋友说的话。\n\n第三步，对比一下。你原本会对自己说的话，对照你现在对自己说的话。注意身体感觉。哪个让你更放松，哪个让你更愿意去改。\n\n第四步，今晚睡前再做 1 次。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你预感最容易卡的是哪一步？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "第一步（找不到搞砸的事，要么没察觉，要么找到太多）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "第一句（不愿意承认这是个难受的时刻）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "第二句（不相信「别人也会这样」）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "第三句（不知道怎么对自己好）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "对比（不敢对比，怕看到自己一直在骂自己）",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你变得软弱",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 30 秒、三句话，让你亲身体验「对自己换语气」之后身体反应的差异，把自我关怀从概念变成一个能调用的能力",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让你立刻不痛苦",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边那种「搞砸了但能很快回到状态」的人，最大的特征是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们能承认「这次确实搞砸了」，不否认也不夸大",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们知道「别人也会这样」，不会把一次搞砸等同于「我整个人不行」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们对自己说话的语气，跟对朋友说话的语气一样",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么把自我关怀装进日常",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「自我关怀小练习」在真实生活里怎么用。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李项目延期 1 周，他脑子里一直回响「我废了，又一次证明我不行」。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "继续骂自己，逼自己加班",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "做一次 30 秒自我关怀小练习。「这是个难受的时刻 → 项目延期是每个项目负责人都遇到过的事 → 我现在能怎么对自己好一点（先睡一觉再列复盘清单）」。然后该复盘复盘，该改进改进。这样他第二天的执行力反而比骂自己一夜更高",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "辞职",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "找借口推给同事",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张对孩子发了火，事后跟自己说「你这种人不配当妈」。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "接受「我就是不配当妈」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "做一次 30 秒自我关怀小练习。「我现在很难受 → 对孩子失控是几乎所有妈妈都经历过的瞬间 → 我能怎么对自己好一点（先承认情绪，再去跟孩子道歉一句）」。她去道歉的能量来源于自我关怀，来源不是自我攻击",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "假装没事发生",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "把孩子推给老人带",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说「我每次想对自己好，就会想到『这是放纵自己』，然后又开始骂自己」。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "接受「我就是该被骂」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "看 Breines 和 Chen 2012 年那项研究。被引导自我关怀的人犯错之后反而更愿意改进、更愿意承担责任，没有变懒。「对自己好」跟「放纵自己」不在一个层。然后从最小一次（30 秒一句话）开始，给身体一个反例数据",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "放弃",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "改学怎么提自尊",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Neff 三要素是自我友善 / 共同人性 / 正念",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "自我关怀和自尊不是一回事。自尊依赖比较和成就，搞砸时会塌。自我关怀不依赖，搞砸时依然在场",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Breines 和 Chen 2012 年那项研究显示，被引导自我关怀的人犯错之后更愿意改进，没有变懒",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "自我关怀就是找借口、放纵自己",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你今天的自我关怀小练习：\n\n**「我今天搞砸的小事是 ____。我原本会对自己说 ____。我现在对自己说的三句话是：1.『这是个难受的时刻』（具体的难受是 ____）；2.『难受是每个人都有的』（我想到的具体的人是 ____）；3.『我能怎么对自己好一点』（我说 ____）。」**",
+      "placeholder": "例如：「我今天搞砸的事是开会迟到 15 分钟。原本会说『你这种人活该被开掉』。三句话：1. 这是个难受的时刻（我被同事看了几眼，胃缩了一下）；2. 难受是每个人都有的（我想到我老板上次也迟到过，他也没事）；3. 我能怎么对自己好一点（先去喝口水，下午再发个邮件简单道个歉就好）」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 52 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话。\n\n> **对自己好不会让你变废。对自己狠也不会让你更强。**\n\n请记得三件事。\n\n第一，Neff 三要素是自我友善 / 共同人性 / 正念。\n第二，自我关怀和自尊的差别。自尊靠跟别人比、靠成就。自我关怀不依赖比较和成就，搞砸时依然在场。\n第三，30 秒小练习。「这是个难受的时刻 → 难受是每个人都有的 → 我能怎么对自己好一点」。\n\n明天练习篇 Day 19。\n\n**Day53：你脑子里的两个声音（内在批评者和内在朋友）。**\n\n明天见。"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
-// 幸福计划 · AI 报告生成（v2 · hero + echo + 流式四板块）
+// 幸福计划 · 今日报告 (沉浸式 v3)
+// 渲染：hero + echo + AI 流式信
+// 数据：localStorage("xingfu-day-N-state") + POST /api/report (stream)
 
 const params = new URLSearchParams(location.search);
 const dayNum = parseInt(params.get("day") || "1", 10);
@@ -7,33 +9,29 @@ const REPORT_KEY = `xingfu-day-${dayNum}-report`;
 const REPORT_META_KEY = `xingfu-day-${dayNum}-report-meta`;
 const API_BASE = location.origin;
 
+document.getElementById("report-top").textContent = `DAY ${String(dayNum).padStart(2, "0")} · LETTER`;
+
 async function loadDayData() {
   const res = await fetch(`assets/days/day${dayNum}.json`);
   if (!res.ok) throw new Error("加载 day data 失败");
   return res.json();
 }
-
 function loadState() {
   try {
     const raw = localStorage.getItem(STATE_KEY);
     return raw ? JSON.parse(raw) : null;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
-
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
 function buildEchoEntries(dayData, state) {
-  // 把 awareness 题（用户的真实回答）整理成可回显 + 喂给 AI 的两种结构
   const entries = [];
   for (const page of dayData.pages) {
     if (page.category !== "awareness") continue;
     const ans = state.answers[page.id];
     if (ans == null || ans === "") continue;
-
     let answerLabel = "";
     if (page.type === "single_choice" || page.type === "scale") {
       const opt = (page.options || []).find(o => o.id === ans);
@@ -49,10 +47,8 @@ function buildEchoEntries(dayData, state) {
     } else {
       answerLabel = String(ans);
     }
-
     entries.push({
-      pageId: page.id,
-      type: page.type,
+      pageId: page.id, type: page.type,
       question: (page.question || "").replace(/\*\*/g, ""),
       answer: answerLabel
     });
@@ -61,7 +57,6 @@ function buildEchoEntries(dayData, state) {
 }
 
 function buildPayload(dayData, state, echoEntries) {
-  // 喂给后端 AI 的结构（带 question 文本，让 AI 能复述原话）
   const userInputs = {};
   for (const e of echoEntries) {
     userInputs[e.pageId] = { question: e.question, answer: e.answer };
@@ -76,14 +71,24 @@ function buildPayload(dayData, state, echoEntries) {
   };
 }
 
+function colorOf(stageId) {
+  return { 1:"#F09866", 2:"#E5B14B", 3:"#7BBE7E", 4:"#7AA8D6" }[stageId] || "#B26A2E";
+}
+function tintOf(stageId) {
+  return { 1:"#FBE3D1", 2:"#F6E5B6", 3:"#D8EDD9", 4:"#D5E5F0" }[stageId] || "#F0E6D6";
+}
+
 function renderHero(dayData) {
   const stage = dayData.stage || {};
-  const stageColor = stage.color || "var(--accent)";
-  const stageTint = stage.bgColor || "var(--bg-soft)";
+  const meta = window.XINGFU?.getDayMeta(dayData.day);
+  const stageId = meta?.stage?.id ?? stage.stageNumber ?? 1;
+  const stageColor = colorOf(stageId);
+  const stageTint = tintOf(stageId);
+
   document.getElementById("hero-root").innerHTML = `
-    <div class="report-hero" style="--hero-tint:${stageTint}; --hero-accent:${stageColor};">
+    <div class="report-hero reveal" data-delay="1" style="--hero-tint:${stageTint}; --hero-accent:${stageColor};">
       <div class="report-hero-spark">✦</div>
-      <div class="report-hero-eyebrow">DAY ${String(dayData.day).padStart(2, "0")} · ${escapeHtml(stage.name || "")}</div>
+      <div class="report-hero-eyebrow">DAY ${String(dayData.day).padStart(2, "0")} · ${escapeHtml(stage.name || meta?.stage?.name || "")}</div>
       <h1 class="report-hero-title">${escapeHtml(dayData.theme)}</h1>
       <div class="report-hero-coreline">「${escapeHtml(dayData.coreLine || "")}」</div>
     </div>
@@ -92,26 +97,20 @@ function renderHero(dayData) {
 
 function renderEcho(entries) {
   const root = document.getElementById("echo-root");
-  if (!entries.length) {
-    root.innerHTML = "";
-    return;
-  }
-  // 只挑 3-4 条最有质感的回答展示，优先 text 类型，其次 scale，其余按顺序补
+  if (!entries.length) { root.innerHTML = ""; return; }
   const text = entries.filter(e => e.type === "text");
   const scale = entries.filter(e => e.type === "scale");
   const others = entries.filter(e => e.type !== "text" && e.type !== "scale");
   const picks = [...text, ...scale, ...others].slice(0, 4);
-
   const itemsHtml = picks.map(e => `
     <li class="echo-item">
       <div class="echo-q">${escapeHtml((e.question || "").slice(0, 80))}${(e.question || "").length > 80 ? "…" : ""}</div>
       <div class="echo-a">${escapeHtml(e.answer)}</div>
     </li>
   `).join("");
-
   root.innerHTML = `
-    <div class="card echo-card">
-      <div class="echo-eyebrow">你今天写下来的</div>
+    <div class="card echo-card reveal" data-delay="2">
+      <div class="echo-eyebrow">what you wrote today</div>
       <ul class="echo-list">${itemsHtml}</ul>
     </div>
   `;
@@ -119,12 +118,12 @@ function renderEcho(entries) {
 
 function renderActions() {
   document.getElementById("actions-root").innerHTML = `
-    <button class="btn-primary" id="home-btn">回到首页</button>
-    <button class="btn-secondary" id="reports-btn">看历史报告</button>
-    <button class="btn-ghost" id="regen-btn">重新生成</button>
+    <div class="btn-stack reveal" data-delay="2">
+      <a class="btn-primary" href="index.html">回 到 首 页</a>
+      <a class="btn-secondary" href="reports.html">看 历 史 报 告</a>
+      <button class="btn-ghost" id="regen-btn" type="button">重 新 生 成</button>
+    </div>
   `;
-  document.getElementById("home-btn").onclick = () => location.href = "index.html";
-  document.getElementById("reports-btn").onclick = () => location.href = "reports.html";
   document.getElementById("regen-btn").onclick = () => {
     if (!confirm("重新让 AI 生成一份新的报告？")) return;
     localStorage.removeItem(REPORT_KEY);
@@ -147,7 +146,6 @@ async function start() {
   const echoEntries = buildEchoEntries(dayData, state);
   renderEcho(echoEntries);
 
-  // 缓存：如果已有报告，直接展示
   const cached = localStorage.getItem(REPORT_KEY);
   if (cached) {
     renderReport(cached);
@@ -163,12 +161,10 @@ async function start() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload)
     });
-
     if (!res.ok) {
       const text = await res.text();
       throw new Error(`服务返回 ${res.status}：${text.slice(0, 100)}`);
     }
-
     await streamReport(res, dayData);
   } catch (e) {
     showError(`生成失败：${e.message}\n\n请确认 api-proxy 已启动（在 api-proxy/ 目录下跑 npm install && npm start）。`);
@@ -182,7 +178,7 @@ async function streamReport(res, dayData) {
   let fullText = "";
 
   document.getElementById("report-root").innerHTML = `
-    <div class="card report-card">
+    <div class="card report-card reveal" data-delay="3">
       <div class="report-body" id="report-stream"></div>
     </div>
   `;
@@ -192,7 +188,6 @@ async function streamReport(res, dayData) {
     const { done, value } = await reader.read();
     if (done) break;
     buffer += decoder.decode(value, { stream: true });
-
     const lines = buffer.split("\n");
     buffer = lines.pop() || "";
 
@@ -241,8 +236,8 @@ function showError(msg) {
   document.getElementById("echo-root").innerHTML = "";
   document.getElementById("report-root").innerHTML = `
     <div class="card">
-      <p style="color: var(--wrong); margin: 0 0 12px 0; white-space: pre-line;">😔 ${escapeHtml(msg)}</p>
-      <a href="day.html?day=${dayNum}" class="btn-primary" style="text-decoration: none; text-align: center; display: block;">回到今日卡片</a>
+      <p style="color: var(--wrong); margin: 0 0 16px 0; white-space: pre-line; font-size:14px; line-height:1.8;">${escapeHtml(msg)}</p>
+      <a href="day.html?day=${dayNum}" class="btn-primary" style="display:flex;">回 到 今 日 卡 片</a>
     </div>
   `;
 }

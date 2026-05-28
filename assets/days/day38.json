@@ -1,0 +1,564 @@
+{
+  "day": 38,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "写一封感恩信",
+  "coreLine": "一封信能开心好几周，但 99% 的人没写过",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入练习篇第 4 天。\n\n昨天 Day37 我们讲了「每天 3 件好事」。今天讲另一招重武器。\n\n它叫「感恩拜访」。\n\n具体做法：\n\n1. 想一个你心里一直感激但从没认真感谢过的人（小学班主任 / 第一份工作给你机会的人 / 一个关键时刻拉你一把的朋友 / 你父母 / 你的伴侣）\n2. 给他 / 她写一封约 300 字的感谢信，**具体写他做了什么 + 对你有什么影响**\n3. **如果可能，当面读给他 / 她听**（如果不能，发出去就行）\n\n听起来很矫情？\n\nSeligman 2005 年那篇实验里，这一招在**所有 5 组干预里效应最强**（短期）：\n\n- 写完 + 当面读完后 1 个月内，主观幸福感大幅上升\n- 抑郁分数大幅下降\n- 跟另外 4 组干预相比，**1 个月内的爽度是最高的**\n\n代价：1 封信，1 小时。\n\n回报：你跟收信人的关系会立刻升级。你自己的状态会显著上行。对方的反应大概率会让你这辈子记得。\n\n今天我们把它讲清楚。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "听到「给一个人写一封感恩信 + 当面读」，你的第一反应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "听起来太矫情，做不到",
+          "feedback": "矫情』是中国成年人对真实情感表达最常见的防御。今天的内容会让你看到这一招的真正威力。"
+        },
+        {
+          "id": "opt2",
+          "label": "想做但不知道写给谁",
+          "feedback": "典型水平。今天会给你 5 类候选人 + 选择标准。"
+        },
+        {
+          "id": "opt3",
+          "label": "想做但不敢当面读",
+          "feedback": "当面读确实是这一招效应最强的版本。如果实在不能，邮件 / 信也有 80% 效果。"
+        },
+        {
+          "id": "opt4",
+          "label": "有意思，愿意试",
+          "feedback": "极好。今天会给你具体写作模板。"
+        },
+        {
+          "id": "opt5",
+          "label": "我已经做过类似的事",
+          "feedback": "极佳。你已经在用 PERMA 里最重的工具之一。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「我心里一直感激但从没认真说过『谢谢』的人是 ____。」**\n\n可以写 1-3 个。",
+      "placeholder": "例如：「我小学六年级的语文班主任，她让我开始喜欢读书」「我第一份工作的师傅，他在我出大错时替我扛了」「我妈，她做的事我从来没认真感谢过」「大学时一个朋友，他在我崩溃那夜陪了我一晚」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Seligman 2005 年实验里感恩拜访的具体协议是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "在心里默默感激一下",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "写一封约 300 字的具体感谢信 + 给一个从没认真感谢过的人 + 如果可能当面读给对方听",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "发一条朋友圈",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "给对方发个红包",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "感恩拜访的效应包含下面哪些？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "写完 + 读完 1 个月内主观幸福感大幅上升（5 组干预里最强短期效应）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "抑郁分数大幅下降",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "跟收信人的关系往往立刻升级",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "6 个月后效果仍跟「每天 3 件好事」一样持续",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ],
+      "allCorrectFeedback": "答对了。前三条是感恩拜访的真实效应。第四条不对。它是 1 个月强效 + 3 个月回落，跟『每天 3 件好事』6 个月持续不一样。"
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Toepfer 2008 后续研究证明：即使把『当面读』换成『通过邮件 / 信发出去』，感恩信仍然有约 80% 的效果（短期幸福感上升 + 抑郁下降）。这意味着如果你真的不能当面读（地理距离 / 关系破裂 / 对方已不在），写出来 + 发出去仍然非常值得。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪种内容**最不像**合格的感恩信内容？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "「您 2015 年高一时把我留下补课那 3 个月，让我真正学会了怎么思考」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「妈，过去 20 年你每天 5:30 起床给我做早餐，我从来没认真感谢过你」",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "「你那次借给我 5000 块让我撑过去毕业那个月，我一直记得」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "「感谢一切，世界很美好，万事如意」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "中国家庭 / 文化里有一个被普遍接受的「应该不说」：\n\n- 父母对孩子的好是「应该的」\n- 老师 / 师傅 / 朋友的关键帮助过去就过去了\n- 真情实感的「谢谢」显得「矫情」「尴尬」\n- 跟父母说「我爱你」等中年再说\n\n后果是什么？\n\n**你心里其实有一长串「想说但从没说过」的感激。**\n\n这些没说出来的感激在心里堆积，会导致 2 件事：\n\n1. **跟那个人的关系停在表面**（一直没真正连接过的那 1-2 层情绪没说出）\n2. **你自己心里「未完成感」积累**（「我应该告诉他」加上「可能再没机会了」的隐隐担心）\n\n感恩拜访的真正威力，给收信人是一部分，更大的一部分是给你自己：\n\n- 把「心里堆积」翻译成「具体的话」\n- 让那个被感激的人**真的知道**\n- 你自己心里的「未完成感」被清空一块\n\n特别是给父母 / 长辈写。中国父母 95% 这辈子没听过孩子认真说一句「谢谢你」。\n\n你的一封信可能让他们的整个晚年都感觉不一样。\n\n而你只花 1 小时。\n\n注意 2 个常见误区：\n\n**误区 1**：以为「必须感激大事」。其实「你那次借我 5000 块」「你那 3 个月留下补课」这种具体小事最有力量。\n\n**误区 2**：以为「必须当面读才有效」。Toepfer 2008 证明发出去也有 80% 效果。地理远 / 关系尴尬 / 对方不在，**邮件 / 信 / 微信都行**。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**你想给某个特定的人写感恩信但一直没动的可能性自评（0 完全没这种感觉，10 心里有名单只是没写）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0–2 分（心里没这种名单）",
+        "3–4 分（隐约有 1 个但没具体想过）",
+        "5–6 分（有 1-2 个具体的人）",
+        "7–8 分（有清晰名单 + 想过要写）",
+        "9–10 分（清楚知道要写给谁 + 内容）"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小李最想给他小学六年级的语文老师写感恩信，但老师已经退休 + 在外地。他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "放弃",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "想办法找到老师的联系方式（同学群 / 母校）+ 写完信邮寄 / 微信发过去。Toepfer 2008 证明邮件发也有 80% 效果。退休的老师收到这封信的反应可能让她整个晚年不一样",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "在心里默念感激",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "等老师去世后扫墓时再说",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "回想 p3 你写下的候选名单，挑 1 个你最想动手写但又最不敢动的，那是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "父母 / 长辈类",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "老师 / 师傅类",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "朋友 / 同学类",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "伴侣 / 子女类",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "已经联系不上的人",
+          "feedback": ""
+        },
+        {
+          "id": "opt6",
+          "label": "我候选名单不清晰",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是合格感恩信的核心要素？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "写具体的人 + 具体的事（避免「感激一切」这种空话）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "写对方做了什么 + 对你有什么具体影响",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "长度建议 300 字左右（不必长篇大论）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "必须很正式 + 用文言文",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「感恩拜访的效果对『写信人』和『收信人』是双向的。研究反复证明：写信人短期幸福感大幅上升 + 抑郁下降。收信人收到信后情绪受影响 + 关系满意度上升。这是一次行动撬动 2 个人 PERMA 的高性价比工具。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：本周写 1 封感恩信",
+      "next": "p16",
+      "buttonText": "我去想",
+      "type": "content",
+      "body": "今天的微行动 5 分钟（写信本身需 30-60 分钟，今天先做计划）。\n\n**Step 1**：从 p3 你写的候选名单里挑 1 个。\n\n挑选标准：\n\n- 你心里感激\n- 你从没认真感谢过\n- 你能联系到（在哪都行）\n\n**Step 2**：今天写下来「我打算 ____（什么时间）写给 ____（谁）」。\n\n**Step 3**：本周内（最好 3 天内）找一个不被打扰的 30-60 分钟，写信。\n\n**写信模板（约 300 字）**：\n\n```\n亲爱的 ____：\n\n【段 1】点明这封信的来意（「我一直想跟你说一件事但从没说过……」）。\n\n【段 2】具体写他做了什么（具体到事件 / 时间 / 细节，避免泛泛而谈）。\n例如：「2015 年我高一那年成绩一塌糊涂，你把我留下来补了 3 个月课……」\n\n【段 3】具体写对你有什么影响（具体到你后来的某个变化 / 某个决定 / 某种能力）。\n例如：「那 3 个月里你没批评我一句，只是反复跟我说『慢慢来』。我后来学会怎么对待自己的失败，这一句『慢慢来』我用到现在。」\n\n【段 4】具体的感谢（避免只说「谢谢你」，要说「谢谢你那 3 个月每天放学多陪我 1 小时」）。\n\n【段 5】简短收尾。\n```\n\n**Step 4**：写完后决定怎么交付：\n\n- 当面读（最强效）\n- 视频读（次强）\n- 邮件 / 信 / 微信（弱一些但仍有 80% 效果）\n\n地理远 / 关系尴尬 / 对方不在 → 邮件 / 信发出去就行。"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你打算怎么交付这封信？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "当面读",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "视频通话读",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "邮件 / 微信发",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "寄纸质信",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "还没决定",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天的微行动最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你显得有礼貌",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 1 封具体感恩信，撬动写信人 1 个月强效幸福感上升 + 收信人情绪受益 + 关系升级，是高性价比双向 PERMA 工具",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "让对方欠你",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "你身边有没有人收到过这类「真情实感感恩信」？他们当时的反应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "哭了 / 红了眼 / 长时间说不出话",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "笑得停不下来 + 反复读",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "跟你说「这辈子最幸福的瞬间之一」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没见过这种事",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么真的把信写出来 + 发出去",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清「卡在哪 + 怎么破」。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李想给爸写感恩信，但他跟爸的关系一直比较僵，怕「矫情」。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "算了不写",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "写出来 + 通过邮件 / 微信发给爸，不必当面读。Toepfer 2008 证明邮件有 80% 效果。中国式父子关系最缺的就是这类真情实感的具体感谢。「矫情」是文化训练出来的防御，跟真实需求反着来",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "跟爸吵一架",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "等爸去世后再说",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张想给一个 10 年没联系的高中老师写信，但她不知道现在能不能找到老师。\n\n按今天讲的，她可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "放弃",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "在同学群 / 母校官网 / 领英找老师当前联系方式，写完信邮寄 / 邮件 / 微信发过去。这种「10 年后突然来信」对老师而言是会被记一辈子的事",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "等遇到了再说",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "写完信塞抽屉",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周想给已经过世的爷爷写信。\n\n按今天讲的，他可以？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "已经晚了，没意义",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "写出来仍然非常有意义。「未完成感」是 PERMA 里被低估的负重，把它通过书写翻译成具体的话能显著疏解 + 让用户跟过世亲人的内在关系完成「告别」。可以写完后存档 / 烧给爷爷 / 朗读给家人",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "算了",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "找算命的代写",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "感恩拜访是 Seligman 2005 年那篇实验 5 组里短期效应最强的（1 个月内幸福感大幅上升）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "标准做法：约 300 字具体信 + 写对方做了什么 + 对你有什么影响 + 如果可能当面读",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Toepfer 2008：邮件 / 信发出去仍有约 80% 效果",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "这件事只对写信人有效，对收信人没什么影响",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ]
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你的「本周感恩信计划」：\n\n**「我打算给 ____（具体的人）写一封 300 字感恩信。我会 ____（什么时间）动笔。我打算通过 ____（当面 / 视频 / 邮件 / 信）交付。」**",
+      "placeholder": "例如：「我打算给我小学六年级的语文老师写。我会本周六下午 2-3 点动笔。我打算先在同学群问到联系方式，然后通过邮件发过去。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 38 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天你最该带走的，就一句话：\n\n> **一封信能开心好几周，但 99% 的人没写过。**\n\n请记得三件事：\n\n1. **Seligman 2005**：5 组干预里感恩拜访短期效应最强（1 个月幸福感大幅上升）\n2. **核心写法**：约 300 字具体信 + 对方做了什么 + 对你的具体影响\n3. **当面读最强，邮件 / 信发也有 80% 效果**（Toepfer 2008）\n\n明天练习篇 Day 5：\n\n**Day39：慢下来品一品（品味 / Bryant & Veroff 2007）。**\n\n明天见。"
+    }
+  ]
+}

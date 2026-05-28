@@ -1,0 +1,561 @@
+{
+  "day": 35,
+  "stage": {
+    "name": "练习篇",
+    "stageNumber": 3,
+    "color": "#7BBE7E",
+    "bgColor": "#D8EDD9"
+  },
+  "theme": "允许自己难受",
+  "coreLine": "情绪是要承认的，不是要消灭的",
+  "totalPages": 25,
+  "pages": [
+    {
+      "id": "p1",
+      "next": "p2",
+      "buttonText": "开始今天",
+      "type": "content",
+      "body": "欢迎进入第三阶段。\n\n前 34 天花了很多时间讲幸福是什么、从哪来。这一块认知打底是必要的。\n\n但所有这些「知」，如果没翻译成日常的「做」，对你生活的影响接近零。\n\n接下来 27 天，把前面 34 天的核心知识翻译成每天能动手做的练习。\n\n第一站要先讲一件反直觉的事：\n\n**允许自己难受。**\n\n听起来矛盾。\n\n我们要追求幸福，怎么第一站讲允许难受？\n\n因为多数中国成年人在情绪上踩得最深的坑，就是：\n\n**一难受立刻想把它消灭掉**。刷手机、喝酒、吃东西、装作没事、责备自己「怎么又这样」、强行积极。\n\nWegner 1987 年那个经典实验早就把结论摆在那：越想「不去想」，越想得猛。情绪也一样。越想压下去，越压不住，反弹来得越凶。\n\n破局的办法是反向操作：**承认它在 + 不立刻消灭它 + 让它待一会儿**。\n\n听起来像什么都没做，但这恰恰是 Hayes 那套接纳与承诺疗法的底层逻辑，也是过去 30 年最有效的情绪干预方法之一。\n\n今天把「允许难受」讲清楚，让你从明天开始手里有一个真正能用的情绪急救工具。"
+    },
+    {
+      "id": "p2",
+      "next": "p3",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "心里有负面情绪（焦虑、烦躁、难过、委屈）的时候，你的本能反应是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "立刻刷手机、刷短视频转移注意力",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "吃东西、喝酒、抽烟麻痹",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "跟自己说「别想了 / 别这样 / 我应该 ____」",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "装作没事，正常上班、正常跟人说话",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "承认它在，让自己感受一会儿",
+          "feedback": "你已经在用接纳与承诺疗法的核心动作了。今天的内容是把它结构化。"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "next": "p4",
+      "type": "text",
+      "category": "awareness",
+      "question": "凭直觉写下来：\n\n**「过去 1 周里，让我难受过 1 小时以上的一件事是 ____。我当时的反应是 ____。」**",
+      "placeholder": "例如：「上周三被领导当众批评，我憋了一整天没说话，回家瘫在床上刷了 3 小时短视频」「跟老婆吵了一架，我硬撑着没认错，结果晚上一个人哭」「一个项目搞砸，我灌了半瓶威士忌」「想不起来，最近没什么特别让我难受的」……",
+      "required": true
+    },
+    {
+      "id": "p4",
+      "title": "📖 今日完整阅读",
+      "next": "p5",
+      "buttonText": "读完了，开始做题",
+      "type": "content"
+    },
+    {
+      "id": "p5",
+      "next": "p6",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "Wegner 1987 那个著名的白熊实验，核心发现是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "越想「别想白熊」，越会反复想到白熊（思维抑制反弹）",
+          "feedback": "答对了。这是认知心理学最经典的反弹实验。压抑思维反而强化它。情绪也一样。"
+        },
+        {
+          "id": "opt2",
+          "label": "想白熊会让人变聪明",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "白熊会让人难过",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "这是个虚构实验",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt1"
+    },
+    {
+      "id": "p6",
+      "next": "p7",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "Hayes 接纳与承诺疗法里的核心动作「接纳」，包含哪些含义？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "承认情绪正在发生（不否认、不装作没事）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "不强行消灭它、不立刻刷手机麻痹",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "给情绪一个「待一会儿」的空间，观察它，不被它带走",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "跟情绪较劲，证明「我能压住它」",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ],
+      "allCorrectFeedback": "答对了。这三条合起来才是接纳的全貌。跟情绪较劲恰好跟接纳反着来。"
+    },
+    {
+      "id": "p7",
+      "next": "p8",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「Kashdan 与 Biswas-Diener 2014 在《你内心黑暗面的好处》里讲过：消极情绪（焦虑、愤怒、悲伤、嫉妒）不是要被消灭的毒，它们有具体的进化功能。焦虑提示风险，愤怒标记边界，悲伤促使整合，嫉妒揭示你在乎什么。健康的状态是允许 + 倾听，同时不被它完全带走。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p8",
+      "next": "p9",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "下面哪种状态**最不像**接纳与承诺疗法说的「接纳情绪」？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "我现在很烦，我承认这个烦在",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "我让这个烦待一会儿，不立刻去刷手机",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "我观察这个烦，看它的具体感受是什么（胸口、喉咙、眉头哪里有紧）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我必须立刻让这个烦消失，否则今天就毁了",
+          "feedback": "答对了。『必须立刻消失』是对情绪开战的姿态，跟接纳反着来。"
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt4"
+    },
+    {
+      "id": "p9",
+      "title": "💡 它和你有什么关系",
+      "next": "p10",
+      "buttonText": "明白了",
+      "type": "content",
+      "body": "中国成年人处理情绪有 4 种常见方式，全都跟接纳反着来：\n\n**1. 转移注意力（刷手机、刷短视频、看综艺）**\n情绪暂时被压下去，但其实没消化掉，等着机会反弹。\n\n**2. 麻痹（喝酒、吃东西、抽烟）**\n短期效果跟第 1 种类似，长期对身体有害。\n\n**3. 压抑（「别想了」「别这样」「我应该坚强」）**\nWegner 白熊实验直接证明，压抑会让反弹更猛。\n\n**4. 装作没事（继续上班、继续跟家人说话、强行积极）**\n情绪积在身体里，慢慢变成慢性疲倦、失眠、莫名烦躁。\n\n这 4 种合起来就是中国式硬扛。表面看很坚强，实际上情绪垃圾在身体里堆成山。\n\n破局其实简单：**承认 + 给空间 + 不立刻消灭**。\n\n具体动作 5 分钟：\n\n1. 发现自己有负面情绪时，**先停一下**\n2. **承认**：「我现在很 ____（烦 / 难过 / 焦虑）」\n3. **观察身体**：胸口紧吗？喉咙堵吗？眉头紧吗？哪里有具体感受？\n4. **不立刻消灭它**，给它 5 分钟空间，看它怎么变\n5. **该做的事还是做**（情绪不耽误做事，前提是你不跟它对抗）\n\n5 分钟之后，多数情绪会自然变弱。它不会消失，但它会过去。\n\n这就是一个真实能上手的情绪急救工具。"
+    },
+    {
+      "id": "p10",
+      "next": "p11",
+      "type": "scale",
+      "category": "awareness",
+      "question": "**给你目前对自己负面情绪的接纳程度打个分（0 立刻消灭 / 转移 / 麻痹，10 完全允许 + 给空间）：**",
+      "min": 1,
+      "max": 5,
+      "labels": [
+        "0–2 分（一难受立刻做 4 种反应之一）",
+        "3–4 分（偶尔能停一下，多数还是转移）",
+        "5–6 分（一半接纳一半压抑）",
+        "7–8 分（多数情况能接纳）",
+        "9–10 分（几乎全接纳）"
+      ]
+    },
+    {
+      "id": "p11",
+      "next": "p12",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "小李被领导当众批评，回到工位非常愤怒。按今天讲的，他最有效的应对是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "立刻反驳领导",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "停 2 分钟，承认「我现在很愤怒」，观察身体哪里紧，让愤怒待 5-10 分钟，然后冷静决定要不要回应、怎么回应。这是接纳 + 不被情绪驱动行动的标准流程",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "装作没事继续工作，但晚上喝大酒",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "跟同事吐槽 1 小时",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p12",
+      "next": "p13",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "回想你最近一次硬扛过的负面情绪，硬扛之后付出了什么代价？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "当晚失眠、多梦",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "第二天情绪低落、烦躁",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "莫名找家人 / 同事的小事吵架",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "身体某处不舒服（胃、头、背）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "没什么代价",
+          "feedback": "没代价通常意味着你已经麻木到识别不出那些代价了。可以问问家人、伴侣最近你有没有反常。"
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "next": "p14",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "下面哪些是「健康的情绪接纳」的特征？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "你能给情绪命名（「我现在很 ____」），不会说「我没事」",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "你愿意让情绪在身体里待一会儿，不会立刻消灭它",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "你接纳情绪存在，同时该做的事照做（情绪不阻挡行动）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "你被情绪完全带走，24 小时沉浸在情绪里",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ],
+      "allCorrectFeedback": "答对了。接纳 ≠ 被淹没。接纳是给情绪空间，人照样能正常生活。"
+    },
+    {
+      "id": "p14",
+      "next": "p15",
+      "type": "true_false",
+      "category": "knowledge",
+      "statement": "「接纳负面情绪 ≠ 喜欢它们 ≠ 被它们打败。接纳的本质是『不消耗能量跟情绪对抗』，把那部分能量留给真正重要的行动（跟价值观对齐的事）。这就是接纳与承诺疗法名字里的两件事：接纳情绪 + 承诺价值观行动。」这句话对吗？",
+      "mustCorrect": true,
+      "correctAnswer": true
+    },
+    {
+      "id": "p15",
+      "title": "🎯 今日任务：5 分钟「下次难受时的接纳 SOP」",
+      "next": "p16",
+      "buttonText": "我去做",
+      "type": "content",
+      "body": "今天的微行动 5 分钟。\n\n写下来你接下来 1 周内的情绪急救 SOP，5 步：\n\n**Step 1（识别）**：发现自己有负面情绪时，**先停 30 秒**，不立刻做任何反应（不刷手机、不喝酒、不开口）。\n\n**Step 2（命名）**：跟自己说「我现在很 ____（烦 / 难过 / 焦虑 / 委屈 / 愤怒）」。命名本身就有 50% 的疏导效果（Day12 已经讲过「给它起个名就能驯服它」）。\n\n**Step 3（观察身体）**：扫一下身体：胸口紧吗？喉咙堵吗？眉头紧吗？哪里有具体感受？\n\n**Step 4（给空间）**：让这个情绪在身体里待 5-10 分钟，不试图立刻消灭它。该做事照样做事。\n\n**Step 5（再决策）**：5-10 分钟后情绪通常会变弱。再决定要不要做对应行动（道歉、表达、沟通），而不是被情绪驱动立刻行动。\n\n把这 5 步写下来，存进手机备忘录、印到一张小卡上、或者设成手机锁屏。\n\n**下次难受时按这 5 步走 1 遍。**"
+    },
+    {
+      "id": "p16",
+      "next": "p17",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "5 步里你预感最容易卡的是哪步？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Step 1 停 30 秒（习惯性立刻刷手机）",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "Step 2 命名（不知道怎么描述这个情绪）",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "Step 3 观察身体（注意不到身体感受）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "Step 4 给空间 5-10 分钟（受不了那种「在那里」的感觉）",
+          "feedback": ""
+        },
+        {
+          "id": "opt5",
+          "label": "Step 5 再决策（5 分钟之后还是想立刻反应）",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "next": "p18",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "今天这个微行动，最核心的作用是：",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "让你永远不难受",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "用 5 步 SOP 替代你之前的 4 种压抑 / 麻痹反应，让情绪有空间消化，不在身体里堆积",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "完成今天的打卡",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "显得你成熟",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p18",
+      "next": "p19",
+      "type": "single_choice",
+      "category": "awareness",
+      "question": "观察身边那些看起来稳、心态好的人，他们对负面情绪的处理最像哪种？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "他们承认负面情绪存在，但不被它完全带走",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "他们能给情绪命名，说话有「我现在挺难过的」这种句式",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "他们不刻意消灭情绪，但也不沉浸",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "我没观察过",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "⚔️ 场景模拟：怎么用接纳替代压抑",
+      "next": "p20",
+      "buttonText": "开始挑战",
+      "type": "content",
+      "body": "下面三个场景，帮你看清接纳在实际生活里怎么做。"
+    },
+    {
+      "id": "p20",
+      "next": "p21",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景一】小李被领导临时加了一个不合理的任务，他非常愤怒。\n\n按今天讲的，最有效的应对是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "立刻顶回去",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "停 30 秒承认「我很愤怒」，观察身体（胸口紧 / 喉咙堵），让愤怒待 5-10 分钟，然后冷静评估到底是不是真不合理、怎么沟通最有效",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "装作没事接下来加班到深夜",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "跟同事吐槽 2 小时",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p21",
+      "next": "p22",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景二】小张跟老公吵了一架，她非常委屈，但她想「我不能哭，要坚强」。\n\n按今天讲的，她踩的核心坑是？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "她确实应该坚强",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "「不能哭」 = 思维抑制，会让委屈反弹更凶。健康做法是承认「我现在很委屈」，让自己哭一下给情绪一个出口，第二天再冷静沟通。Hayes 反复证明，压抑情绪反而妨碍解决问题",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "她应该立刻提离婚",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "她应该一直哭 1 周",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p22",
+      "next": "p23",
+      "type": "single_choice",
+      "category": "knowledge",
+      "question": "【场景三】小周说「我心里其实很难过，但工作还得继续，所以我装作没事」。\n\n按今天讲的，他可以怎么调整？",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "接受现实，继续装",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "在工作场景里继续做事（这是承诺那一半），同时在私下时段（早晨、通勤、晚上）给自己 10-30 分钟承认 + 命名 + 给情绪空间。两件事可以同时做：工作继续 + 情绪有空间",
+          "feedback": "答对了。接纳 + 承诺可以同时做。情绪有出口 + 工作不耽误，是接纳与承诺疗法最实用的姿态。"
+        },
+        {
+          "id": "opt3",
+          "label": "立刻请假 1 周",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "跟所有同事讲他的难过",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswer": "opt2"
+    },
+    {
+      "id": "p23",
+      "next": "p24",
+      "type": "multiple_choice",
+      "category": "knowledge",
+      "question": "把今天讲的串起来，下面哪些说法是对的？（多选）",
+      "options": [
+        {
+          "id": "opt1",
+          "label": "Wegner 1987 白熊实验：压抑思维会让它反弹更猛，情绪同理",
+          "feedback": ""
+        },
+        {
+          "id": "opt2",
+          "label": "接纳的 3 个动作：承认 + 不消灭 + 给空间",
+          "feedback": ""
+        },
+        {
+          "id": "opt3",
+          "label": "消极情绪有具体的进化功能，不是要被消灭的毒（Kashdan 2014）",
+          "feedback": ""
+        },
+        {
+          "id": "opt4",
+          "label": "一难受立刻刷手机、喝酒是健康的应对方式",
+          "feedback": ""
+        }
+      ],
+      "mustCorrect": true,
+      "correctAnswers": [
+        "opt1, opt2, opt3"
+      ],
+      "allCorrectFeedback": "答对了。前三条是今天最该带走的，第四条是要拆掉的硬扛惯性。"
+    },
+    {
+      "id": "p24",
+      "next": "p25",
+      "type": "text",
+      "category": "awareness",
+      "question": "按 p15 教的方法，写下你的「接纳 SOP 5 步」：\n\n**「下次我感觉负面情绪时：1. 我会先停 ____ 秒；2. 我会跟自己说『我现在很 ____』；3. 我会扫身体注意 ____；4. 我会让情绪待 ____ 分钟；5. 之后我会冷静决定 ____。」**",
+      "placeholder": "例如：「下次我感觉负面情绪时：1. 先停 30 秒；2. 跟自己说『我现在很烦躁』；3. 扫身体注意胸口紧 / 喉咙堵；4. 让烦躁待 10 分钟，期间该做的事继续做；5. 之后冷静决定要不要回应、怎么回应。」……",
+      "required": true
+    },
+    {
+      "id": "p25",
+      "title": "练习篇 · Day 1 收官 · 今日认知总结",
+      "buttonText": "完成今天",
+      "type": "content",
+      "body": "今天最该带走的，就一句话：\n\n> **情绪不是要解决的，是要承认的。**\n\n记住三件事：\n\n1. **Wegner 1987 白熊**：压抑思维会让它反弹更猛，情绪同理\n2. **接纳的 3 个动作**：承认 + 不消灭 + 给空间\n3. **接纳 + 承诺可以同时做**：情绪有出口 + 工作不耽误\n\n明天练习篇 Day 2：\n\n**Day36：感恩为何管用（神经层面的「重新对焦」机制 + Emmons 2003）。**\n\n明天见。"
+    }
+  ]
+}

@@ -2,10 +2,10 @@
 // 单一数据源：catalog / home / map / pathmap 都从这里读
 
 const STAGES = [
-  { id: 1, name: "觉察篇",  range: [1, 13],  color: "#C9854A", tint: "#F4E6D0", subtitle: "先把「幸福是什么」搞清楚" },
-  { id: 2, name: "探索篇",  range: [14, 34], color: "#BFA158", tint: "#EFE7C8", subtitle: "幸福有好多种，别只盯着一种" },
-  { id: 3, name: "练习篇",  range: [35, 61], color: "#8AA56E", tint: "#DDE5CC", subtitle: "动手把幸福练出来" },
-  { id: 4, name: "内化篇",  range: [62, 71], color: "#7A8FA6", tint: "#CFD6E0", subtitle: "把幸福沉淀成习惯" }
+  { id: 1, name: "觉察篇",  range: [1, 13],  color: "#F09866", tint: "#FBE3D1", subtitle: "先把「幸福是什么」搞清楚" },
+  { id: 2, name: "探索篇",  range: [14, 34], color: "#E5B14B", tint: "#F6E5B6", subtitle: "幸福有好多种，别只盯着一种" },
+  { id: 3, name: "练习篇",  range: [35, 61], color: "#7BBE7E", tint: "#D8EDD9", subtitle: "动手把幸福练出来" },
+  { id: 4, name: "内化篇",  range: [62, 71], color: "#7AA8D6", tint: "#D5E5F0", subtitle: "把幸福沉淀成习惯" }
 ];
 
 const CURRICULUM = [
@@ -91,7 +91,7 @@ const ONBOARDING_DAY = {
 };
 
 // 当前已上线（有 day*.json）的天数。Day 0 是入门必经
-const AVAILABLE_DAYS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26];
+const AVAILABLE_DAYS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71];
 
 function getStageForDay(day) {
   if (day === 0) return ONBOARDING_DAY.stage;

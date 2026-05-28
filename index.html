@@ -5,50 +5,49 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-<meta name="theme-color" content="#FAF6EE" />
+<meta name="theme-color" content="#FBF6E9" />
 <title>幸福计划</title>
-<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="assets/immersive.css" />
 </head>
 <body>
-<div class="app-container landing-app">
 
-  <header class="landing-top">
-    <button class="home-icon-btn" aria-label="设置" id="settings-btn">⚙</button>
-    <div class="landing-top-spacer"></div>
-    <a class="home-icon-btn" aria-label="重看介绍" href="onboarding.html?force=1">ℹ</a>
-    <a class="home-icon-btn" aria-label="我的日记本" href="journal.html">✎</a>
-    <a class="home-icon-btn" aria-label="我的报告" href="reports.html">📓</a>
-    <a class="home-icon-btn" aria-label="完整路径地图" href="map.html">⌖</a>
-  </header>
+<div class="paper-bg"></div>
+<div class="paper-light"></div>
+<div class="paper-light-2"></div>
+<div class="paper-vignette"></div>
 
-  <section class="landing-brand">
-    <div class="landing-mark"><div class="landing-orb"></div><span class="landing-spark">✦</span></div>
-    <div class="landing-eyebrow">71 days</div>
-    <h1 class="landing-title">幸福计划</h1>
-    <p class="landing-subtitle">把幸福从一种运气，<br/>变成一种能练出来的本事。</p>
-  </section>
+<div class="imm-home" id="home-root"></div>
 
-  <section class="landing-today" id="landing-today">
-    <!-- 动态：当前 Day 摘要 -->
-  </section>
-
-  <section class="landing-cta-stack">
-    <a class="btn-primary" id="cta-primary" href="#">开始今天</a>
-    <a class="btn-secondary" href="catalog.html">看完整目录</a>
-  </section>
-
-  <section class="landing-meta">
-    <div class="landing-progress">
-      <span>已完成</span>
-      <div class="home-progress-bar"><div class="home-progress-fill" id="progress-fill" style="width: 0%"></div></div>
-      <span class="home-progress-text" id="progress-text">0/71</span>
-    </div>
-  </section>
-
+<div class="imm-bottom-nav">
+  <div class="imm-bottom-nav-inner">
+    <button type="button" class="imm-nav-btn active">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 5 c0-1 6-1 8 1 c2-2 8-2 8-1 v13 c0 1-6 1-8-1 c-2 2-8 2-8 1 V5z" />
+        <path d="M12 6 V19" />
+      </svg>
+      <span>今天</span>
+    </button>
+    <a class="imm-nav-btn" href="catalog.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 6 L9 4 L15 6 L21 4 V18 L15 20 L9 18 L3 20 z" />
+        <path d="M9 4 V18 M15 6 V20" />
+      </svg>
+      <span>目录</span>
+    </a>
+    <a class="imm-nav-btn" href="map.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="6" cy="6" r="2" />
+        <circle cx="18" cy="18" r="2" />
+        <path d="M8 6 H14 a4 4 0 0 1 0 8 H10 a4 4 0 0 0 0 8 H16" />
+      </svg>
+      <span>路径</span>
+    </a>
+  </div>
 </div>
 
 <script src="assets/curriculum.js"></script>
 <script src="assets/redeem.js"></script>
 <script src="assets/home.js"></script>
+
 </body>
 </html>

@@ -4,26 +4,31 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#FBF6E9" />
 <title>今日报告 · 幸福计划</title>
-<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="assets/immersive.css" />
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-<div class="app-container">
 
-  <div class="top-bar">
-    <a href="index.html" class="icon-btn" aria-label="返回">←</a>
-    <div style="flex: 1; text-align: center; font-size: 13px; color: var(--text-muted);">今日报告</div>
-    <span style="width: 40px;"></span>
+<div class="paper-bg"></div>
+<div class="paper-light"></div>
+<div class="paper-light-2"></div>
+<div class="paper-vignette"></div>
+
+<div class="app-shell">
+  <div class="imm-topbar">
+    <a href="index.html" class="imm-icon-btn" aria-label="返回">←</a>
+    <div class="imm-topbar-title" id="report-top">DAY · LETTER</div>
+    <span class="spacer-44"></span>
   </div>
 
   <div id="hero-root"></div>
-
   <div id="echo-root"></div>
 
   <div id="report-root">
     <div class="card">
-      <p style="text-align: center; color: var(--text-secondary); margin: 0 0 16px 0;">教练正在读你今天的练习</p>
+      <p style="text-align: center; color: var(--ink-mute); margin: 0 0 16px 0; font-size: 14px;">教练正在读你今天的练习</p>
       <div style="display: flex; justify-content: center;">
         <div class="loading-dots"><span></span><span></span><span></span></div>
       </div>
@@ -31,11 +36,9 @@
   </div>
 
   <div id="actions-root"></div>
-
-  <div style="height: 40px"></div>
-
 </div>
 
+<script src="assets/curriculum.js"></script>
 <script src="assets/report.js"></script>
 </body>
 </html>

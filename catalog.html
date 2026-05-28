@@ -4,31 +4,71 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#FBF6E9" />
 <title>目录 · 幸福计划</title>
-<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="assets/immersive.css" />
 </head>
 <body>
-<div class="app-container">
 
-  <div class="top-bar">
-    <a href="index.html" class="icon-btn" aria-label="返回">←</a>
-    <div style="flex: 1; text-align: center; font-size: 13px; color: var(--text-muted);">完整目录</div>
-    <a href="map.html" class="icon-btn" aria-label="路径地图">⌖</a>
+<div class="paper-bg"></div>
+<div class="paper-light"></div>
+<div class="paper-light-2"></div>
+<div class="paper-vignette"></div>
+
+<div class="app-shell imm-catalog">
+  <div class="imm-topbar">
+    <a href="index.html" class="imm-icon-btn" aria-label="返回">←</a>
+    <div class="imm-topbar-title-rich">
+      <div class="cn">完 整 目 录</div>
+      <div class="en">71 days · 4 chapters</div>
+    </div>
+    <a href="map.html" class="imm-icon-btn" aria-label="路径地图">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 6 L9 4 L15 6 L21 4 V18 L15 20 L9 18 L3 20 z" />
+        <path d="M9 4 V18 M15 6 V20" />
+      </svg>
+    </a>
   </div>
 
-  <div class="catalog-header">
+  <div class="catalog-header reveal" data-delay="1">
     <h2 class="catalog-title">71 天，4 个阶段</h2>
-    <p class="catalog-subtitle">点开任一阶段，查看每一天的主题。完成的天可以回去看报告。</p>
+    <p class="catalog-subtitle">点开任一阶段，查看每一天的主题。完成的天可以回去看那天的信。</p>
     <div class="catalog-overall">
       <div class="catalog-overall-bar"><div class="catalog-overall-fill" id="overall-fill"></div></div>
-      <div class="catalog-overall-text" id="overall-text">0 / 71 已完成</div>
+      <div class="catalog-overall-text" id="overall-text">0 / 71</div>
     </div>
   </div>
 
   <div id="catalog-root"></div>
 
-  <div style="height: 40px"></div>
+  <div class="bottom-nav-spacer"></div>
+</div>
 
+<div class="imm-bottom-nav">
+  <div class="imm-bottom-nav-inner">
+    <a class="imm-nav-btn" href="index.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 5 c0-1 6-1 8 1 c2-2 8-2 8-1 v13 c0 1-6 1-8-1 c-2 2-8 2-8 1 V5z" />
+        <path d="M12 6 V19" />
+      </svg>
+      <span>今天</span>
+    </a>
+    <button type="button" class="imm-nav-btn active">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 6 L9 4 L15 6 L21 4 V18 L15 20 L9 18 L3 20 z" />
+        <path d="M9 4 V18 M15 6 V20" />
+      </svg>
+      <span>目录</span>
+    </button>
+    <a class="imm-nav-btn" href="map.html">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="6" cy="6" r="2" />
+        <circle cx="18" cy="18" r="2" />
+        <path d="M8 6 H14 a4 4 0 0 1 0 8 H10 a4 4 0 0 0 0 8 H16" />
+      </svg>
+      <span>路径</span>
+    </a>
+  </div>
 </div>
 
 <script src="assets/curriculum.js"></script>

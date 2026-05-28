@@ -4,31 +4,37 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#FBF6E9" />
 <title>我的报告 · 幸福计划</title>
-<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="assets/immersive.css" />
 </head>
 <body>
-<div class="app-container">
 
-  <div class="top-bar">
-    <a href="index.html" class="icon-btn" aria-label="返回">←</a>
-    <div style="flex: 1; text-align: center; font-size: 13px; color: var(--text-muted);">我的报告</div>
-    <span style="width: 40px;"></span>
+<div class="paper-bg"></div>
+<div class="paper-light"></div>
+<div class="paper-light-2"></div>
+<div class="paper-vignette"></div>
+
+<div class="app-shell imm-reports">
+  <div class="imm-topbar">
+    <a href="index.html" class="imm-icon-btn" aria-label="返回">←</a>
+    <div class="imm-topbar-title-rich">
+      <div class="cn">我 的 报 告</div>
+      <div class="en">letters to yourself</div>
+    </div>
+    <span class="spacer-44"></span>
   </div>
 
-  <div class="reports-header">
+  <div class="reports-header reveal" data-delay="1">
     <h2 class="reports-title">每一天的你</h2>
-    <p class="reports-subtitle">点开一个 Day，回头看那天教练给你的反馈。</p>
+    <p class="reports-subtitle">点开一个 Day，回头看那天教练写给你的信。</p>
   </div>
 
   <div id="reports-list">
-    <div class="card" style="text-align: center; color: var(--text-secondary);">
-      正在读你的进度…
+    <div class="card" style="text-align:center; padding: 30px 20px;">
+      <div class="loading-dots" style="margin: 0 auto;"><span></span><span></span><span></span></div>
     </div>
   </div>
-
-  <div style="height: 40px"></div>
-
 </div>
 
 <script src="assets/curriculum.js"></script>
