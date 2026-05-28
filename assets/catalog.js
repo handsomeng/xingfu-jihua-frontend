@@ -34,7 +34,8 @@
   function statusOf(day, completed, currentDay) {
     if (completed.has(day)) return "done";
     if (day === currentDay) return "current";
-    if (XINGFU.AVAILABLE_DAYS.includes(day)) return "available";
+    // 顺序解锁：只看 max(completed) + 1
+    if (window.XingfuQuota && window.XingfuQuota.isDayUnlocked(day)) return "available";
     return "locked";
   }
   function stageProgress(stage, completed) {

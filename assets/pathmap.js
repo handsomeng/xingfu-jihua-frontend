@@ -50,7 +50,13 @@
     }
     return null;
   }
-  function isAvailable(d) { return XINGFU.AVAILABLE_DAYS.includes(d); }
+  function isAvailable(d) {
+    // 顺序解锁优先；已完成的也算可访问（回看）
+    if (window.XingfuQuota) {
+      return window.XingfuQuota.isDayCompleted(d) || window.XingfuQuota.isDayUnlocked(d);
+    }
+    return XINGFU.AVAILABLE_DAYS.includes(d);
+  }
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   }

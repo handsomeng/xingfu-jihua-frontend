@@ -52,6 +52,30 @@
 
   // ============ Init ============
   async function init() {
+    // 入口守卫：解锁 + 额度校验
+    if (window.XingfuQuota) {
+      const check = window.XingfuQuota.canStartDay(dayNum);
+      if (!check.ok) {
+        const root = document.getElementById("page-root");
+        let title = "这一节还没解锁";
+        let body = "先把前一节做完，再开下一节。";
+        let cta = "回 首 页";
+        if (check.reason === "quota_exceeded") {
+          title = "今天的 3 节做完了";
+          body = "明天 0 点解锁新的额度。今天可以回看走过的或者读读历史报告。";
+        }
+        root.innerHTML = `
+          <div class="card reveal" data-delay="2" style="text-align:center;padding:40px 24px;">
+            <div class="question" style="font-size:22px;margin-bottom:14px;">${title}</div>
+            <div class="card-body" style="color:var(--ink-soft);line-height:1.85;">${body}</div>
+            <div style="margin-top:28px;">
+              <a class="btn-primary imm-cta-button" href="index.html">${cta}</a>
+            </div>
+          </div>`;
+        return;
+      }
+    }
+
     try {
       const res = await fetch(`assets/days/day${dayNum}.json`);
       if (!res.ok) throw new Error("加载失败");

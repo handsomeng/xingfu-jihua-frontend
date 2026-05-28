@@ -173,25 +173,84 @@
     };
   }
 
+  function renderQuotaExceeded(completed) {
+    const done = progressCount(completed);
+    const todayDays = window.XingfuQuota.getCompletedToday();
+    const lastToday = todayDays[todayDays.length - 1];
+    const lastMeta = lastToday ? XINGFU.getDayMeta(lastToday) : null;
+    return `
+      <div class="imm-home-top reveal" data-delay="1">
+        <div>
+          <div class="imm-home-date">${formatDate()}</div>
+          <div class="imm-home-weekday">星期${weekdayCn()}</div>
+        </div>
+        <div class="imm-home-actions">
+          <a class="imm-icon-btn" href="reports.html" title="历史报告" aria-label="历史报告">⌄</a>
+          <button class="imm-icon-btn" id="settings-btn" title="设置" aria-label="设置">⚙</button>
+        </div>
+      </div>
+
+      <div class="imm-home-center">
+        <div class="imm-breathing-orb"></div>
+
+        <div class="imm-stage-eyebrow reveal" data-delay="2">今 日 · 已 满</div>
+
+        <div class="imm-day-number reveal" data-delay="3">
+          <span class="day-label">done</span>
+          <span>${todayDays.length}</span>
+          <span class="day-label" style="font-style:italic;">/ 3</span>
+        </div>
+
+        <h1 class="imm-theme reveal" data-delay="4">今天的 3 节做完了</h1>
+
+        <div class="imm-coreline reveal" data-delay="5">${lastMeta ? `刚刚那节是 Day ${lastMeta.day} · ${escapeHtml(lastMeta.theme)}。` : ""}明天来开下一节，给自己留一天消化。</div>
+
+        <div class="imm-divider reveal" data-delay="6"><span class="hand-rule"></span></div>
+
+        <div class="imm-subtitle reveal" data-delay="7">Day ${done} / ${TOTAL}</div>
+      </div>
+
+      <div class="imm-home-cta reveal" data-delay="7">
+        <a class="imm-cta-button" href="reports.html">看 看 走 过 的</a>
+        <div class="imm-cta-meta">
+          <span>明天 0 点解锁新的额度</span>
+        </div>
+      </div>
+    `;
+  }
+
   function render() {
     const completed = loadCompleted();
     const currentDay = getCurrentDay(completed);
     const root = document.getElementById("home-root");
-    if (currentDay != null) {
-      root.innerHTML = renderToday(currentDay, completed);
-      root.classList.remove("done");
-    } else {
+
+    // 没有 currentDay = 71 天都做完了
+    if (currentDay == null) {
       root.innerHTML = renderEmpty();
       root.classList.add("done");
+      bindSettings();
+      return;
     }
+
+    // 检查能不能进 currentDay
+    const quotaCheck = window.XingfuQuota.canStartDay(currentDay);
+    if (!quotaCheck.ok && quotaCheck.reason === "quota_exceeded") {
+      root.innerHTML = renderQuotaExceeded(completed);
+      root.classList.add("done");
+      bindSettings();
+      return;
+    }
+
+    // 正常进 currentDay
+    root.innerHTML = renderToday(currentDay, completed);
+    root.classList.remove("done");
     bindSettings();
 
-    // 整个中心区可点：进入今天（仅当 currentDay 存在时）
+    // 整个中心区可点：进入今天
     const center = document.getElementById("home-cta-wrap");
-    if (center && currentDay != null) {
+    if (center) {
       center.style.cursor = "pointer";
       center.addEventListener("click", e => {
-        // 防止 settings 按钮等内嵌点击穿透
         if (e.target.closest("button, a")) return;
         location.href = `day.html?day=${currentDay}`;
       });
