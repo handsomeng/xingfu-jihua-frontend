@@ -52,7 +52,8 @@
       "category": "awareness",
       "question": "凭直觉写下三件事：\n\n**「我现在最想要、还没得到、感觉「有了就幸福了」的三件东西。」**",
       "placeholder": "例如：升职、瘦 10 斤、买一辆 XX 车、跟 XX 在一起……",
-      "required": true
+      "required": true,
+      "next": "p4"
     },
     {
       "id": "p4",

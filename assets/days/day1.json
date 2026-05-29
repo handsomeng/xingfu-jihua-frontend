@@ -52,7 +52,8 @@
       "category": "awareness",
       "question": "别想太久，凭第一反应写一句话：\n\n**「对我来说，幸福就是 ____。」**\n\n填什么都行。「中彩票」「孩子健康」「不被催婚」「赖床到自然醒」都可以。",
       "placeholder": "写下你脑子里第一个冒出来的答案……",
-      "required": true
+      "required": true,
+      "next": "p4"
     },
     {
       "id": "p4",
