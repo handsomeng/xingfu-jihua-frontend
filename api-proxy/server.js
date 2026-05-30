@@ -42,7 +42,7 @@ app.get("/api/health", (req, res) => {
 app.post("/api/report", async (req, res) => {
   const { day, theme, coreLine, stageName, userInputs, knowledgeResults } = req.body;
 
-  if (!day || !theme) {
+  if (day == null || !theme) {
     return res.status(400).json({ error: "缺少 day 或 theme" });
   }
 

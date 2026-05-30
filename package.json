@@ -4,6 +4,12 @@
   "private": true,
   "description": "幸福计划 · 71 天 H5 课程（部署在 Vercel，本地开发用 api-proxy/）",
   "type": "module",
+  "scripts": {
+    "dev": "cd api-proxy && npm start",
+    "validate:data": "node scripts/scan_day_bugs.js",
+    "build:data": "python3 scripts/v2_md_to_json.py",
+    "check": "node scripts/scan_day_bugs.js"
+  },
   "engines": {
     "node": ">=18"
   }

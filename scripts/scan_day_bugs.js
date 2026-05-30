@@ -1,6 +1,10 @@
 // 对照 app.js 字段契约，扫描 71 个 dayN.json 找数据层 bug
-const fs = require("fs");
-const DIR = "/Users/handsomeng/vibecoding/xingfu-jihua-frontend/assets/days";
+// 根 package.json 是 ESM，故用 import（不是 require）。跑法：node scripts/scan_day_bugs.js
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DIR = path.join(__dirname, "..", "assets", "days");
 
 const issues = {
   noSummary: [],          // 没有 summary 页 → day 完不成
