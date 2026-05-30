@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "现在抵触很正常，多半是被过去写日记的累给吓到了。今天给你的是 3 分钟版，门槛低到你会想试试看。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "有点犹豫说明你还在估算成本。今天把时长压到固定 3 到 5 分钟，到点就停，你会发现没想象的那么重。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "你已经半信半不信。今天把模板挑出来、跟习惯绑好，剩下的犹豫今晚写第一次就会消掉。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "你基本准备好了。今天帮你把模板和触发器定下来，今晚就能顺手开始。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "这份意愿很难得。今天直接帮你把起点搭完，趁热今晚写第一篇。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,22 +274,22 @@
         {
           "id": "opt1",
           "label": "「3-2-1」3 分钟版：3 件好事，加 2 个我做到的，加 1 个明天小目标",
-          "feedback": ""
+          "feedback": "你直觉选了最短的，这正是最容易坚持的。先用它把习惯立住，往后想加再加。"
         },
         {
           "id": "opt2",
           "label": "「三件好事加为什么」5 分钟版：3 件好事，每件加一句为什么发生（Seligman 2005）",
-          "feedback": ""
+          "feedback": "这一套有证据撑腰，每件加一句为什么，会让你慢慢看见好事是怎么发生的。"
         },
         {
           "id": "opt3",
           "label": "「5 区块」10 分钟版：今天发生了什么 / 我感受到什么 / 我学到什么 / 我感谢什么 / 我明天想做什么",
-          "feedback": ""
+          "feedback": "你想写得更细更全。5 区块适合你，留意别让时长拖过 10 分钟就好。"
         },
         {
           "id": "opt4",
           "label": "我想自己改一套",
-          "feedback": ""
+          "feedback": "想自己改一套，说明你已经摸到门道了。记住四件套：模板简单、时长固定、触发明确、跟习惯绑。"
         }
       ]
     },
@@ -342,6 +346,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -363,22 +368,22 @@
         {
           "id": "opt1",
           "label": "纸笔本子（更深加工，仪式感更强）",
-          "feedback": ""
+          "feedback": "你喜欢笔尖落纸的踏实感。把本子摆在床头或桌上看得见的位置，它才会被你天天打开。"
         },
         {
           "id": "opt2",
           "label": "手机备忘录 / 笔记 App（方便随时写，月底好搜索）",
-          "feedback": ""
+          "feedback": "手机随手就能写，月底回看也方便。把笔记图标放到首页，少一步翻找就少一分放弃。"
         },
         {
           "id": "opt3",
           "label": "床头柜便利贴（最低门槛，写完一张换一张）",
-          "feedback": ""
+          "feedback": "便利贴是最聪明的低门槛选择。写完一张撕一张，没有空白页的压力，最容易坚持。"
         },
         {
           "id": "opt4",
           "label": "还没想好",
-          "feedback": ""
+          "feedback": "没想好就先用今晚最顺手的那个。载体可以以后再换，今晚先写起来最重要。"
         }
       ]
     },
@@ -410,6 +415,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -423,22 +429,22 @@
         {
           "id": "opt1",
           "label": "他们写得很短（3 句话 / 几行就完事）",
-          "feedback": ""
+          "feedback": "你看见的是『短』这个秘诀。短才不累，不累才能久，今天的模板就是照这个设计的。"
         },
         {
           "id": "opt2",
           "label": "他们有固定时段（睡前 / 早晨某一刻，不会换）",
-          "feedback": ""
+          "feedback": "你注意到了固定时段的力量。挑一个不会换的时刻，书写就会像刷牙一样自动发生。"
         },
         {
           "id": "opt3",
           "label": "他们跳了几天不会自责，第 3 天接回来就行",
-          "feedback": ""
+          "feedback": "你抓住了最关键的一点：能接回来比从不间断更重要。跳 1 到 2 天不补，第 3 天回来就行。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过没关系。今天你自己把这几条做齐，往后就是别人观察的那个人了。"
         }
       ]
     },
@@ -478,6 +484,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -509,6 +516,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -540,6 +548,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "这是 Day 58 完美主义那一招的延续：『完美连续』本身就是日记杀手。容许跳 1 到 2 天，不补，第 3 天回来，这就是长期坚持的真实形态。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

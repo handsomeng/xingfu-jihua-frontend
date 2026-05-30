@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -154,6 +155,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -185,6 +187,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt4 是讨好型陷阱：嘴上答应，心里委屈，事后怨恨。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -206,27 +209,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "能给自己打这个分，说明你已经看见问题了。看见，就是改变的第一步，今天我们从最基础的一句拒绝开始。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "这个分数很真实。你有边界感的雏形，只是还撑不太稳，今天的 4 步话术就是给你加一根支架。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "中间偏上，你已经能拒绝一部分了。今天我们补的，是那些你明明想拒绝却还是松口的场合。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "你的边界感已经在线了。今天可以把注意力放在细节上，把拒绝说得更干净一点。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "这是很稳的状态。如果是真的稳，今天就当一次校准，看看 4 个领域里有没有哪一块还能再清晰一点。"
         }
       ]
     },
@@ -258,6 +261,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -271,27 +275,27 @@
         {
           "id": "opt1",
           "label": "物理边界（身体 / 空间被随意侵入）",
-          "feedback": ""
+          "feedback": "身体和空间被随意侵入，最容易让人憋着不说。能点出这一类，今天就先在这里立一道线。"
         },
         {
           "id": "opt2",
           "label": "时间边界（工作 / 私人时间被随意占用）",
-          "feedback": ""
+          "feedback": "时间被占用是讨好型最常见的破口。你的时间是有限的，今天的 4 步话术帮你把它要回来。"
         },
         {
           "id": "opt3",
           "label": "情绪边界（替别人扛情绪 / 替别人难过）",
-          "feedback": ""
+          "feedback": "替别人扛情绪最隐蔽也最耗人。记住，对方不高兴是对方的课题，今天这一条对你最关键。"
         },
         {
           "id": "opt4",
           "label": "数字边界（深夜消息 / 秒回压力）",
-          "feedback": ""
+          "feedback": "深夜消息和秒回压力，是这个时代特有的边界战场。今天起，你可以理直气壮地晚一点回。"
         },
         {
           "id": "opt5",
           "label": "4 个都弱",
-          "feedback": ""
+          "feedback": "4 个都弱不代表你差，只代表过去没人教过你立界。今天先挑最难受的那一类，单点突破。"
         }
       ]
     },
@@ -349,6 +353,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -370,27 +375,27 @@
         {
           "id": "opt1",
           "label": "写到一半忍不住加解释（「因为最近事多 + 因为…」）",
-          "feedback": ""
+          "feedback": "忍不住加解释，是讨好型最深的指纹。今天写完先别发，把所有『因为』开头的句子划掉再看。"
         },
         {
           "id": "opt2",
           "label": "写完不敢发，删了重写 N 遍",
-          "feedback": ""
+          "feedback": "删了重写 N 遍，说明你太在意对方怎么想了。其实第一版往往就够好，今天试着发出去第一版。"
         },
         {
           "id": "opt3",
           "label": "发出去 1 分钟后立刻反悔，撤回",
-          "feedback": ""
+          "feedback": "发完想撤回，是大脑在替你预演灾难。给自己一个约定：发出去 10 分钟内不许撤，看看天会不会塌。"
         },
         {
           "id": "opt4",
           "label": "对方回了「哦」一个字，我就开始焦虑",
-          "feedback": ""
+          "feedback": "对方一个『哦』就让你慌，恰恰说明你把太多解读权交给了别人。一个字而已，多半没你想的那么多含义。"
         },
         {
           "id": "opt5",
           "label": "我没卡点，能直接发",
-          "feedback": ""
+          "feedback": "能直接发是好事。今天就把这份果断用在那件你一直想拒绝的事上。"
         }
       ]
     },
@@ -422,6 +427,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -435,22 +441,22 @@
         {
           "id": "opt1",
           "label": "他们会拒绝，且拒绝得干净不拖泥带水",
-          "feedback": ""
+          "feedback": "你看见的是『拒绝得干净』。干净不等于冷，它是对自己和对方都诚实。今天的 4 步话术练的就是这种干净。"
         },
         {
           "id": "opt2",
           "label": "他们不替别人扛情绪，对方不高兴他们也不慌",
-          "feedback": ""
+          "feedback": "你注意到了『不替别人扛情绪』。这正是边界感最核心的一块，对方不高兴他们也不慌，因为那是对方的课题。"
         },
         {
           "id": "opt3",
           "label": "他们时间 / 精力分得清，工作时间认真工作，私人时间彻底关机",
-          "feedback": ""
+          "feedback": "你看到的是『时间分得清』。能彻底关机的人，往往工作时也更专注。这是今天数字边界那一块的样板。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过没关系，从今天起留意一下。身边那个活得稳的人，多半不是没人找他，是他会拒绝。"
         }
       ]
     },
@@ -490,6 +496,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -521,6 +528,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "跟父母用 4 步话术，关键是『共情』那一步要真诚，但拒绝那一步不能软化。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -552,6 +560,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "关键点：拒绝当下，不拒绝关系。给出具体的替代时间，对方就知道你没在敷衍。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

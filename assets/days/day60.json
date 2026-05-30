@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "认知雕琢改的是'我把这件事讲给自己听的版本'。任务雕琢和关系雕琢改的是行为，认知雕琢改的是叙事。三者搭配最有效。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "错位感很重。先别认命，今天会教你画两张图，找出到底卡在哪几个时间块上。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "偏低，但说明你还说得清哪里别扭。今天就把这种别扭拆成几个能下手的点。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "中间地带，大多数人都在这。今天教你把那几块不顺的地方往自己附近挪一挪。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "匹配度已经不错。今天的雕琢能帮你把还差的那一两块补上。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "几乎量身定做，很难得。今天你可以重点看怎么把这种状态稳住、复制给同事。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,22 +274,22 @@
         {
           "id": "opt1",
           "label": "任务雕琢（多加 / 少做 / 改造某项任务的边界）",
-          "feedback": ""
+          "feedback": "任务雕琢上手最快，今天就能动一个边界。它直接连着你的强项和投入感。"
         },
         {
           "id": "opt2",
           "label": "关系雕琢（跟谁互动多 / 少 / 怎么互动）",
-          "feedback": ""
+          "feedback": "关系雕琢的回报常常被低估。多说一句、少陪一场，职场密度就不一样了。"
         },
         {
           "id": "opt3",
           "label": "认知雕琢（重新定义「我在做什么 + 为谁做」）",
-          "feedback": ""
+          "feedback": "认知雕琢几乎不用外部条件，今天换一句叙事，心里的位置就变了。"
         },
         {
           "id": "opt4",
           "label": "都没动力，先观望",
-          "feedback": ""
+          "feedback": "先观望也行。今天你只要看完三个真实场景，能动哪一类自然会浮上来。"
         }
       ]
     },
@@ -343,6 +347,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -364,27 +369,27 @@
         {
           "id": "opt1",
           "label": "多做 1 项不在 KPI 里但我感兴趣的小事",
-          "feedback": ""
+          "feedback": "加一件自己感兴趣的小事，是最不费力的入口。老板大概率不会管，甚至会感谢你。"
         },
         {
           "id": "opt2",
           "label": "减掉 1 个让我消耗的会议 / 饭局 / 微信群",
-          "feedback": ""
+          "feedback": "减掉一个消耗你的会或群，省下来的力气比你想的多。今天就挑那个最说不清意义的。"
         },
         {
           "id": "opt3",
           "label": "跟 1 个具体的人改一改互动方式（多说 / 少说 / 换种方式说）",
-          "feedback": ""
+          "feedback": "改一段互动方式，成本几乎为零。今天给一个具体的人发一句具体的话试试。"
         },
         {
           "id": "opt4",
           "label": "把 1 项手头任务重新写一句「它实际上是 ____」",
-          "feedback": ""
+          "feedback": "重写一句叙事，是认知雕琢最小的动作。写完贴在屏幕边，明天一抬头就看见。"
         },
         {
           "id": "opt5",
           "label": "全都没动力，先观察",
-          "feedback": ""
+          "feedback": "先观察也是一种动作。今晚留意一下，哪一类雕琢你看着最不抵触，就从那开始。"
         }
       ]
     },
@@ -416,6 +421,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -429,22 +435,22 @@
         {
           "id": "opt1",
           "label": "他会自己加一些不在 KPI 里的小活，且乐在其中",
-          "feedback": ""
+          "feedback": "你注意到的正是任务雕琢的样子。他在把工作往自己强项和兴趣上挪。"
         },
         {
           "id": "opt2",
           "label": "他跟某几个同事 / 客户 / 跨部门人有比别人更深的关系",
-          "feedback": ""
+          "feedback": "你看见的是关系雕琢。职场关系的密度，常常就是投入感的来源。"
         },
         {
           "id": "opt3",
           "label": "他经常用一种你听了会愣一下的方式讲自己在做的事",
-          "feedback": ""
+          "feedback": "你愣一下的那个瞬间，正是认知雕琢在起作用。同样的活，他讲了一个不一样的版本。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "那今天起留意一下身边这种人。看清他动了哪一类，你自己也就有了样本。"
         }
       ]
     },
@@ -484,6 +490,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -515,6 +522,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -546,6 +554,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "认知雕琢的核心价值就在这种情境：岗位卡得死、任务和关系都动不了，叙事是你还能动的最后一寸空间。Wrzesniewski 的清洁工研究里很多人就是从这一步起步的。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

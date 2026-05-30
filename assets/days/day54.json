@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -154,6 +155,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -185,6 +187,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -206,27 +209,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "转化率很低没关系。这恰恰说明，同样的收入你还有很大的幸福空间没被打开。今天就是来帮你打开它。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "钱花了人没怎么爽到，多半是花的方向偏了。今天调一下结构，你会感觉到差别。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "一半一半，已经有不少能让你持续开心的花法。今天帮你把另一半也提上来。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "你已经挺会花钱了。今天的内容会让你看清自己原来做对了什么，再往上推一点。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "这个转化率很难得。今天你可以重点看看，哪几个习惯是你不自觉就做到的。"
         }
       ]
     },
@@ -258,6 +261,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -271,27 +275,27 @@
         {
           "id": "opt1",
           "label": "体验类：跟人吃饭 / 看演出 / 短途出游 / 上一节课",
-          "feedback": ""
+          "feedback": "体验类是研究里增益最稳的一类，你天生就愿意往这边走，这是个好起点。"
         },
         {
           "id": "opt2",
           "label": "为别人花：给家人 / 朋友 / 同事买一个小东西或一杯饮品",
-          "feedback": ""
+          "feedback": "为别人花的那份开心最持久。你愿意把人放进花钱里，这本身就很难得。"
         },
         {
           "id": "opt3",
           "label": "花钱买回时间：请家政 / 打车 / 外送 / 跑腿",
-          "feedback": ""
+          "feedback": "肯花钱买回时间的人不多，多数人宁可累着也舍不得。你这个意识很值钱。"
         },
         {
           "id": "opt4",
           "label": "给自己一个小确幸（留成小奢侈，少而精）",
-          "feedback": ""
+          "feedback": "给自己留一点少而精的小确幸，是会花钱的人都懂的事。关键在『少而精』这四个字。"
         },
         {
           "id": "opt5",
           "label": "都不容易，我习惯就是买东西",
-          "feedback": ""
+          "feedback": "习惯买东西很正常，多数人都这样。今天就从最小的一步开始，挪一笔试试看。"
         }
       ]
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,22 +374,22 @@
         {
           "id": "opt1",
           "label": "A：低价小体验",
-          "feedback": ""
+          "feedback": "低价小体验最容易出幸福感，回想起来还会笑。选它很稳，这周就给自己安排一次。"
         },
         {
           "id": "opt2",
           "label": "B：给一个具体的人点小礼物 / 外卖",
-          "feedback": ""
+          "feedback": "给一个具体的人花一点小钱，往往是你这周最暖的一笔。记得对象具体、理由具体。"
         },
         {
           "id": "opt3",
           "label": "C：花钱省 30 分钟",
-          "feedback": ""
+          "feedback": "花钱省下的那 30 分钟，用来做件回血的事，比省下来的钱更值。你选了条聪明的路。"
         },
         {
           "id": "opt4",
           "label": "我想 3 个都做一次",
-          "feedback": ""
+          "feedback": "三个都想做，说明你已经被打动了。先挑最容易上手的那个起步，做成一个比想三个强。"
         }
       ]
     },
@@ -416,6 +421,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -429,22 +435,22 @@
         {
           "id": "opt1",
           "label": "他们经常制造小体验（一顿饭、一次走、一杯咖啡都能讲出花）",
-          "feedback": ""
+          "feedback": "你注意到了制造小体验的人，说明你心里其实也向往这种活法。这周就学他一次。"
         },
         {
           "id": "opt2",
           "label": "他们经常给周围人花小钱（请喝水、顺手带份早餐、记得别人爱吃什么）",
-          "feedback": ""
+          "feedback": "会给周围人花小钱的人，往往人缘和心情都不差。你能看见这点，离做到就不远了。"
         },
         {
           "id": "opt3",
           "label": "他们舍得花钱买回时间（打车、请人、外送），把时间用在人身上",
-          "feedback": ""
+          "feedback": "舍得花钱买回时间、再把时间花在人身上，这是高手的活法。你已经看见了门道。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过也没关系。从今天起留意一下，你会发现这样的人身上都有今天讲的影子。"
         }
       ]
     },
@@ -484,6 +490,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -515,6 +522,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -546,6 +554,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

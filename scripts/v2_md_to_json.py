@@ -83,11 +83,22 @@ def parse_feedback_lines(fb_text):
     return mapping, ""
 
 def fb_for_opt(mapping, opt_id):
-    """从反馈映射里取某个 opt 的反馈。兼容 'opt1' / '漏选「opt1」' / '选错「opt1」' 等含 opt_id 的 key。"""
+    """取某个 opt 的反馈。兼容: 'opt1' / '漏选「opt1」' / 范围 'opt1-4' / '其他' 兜底。"""
     if opt_id in mapping:
         return mapping[opt_id]
+    num = int(re.sub(r"\D", "", opt_id) or "0")
+    # 精确含 opt_id（如 漏选「opt1」），但排除范围写法（opt1-4）
     for k, v in mapping.items():
-        if opt_id in k:
+        if opt_id in k and not re.search(r"opt\d+\s*[-~到]", k):
+            return v
+    # 范围写法 opt1-4 / opt1~4 / opt1到4
+    for k, v in mapping.items():
+        m = re.search(r"opt(\d+)\s*[-~到]\s*(?:opt)?(\d+)", k)
+        if m and int(m.group(1)) <= num <= int(m.group(2)):
+            return v
+    # 其他 / 剩余 兜底（排除「略」这种无实质内容的）
+    for k, v in mapping.items():
+        if k.strip() in ("其他", "剩余", "其余") and v.strip().rstrip("。") not in ("略", ""):
             return v
     return ""
 
@@ -170,6 +181,9 @@ def parse_page(page_text, idx, total, day_num):
         for o in options:
             o["feedback"] = fb_for_opt(fb_map, o["id"])
         page["options"] = options
+        # 整段总反馈（知识题常见: 一句话讲对错要点, 不分选项）→ 存 page.feedback, app.js 兜底显示
+        if fb_plain and not any(o.get("feedback", "").strip() for o in options):
+            page["feedback"] = fb_plain
         if must and correct_ids:
             page["mustCorrect"] = True
             page["correctAnswer"] = correct_ids[0]

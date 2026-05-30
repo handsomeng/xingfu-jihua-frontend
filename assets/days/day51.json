@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt3 是『假装没发生』加『替对方找借口』的混合，把伤压下去了，没有真正释放。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "一想就胃紧，说明这把刀还插得很深。你愿意打开今天，就是开始拔它了。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "松了一点，但还在隐隐作痛。今天的五步刚好接着把剩下那段拔出来。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "走到一半了，能感到它的重量在变轻。今天再推一程会更稳。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "已经放得差不多了，留一点点也正常。今天帮你把最后那点余温也松开。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "能给到这个分数很难得。今天就把这份释怀做个记录，下次复发时好回来读。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,27 +274,27 @@
         {
           "id": "opt1",
           "label": "回忆：回忆事件本身就难受，不想再回去",
-          "feedback": ""
+          "feedback": "回去就难受，所以你想跳过。今天写信时只记录不评判，给那段记忆一个安全的距离。"
         },
         {
           "id": "opt2",
           "label": "共情：根本不想理解对方，凭什么我要理解他",
-          "feedback": ""
+          "feedback": "不想理解对方，这很真实。共情不要求你同意他，只是允许那个画面出现一下。"
         },
         {
           "id": "opt3",
           "label": "礼物：不想把这件事当礼物送给自己，感觉太肉麻",
-          "feedback": ""
+          "feedback": "觉得肉麻是因为你不习惯对自己好。这一步本来就是把善意头一回转向自己。"
         },
         {
           "id": "opt4",
           "label": "承诺：不想写下来或说出来，怕反悔",
-          "feedback": ""
+          "feedback": "怕反悔所以不敢写下来。承诺不是保证不复发，它是给复发时的你留一个落脚点。"
         },
         {
           "id": "opt5",
           "label": "守住：一开始能放下，过几天又想起来，觉得白做了",
-          "feedback": ""
+          "feedback": "过几天又想起来不代表白做。第 5 步『守住』说的正是这件事：再走一次就好。"
         }
       ]
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +374,27 @@
         {
           "id": "opt1",
           "label": "回忆细节",
-          "feedback": ""
+          "feedback": "回忆细节会带出情绪，这很正常。允许它来，3 到 5 句话就够，不必逼自己写全。"
         },
         {
           "id": "opt2",
           "label": "想象对方处境",
-          "feedback": ""
+          "feedback": "想象对方处境难，因为你心里还卡着委屈。共情不为他，只为松开你自己那口气。"
         },
         {
           "id": "opt3",
           "label": "把原谅说成「送给自己」",
-          "feedback": ""
+          "feedback": "把原谅说成『送给自己』别扭，正说明你太久没站在自己这边了。原话照搬也算数。"
         },
         {
           "id": "opt4",
           "label": "签名加日期把决定固化",
-          "feedback": ""
+          "feedback": "签名加日期会让决定变沉，这份沉正是它的力量。怕反悔，更要把锚点钉下来。"
         },
         {
           "id": "opt5",
           "label": "想象自己会反复回来读",
-          "feedback": ""
+          "feedback": "你已经预感到它会复发，这份清醒很可贵。回来读，本就是守住这一步的设计。"
         }
       ]
     },
@@ -421,6 +426,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,22 +440,22 @@
         {
           "id": "opt1",
           "label": "他们不会被同一件旧事反复绊住",
-          "feedback": ""
+          "feedback": "你看到了关键：他们不被同一件旧事反复绊住，因为该拔的刀都拔了。这是练出来的。"
         },
         {
           "id": "opt2",
           "label": "他们能讲起被伤过的事，但语气里没有当年的火",
-          "feedback": ""
+          "feedback": "你抓到了原谅的样子：讲得起被伤的事，语气里却没了当年的火。这正是放下的标志。"
         },
         {
           "id": "opt3",
           "label": "他们对自己宽容，对别人也宽容，但有底线",
-          "feedback": ""
+          "feedback": "你注意到了平衡：对自己对别人都宽容，但有底线。原谅加上有边界，两者并不冲突。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过也没关系。今天起留意一下，谁能轻装走，往往是把怨气一件件松开的人。"
         }
       ]
     },
@@ -489,6 +495,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -520,6 +527,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -551,6 +559,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

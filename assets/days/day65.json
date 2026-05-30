@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -154,6 +155,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -185,6 +187,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -206,27 +209,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "模糊很正常，64 天用过的工具太多了。今天就是专门来帮你理清的。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "有点感觉但说不准，正好。今天用 4 象限给你一把更趁手的尺子。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "你已经有了大致方向。今天把它从『大概』推到『具体哪个工具』。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "你对自己挺了解。今天补的是查漏，看你有没有哪个象限一直空着。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "这么清晰很难得。今天的盘点对你更像一次确认，顺便检查盲区。"
         }
       ]
     },
@@ -258,6 +261,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -271,27 +275,27 @@
         {
           "id": "opt1",
           "label": "高能量 × 外显（善意行动、接好消息、亲密对话）",
-          "feedback": ""
+          "feedback": "高能量外显是你的主场。盘点时记得也给其他象限留一两个备胎。"
         },
         {
           "id": "opt2",
           "label": "高能量 × 内省（心流、用优势的新方式、写给未来的信）",
-          "feedback": ""
+          "feedback": "高能量内省让你既投入又不耗社交，挺难得。注意别让外显象限空着。"
         },
         {
           "id": "opt3",
           "label": "低能量 × 外显（分享品、给朋友发消息）",
-          "feedback": ""
+          "feedback": "低能量外显，轻量又有连接，很适合长期做。今天看看能不能再补一个高能量的。"
         },
         {
           "id": "opt4",
           "label": "低能量 × 内省（三件好事、品味练习、正念）",
-          "feedback": ""
+          "feedback": "安静内省是你的舒适区。今天的重点就是别让 5 个工具全挤在这一格。"
         },
         {
           "id": "opt5",
           "label": "我哪个都不清楚",
-          "feedback": ""
+          "feedback": "不清楚也不要紧。今天的盘点做完，你这一题就有答案了。"
         }
       ]
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +374,27 @@
         {
           "id": "opt1",
           "label": "想不起来 64 天具体用过哪些工具",
-          "feedback": ""
+          "feedback": "想不全很正常，p15 那份工具清单就是给你过一遍用的，照着回忆即可。"
         },
         {
           "id": "opt2",
           "label": "工具记得，但分不清「真有效」和「做完没感觉」",
-          "feedback": ""
+          "feedback": "分不清真有效，就用那两个问题：做完状态变好吗，不督促还会做吗。"
         },
         {
           "id": "opt3",
           "label": "留下来的工具集中在 1-2 个象限，挑不出第 4 / 第 5 个",
-          "feedback": ""
+          "feedback": "集中在 1-2 个象限，正是今天要解决的。从空着的象限挑一个能勉强接受的备胎。"
         },
         {
           "id": "opt4",
           "label": "5 个名额不够，想全留",
-          "feedback": ""
+          "feedback": "想全留说明你收获不少。先留 5 个主力，其余记下来不会丢，以后可以轮换。"
         },
         {
           "id": "opt5",
           "label": "我会顺利完成",
-          "feedback": ""
+          "feedback": "有这份笃定很好。那就放手盘，重点是挑准，不是挑多。"
         }
       ]
     },
@@ -421,6 +426,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,27 +440,27 @@
         {
           "id": "opt1",
           "label": "他们有 3-5 个固定的「自我维护动作」，长期重复",
-          "feedback": ""
+          "feedback": "有几个固定动作长期重复，正是稳的来源。今天你也在给自己挑这几个。"
         },
         {
           "id": "opt2",
           "label": "他们也会换工具，但每次只换 1 个，不会全部推倒",
-          "feedback": ""
+          "feedback": "每次只换 1 个不全盘推倒，这份克制很关键。你的 5 选清单也该这样维护。"
         },
         {
           "id": "opt3",
           "label": "他们清楚自己什么场景该用什么工具",
-          "feedback": ""
+          "feedback": "清楚什么场景用什么工具，就是 4 象限覆盖全的好处。今天就奔这个去。"
         },
         {
           "id": "opt4",
           "label": "他们不刻意「用工具」，但你看得出他们日常里有几个稳定的小习惯",
-          "feedback": ""
+          "feedback": "稳的人往往不显眼，但有几个小习惯托着。今天你挑的，就是你的那几个。"
         },
         {
           "id": "opt5",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过也行。挑完今天这 5 个，你自己就慢慢变成那种人了。"
         }
       ]
     },
@@ -494,6 +500,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -525,6 +532,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -556,6 +564,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

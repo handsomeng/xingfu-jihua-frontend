@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "这种书写的核心是写给自己看，不修不删不评判。一旦切换成『写给别人看』，效果就会下降。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0 到 2 分",
-          "feedback": ""
+          "feedback": "从 0 开始反而干净。今天 15 分钟书写就是你的第一次，体验过你就懂为什么它比想有效。"
         },
         {
           "id": "opt2",
           "label": "3 到 4 分",
-          "feedback": ""
+          "feedback": "你已经知道书写大概是怎么回事了。今天补上『为什么有效』，让你下笔时心里更有底。"
         },
         {
           "id": "opt3",
           "label": "5 到 6 分",
-          "feedback": ""
+          "feedback": "中间分数说明你写过，但还没写出顺手的感觉。今天把方法讲细，帮你往上走一格。"
         },
         {
           "id": "opt4",
           "label": "7 到 8 分",
-          "feedback": ""
+          "feedback": "能写到这个程度，你已经尝到甜头了。今天把背后的逻辑讲透，让你写得更准。"
         },
         {
           "id": "opt5",
           "label": "9 到 10 分",
-          "feedback": ""
+          "feedback": "你是少数能用书写理清自己的人。今天的逻辑也许能让你再添一种新写法。"
         }
       ]
     },
@@ -239,27 +242,27 @@
         {
           "id": "opt1",
           "label": "我觉得写了也没用，跟脑子里想一样",
-          "feedback": ""
+          "feedback": "这正是今天要替你打破的认知。写跟想差好几个量级，今天 15 分钟做完你就会亲眼看见区别。"
         },
         {
           "id": "opt2",
           "label": "我怕写下来被人看到",
-          "feedback": ""
+          "feedback": "这个担心很真实。今天的规则就有一条『写完就撕就删就锁』，让没人会看成为前提，你才敢往深写。"
         },
         {
           "id": "opt3",
           "label": "我不知道写什么，下笔就卡住",
-          "feedback": ""
+          "feedback": "卡住很正常，p3 那一行就是给你准备好的主题。你不必想好再写，落笔本身会带出下一句。"
         },
         {
           "id": "opt4",
           "label": "我没有这个习惯，平时不会想到去写",
-          "feedback": ""
+          "feedback": "缺的只是一个触发点。今天先做一次，让身体记住这种感觉，习惯才有地方扎根。"
         },
         {
           "id": "opt5",
           "label": "都有一点",
-          "feedback": ""
+          "feedback": "能看清自己几头都占一点，这份诚实本身就是好起点。今天我们一条一条帮你松开。"
         }
       ]
     },
@@ -291,6 +294,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "这个发现来自 Pennebaker 团队的文本分析。它说明书写过程中你在从『困在自己里』走向『看到关系，看到原因』。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +374,27 @@
         {
           "id": "opt1",
           "label": "把心里话写下来（写下压心里的事，最深层的情绪）",
-          "feedback": ""
+          "feedback": "你心里有想倒出来的东西。今天的微行动正好就是这一种，做完你会轻一点。"
         },
         {
           "id": "opt2",
           "label": "感恩日记（每天写 3 件值得感谢的事）",
-          "feedback": ""
+          "feedback": "想从温柔的入口开始，很好。感恩日记门槛最低，明天起就能天天用。"
         },
         {
           "id": "opt3",
           "label": "写未来最好的自己（写 5 年后最好状态的你）",
-          "feedback": ""
+          "feedback": "你愿意把目光放到未来的自己身上。明天 Day63 会专门带你写这一种。"
         },
         {
           "id": "opt4",
           "label": "结构化反思（用 ABCDE 拆昨天那件糟糕的事）",
-          "feedback": ""
+          "feedback": "你偏爱有章法地拆事情。结构化反思最对你的胃口，遇到糟心事就能上手。"
         },
         {
           "id": "opt5",
           "label": "4 种轮着用",
-          "feedback": ""
+          "feedback": "想全都试一遍，说明你对自己很上心。先从今天这一种入门，往后慢慢轮着用。"
         }
       ]
     },
@@ -421,6 +426,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,22 +440,22 @@
         {
           "id": "opt1",
           "label": "他们有固定的书写习惯（日记 / 子弹笔记 / 备忘录）",
-          "feedback": ""
+          "feedback": "你注意到的是『稳定』这件事。固定地写，情绪就有了一个常开的出口。"
         },
         {
           "id": "opt2",
           "label": "他们有一个「能写给自己的地方」（不必给别人看）",
-          "feedback": ""
+          "feedback": "你看见的恰恰是关键：一个只给自己看的地方。今天你也可以给自己留一个。"
         },
         {
           "id": "opt3",
           "label": "他们遇事会先「落字」再做决定",
-          "feedback": ""
+          "feedback": "先落字再决定，这是把书写当成想清楚的工具。你今天做完会更理解这种人。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过也没关系。从今天起你自己先成为那种人，慢慢就看得见了。"
         }
       ]
     },
@@ -489,6 +495,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "这是书写最经典的应用场景。Pennebaker 反复证明：脑内反刍换成书写后，事件的『侵入性』显著下降。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -520,6 +527,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "门槛太高就根本启动不了。Pennebaker 范式是 15 分钟 × 4 天，但日常使用 3 行字也算入门。先建启动按钮，再扩时长。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -551,6 +559,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "为发表写』跟『为整合写』在一个层面完全做不到。让自己彻底相信『这一段不会被任何人看到（包括明天的自己）』，才能写出真正的内容。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

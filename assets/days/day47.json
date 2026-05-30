@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0 到 2 分",
-          "feedback": ""
+          "feedback": "几乎没出现过，说明你和『动』之间断了好久。今天的 5 分钟门槛，就是专门帮你把这个体验重新唤回来的。"
         },
         {
           "id": "opt2",
           "label": "3 到 4 分",
-          "feedback": ""
+          "feedback": "偶尔有过，那就说明这条路对你是通的。今天我们想办法让它从『偶尔』变成『常有』。"
         },
         {
           "id": "opt3",
           "label": "5 到 6 分",
-          "feedback": ""
+          "feedback": "一半的时候动完会变好，这个比例已经很可观了。今天看看怎么把它再往上推一点。"
         },
         {
           "id": "opt4",
           "label": "7 到 8 分",
-          "feedback": ""
+          "feedback": "你对『动完变好』已经挺敏感了，身体一直在给你正反馈。今天帮你把它变成更稳的习惯。"
         },
         {
           "id": "opt5",
           "label": "9 到 10 分",
-          "feedback": ""
+          "feedback": "几乎每次动完都变好，你已经吃到运动最甜的那部分了。今天看看还能怎么把它用得更顺。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,27 +274,27 @@
         {
           "id": "opt1",
           "label": "太累了，没力气",
-          "feedback": ""
+          "feedback": "太累所以不动，这恰恰是那个下行螺旋。今天的 5 分钟低门槛入口，就是为『没力气』这种状态设计的。"
         },
         {
           "id": "opt2",
           "label": "没时间，工作排满",
-          "feedback": ""
+          "feedback": "没时间是最真实的理由。今天会让你看到，碎成 5 分钟一段照样有效，不用挤出整块时间。"
         },
         {
           "id": "opt3",
           "label": "心情不好，提不起劲",
-          "feedback": ""
+          "feedback": "心情不好提不起劲，这正是行为激活想破的局。先动一小步，心情会在后面跟上，今天就来验证一次。"
         },
         {
           "id": "opt4",
           "label": "一动就要换衣服、出门、找场地，门槛太高",
-          "feedback": ""
+          "feedback": "门槛高这个点抓得很准。今天的设计就是把门槛压到最低，换鞋点开视频就算赢了一半。"
         },
         {
           "id": "opt5",
           "label": "怕坚持不下来，索性不开始",
-          "feedback": ""
+          "feedback": "怕坚持不下来所以干脆不开始，很多人卡在这。今天先不谈坚持，只做一次 5 分钟，把『开始』这件事变小。"
         }
       ]
     },
@@ -347,6 +351,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -368,27 +373,27 @@
         {
           "id": "opt1",
           "label": "A. 换鞋下楼走 5 分钟（户外派）",
-          "feedback": ""
+          "feedback": "户外派好选择，出门走一圈还能换光线和空气，对情绪是双份的。今天就去走那 5 分钟。"
         },
         {
           "id": "opt2",
           "label": "B. 客厅 7 分钟高强度间歇训练（不出门派）",
-          "feedback": ""
+          "feedback": "不出门派也完全成立，省去换衣出门的麻烦，点开视频就能开始，门槛更低。"
         },
         {
           "id": "opt3",
           "label": "两个都做（贪心派）",
-          "feedback": ""
+          "feedback": "两个都想做，这股劲很难得。提醒你一句，今天先稳稳做完一个，贪心容易反弹。"
         },
         {
           "id": "opt4",
           "label": "都不想做，但选一个最不抗拒的：A",
-          "feedback": ""
+          "feedback": "都不想做却还愿意选一个，这个选择本身就值得肯定。A 就 A，走那 5 分钟你就赢了。"
         },
         {
           "id": "opt5",
           "label": "都不想做，但选一个最不抗拒的：B",
-          "feedback": ""
+          "feedback": "都不想做却还愿意选一个，这个动作本身已经赢了一半。B 就 B，点开视频跟着做就行。"
         }
       ]
     },
@@ -420,6 +425,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -433,22 +439,22 @@
         {
           "id": "opt1",
           "label": "他们有规律运动习惯（每周 3 次以上）",
-          "feedback": ""
+          "feedback": "你观察得很准。规律运动正是情绪稳的人身上最常见的底色，今天你也在往这个方向迈第一步。"
         },
         {
           "id": "opt2",
           "label": "他们日常走得多（步数稳定在 6000 以上）",
-          "feedback": ""
+          "feedback": "你注意到了步数这件事。日常走得多的人，情绪基线确实更稳，这恰好是你今天能照着做的。"
         },
         {
           "id": "opt3",
           "label": "他们心情一低落就靠「动」破局（散步、健身房、球场）",
-          "feedback": ""
+          "feedback": "你抓到了关键动作。一低落就靠『动』破局，靠的正是今天这种把门槛压低、随时能启动的本事。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过没关系，从今天起留意一下身边那个情绪稳的人。多半你会发现，他和『动』走得很近。"
         }
       ]
     },
@@ -488,6 +494,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -519,6 +526,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -550,6 +558,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

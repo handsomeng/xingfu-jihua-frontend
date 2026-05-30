@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 是 Lyubomirsky 2005 实验的核心反直觉发现。剂量分布比总量更关键。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -154,6 +155,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "对。Day25 解决『做不做』，Day42 解决『怎么做』。剂量分布是被低估的变量。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -185,6 +187,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt3 就是 Lyubomirsky 实验里没效果的那一组。剂量被稀释了。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -228,7 +231,8 @@
           "label": "9–10 分",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "分数低不代表你冷漠，只是没系统。今天给你装系统。"
     },
     {
       "id": "p11",
@@ -258,6 +262,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 对。日常微善行可以留着保持温度，但要叠加一个集中剂量日来制造事件感。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -293,7 +298,8 @@
           "label": "还没想好",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "这一题没有标准答案。能稳定执行的那一天，就是你的善意日。"
     },
     {
       "id": "p13",
@@ -349,6 +355,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "对。善意日 + 回味联动，一份成本，多次收益。这是练习篇前后串联的内在结构。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -392,7 +399,8 @@
           "label": "对自己社群里的弱势角色（新人、实习生、老人）",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "记住你的偏好。从你最容易做的那类开始，启动成本最低。"
     },
     {
       "id": "p17",
@@ -422,6 +430,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 对。今天的微行动核心是『剂量集中』，跟『总量上升』不在一个层面。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -452,7 +461,8 @@
           "label": "我没观察过这类人",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "这是被低估的人格力量。集中式善行的副产品就是这种气质。"
     },
     {
       "id": "p19",
@@ -490,6 +500,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 对。集中剂量同时解决了『没时间』和『没效果』两件事。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -521,6 +532,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 对。家庭善意日同时解决了精力有限和亲子陪伴质量两个问题。这是 Day25 善行支出跟 Day42 集中剂量的合体。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -552,6 +564,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 对。固定日子、预先清单、当晚复盘，是把善意日做成可持续习惯的 3 个支柱。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

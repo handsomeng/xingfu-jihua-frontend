@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。Mogilner 2010 发现：被『时间』启动的人更看重关系和体验，被『金钱』启动的人更工具化。同一个人被启动不同词，行为就不一样。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。这是 Mogilner & Norton 2016 综述的核心结论。基本盘解决之后，时间富足感比金钱富足感更接近幸福本身。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。Kahneman 反复强调：你日子是被经验自我活的，但你回头评分用的是记忆自我。慢一点能让经验自我更在场。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。时间饥荒的破局靠分级剂量。先从 5 分钟开始，习惯后再扩到 30 分钟。Day3 讲过最小可行步长。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -342,6 +346,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。慢生活的真意是日子有节奏感：有快、有慢、有空白。全快没节奏，全慢没张力，全空没意义。心流（Day18）跟留白可以并存。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -415,6 +420,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。微行动的目的是『让你亲身体验差异』，知识转成身体记忆，明天 Day62 内化篇会用上。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -428,27 +434,27 @@
         {
           "id": "opt1",
           "label": "他们有几个固定下来的小仪式（早咖啡、晚散步、周日不工作）",
-          "feedback": ""
+          "feedback": "你注意到的正是仪式化。固定下来的小动作，把慢嵌进了日子的骨架里。"
         },
         {
           "id": "opt2",
           "label": "他们日历总有空白，不把所有时段都填满",
-          "feedback": ""
+          "feedback": "你看见的是拒绝填满。日历上那块空白，就是他经验自我喘气的地方。"
         },
         {
           "id": "opt3",
           "label": "他们做事时很专注，做完之后能完全放下",
-          "feedback": ""
+          "feedback": "你描述的是单任务的功力。做时全情投入，做完能彻底放下，这本身就是节奏。"
         },
         {
           "id": "opt4",
           "label": "他们对手机、消息、通知的反应慢半拍",
-          "feedback": ""
+          "feedback": "反应慢半拍其实是种保护。他没让通知牵着走，时间就还在自己手里。"
         },
         {
           "id": "opt5",
           "label": "我没观察过这种人",
-          "feedback": ""
+          "feedback": "那今天起留意一下。看清这种人慢在哪一处，你也就知道自己能从哪学起。"
         }
       ]
     },
@@ -488,6 +494,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。单任务的真正入口是『过渡时段』，跟『大段时间』完全是两回事。每个 10 分钟的过渡都是经验自我喘一口气的窗口。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -519,6 +526,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。Whillans 研究里反复出现的发现：把留白『日程化』比靠意志力靠谱。当成一个会议来锁，别人就不会跑进来抢。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -550,6 +558,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。时间饥荒越重的人初期越坐不住，这是身体的『戒断反应』。分级剂量比一次性大剂量更稳。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

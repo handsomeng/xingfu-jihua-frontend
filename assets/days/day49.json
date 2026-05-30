@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -128,6 +129,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -185,6 +187,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。White 2019 的关键发现就是阈值效应。120 分钟是分水岭，不分次。这给城市人一个非常友好的『最低有效剂量』。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -206,27 +209,27 @@
         {
           "id": "opt1",
           "label": "0 到 2 分（远低于阈值）",
-          "feedback": ""
+          "feedback": "离阈值还远，正说明今天的内容对你最有用，从 5 分钟的小入口开始就好。"
         },
         {
           "id": "opt2",
           "label": "3 到 4 分（偶尔达标）",
-          "feedback": ""
+          "feedback": "偶尔达标，说明你身体已经尝过那个好处，今天帮你把它变成稳定的习惯。"
         },
         {
           "id": "opt3",
           "label": "5 到 6 分（一半时间能达）",
-          "feedback": ""
+          "feedback": "一半时间能达，你已经走在路上了，今天目标是把另一半补齐。"
         },
         {
           "id": "opt4",
           "label": "7 到 8 分（多数周达标）",
-          "feedback": ""
+          "feedback": "多数周都能达标，这个节奏很健康，今天看看怎么让它更稳。"
         },
         {
           "id": "opt5",
           "label": "9 到 10 分（稳定超过）",
-          "feedback": ""
+          "feedback": "稳定超过阈值很难得，你已经把自然修复变成了日常，今天守住它就好。"
         }
       ]
     },
@@ -258,6 +261,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -271,27 +275,27 @@
         {
           "id": "opt1",
           "label": "工作日午饭后 15 到 20 分钟附近绿地散步",
-          "feedback": ""
+          "feedback": "午饭后那段最容易固定下来，你选了一个能天天复制的入口。"
         },
         {
           "id": "opt2",
           "label": "通勤路上提前 1 到 2 站下车，走一段有树的路",
-          "feedback": ""
+          "feedback": "提前下车走一段，把通勤变成绿地时间，这一招几乎不占用额外时间。"
         },
         {
           "id": "opt3",
           "label": "晚饭后绕小区花园 / 公园外圈走 20 分钟",
-          "feedback": ""
+          "feedback": "晚饭后绕圈走，既能消食又能凑时长，很适合融进你的傍晚。"
         },
         {
           "id": "opt4",
           "label": "阳台 + 家里大绿植 + 周末半天公园补量",
-          "feedback": ""
+          "feedback": "阳台加绿植再用周末补量，这套组合对宅家的人最友好。"
         },
         {
           "id": "opt5",
           "label": "周末一次性 2 小时郊野公园 / 远足",
-          "feedback": ""
+          "feedback": "周末一次性给够也算数，White 2019 说分不分次效果接近，你这样安排没问题。"
         }
       ]
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +374,27 @@
         {
           "id": "opt1",
           "label": "出门前那一下「懒得动」",
-          "feedback": ""
+          "feedback": "出门前那一下最磨人，对策是把目标缩到『只下楼站 5 分钟』，骗自己先迈出去。"
         },
         {
           "id": "opt2",
           "label": "走在路上手会下意识掏手机",
-          "feedback": ""
+          "feedback": "手会下意识掏手机，今天就把它放兜里别拿出来，少了它你才看得见周围。"
         },
         {
           "id": "opt3",
           "label": "脑子停不下来，一边走一边过工作",
-          "feedback": ""
+          "feedback": "脑子停不下来很正常，眼睛主动去看树、看天，注意力自然就被接管了。"
         },
         {
           "id": "opt4",
           "label": "觉得「就 10 分钟，没用」，所以不开始",
-          "feedback": ""
+          "feedback": "觉得 10 分钟没用，恰恰是 Berman 那个实验想推翻的，今天亲身试一次再下结论。"
         },
         {
           "id": "opt5",
           "label": "没人陪不想出去",
-          "feedback": ""
+          "feedback": "没人陪也能走，自然修复跟有没有人陪关系不大，独自走反而更安静。"
         }
       ]
     },
@@ -421,6 +426,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,22 +440,22 @@
         {
           "id": "opt1",
           "label": "多数有一个固定的散步 / 遛狗 / 通勤步行段，每天稳定接触绿",
-          "feedback": ""
+          "feedback": "你注意到他们有固定的接触绿的段落，这个『稳定』正是关键，比偶尔一次猛的有用。"
         },
         {
           "id": "opt2",
           "label": "周末多半有一段室外时间（公园 / 郊野 / 户外运动），不全泡在室内",
-          "feedback": ""
+          "feedback": "周末有一段室外时间，这是状态稳的人常有的习惯，你观察得很准。"
         },
         {
           "id": "opt3",
           "label": "工位上 / 家里有植物，习惯看远处和窗外",
-          "feedback": ""
+          "feedback": "工位和家里有植物、习惯看远处，这些小细节你都捕捉到了，挺细心。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过没关系，带着这个问题去看身边人，你会发现状态稳的人多半跟绿沾边。"
         }
       ]
     },
@@ -489,6 +495,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -520,6 +527,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -551,6 +559,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },

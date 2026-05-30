@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "这个分数没什么好沮丧的，几乎是大多数人的真实起点。今天的练习就是为这个分数准备的。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "偏低的分段很常见。今天你会亲身感受一次『把心拉回来』是什么感觉。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "中间分段说明你已经有一些当下感了。今天再给你一个能随时调用的方法。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "能待在当下这么多时间已经不错。今天的练习帮你把它变得更稳更主动。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "分高是好事。今天就当作一次自检，看看你这份当下感在走神时还撑不撑得住。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -270,27 +274,27 @@
         {
           "id": "opt1",
           "label": "吃饭时（边吃边刷手机 / 边想工作）",
-          "feedback": ""
+          "feedback": "吃饭走神最容易被忽略，也最容易调。今天的微行动里有一招，第一口前停 10 秒就能用上。"
         },
         {
           "id": "opt2",
           "label": "跟人说话时（脑子里在想下一件事 / 准备反驳）",
-          "feedback": ""
+          "feedback": "说话时心在别处，对方其实感受得到。能看见这一点，你已经领先很多人了。"
         },
         {
           "id": "opt3",
           "label": "通勤时（全程刷手机 / 听播客但没在听）",
-          "feedback": ""
+          "feedback": "通勤是最好的练习场。同一段路，可以用来刷手机，也可以用来感受脚步和呼吸。"
         },
         {
           "id": "opt4",
           "label": "洗澡 / 刷牙 / 走路时（自动模式，全程脑内剧场）",
-          "feedback": ""
+          "feedback": "自动模式跑得最深的地方，往往就是脑内剧场最热闹的地方。今天的练习直接针对它。"
         },
         {
           "id": "opt5",
           "label": "跟孩子 / 伴侣相处时（人在心不在）",
-          "feedback": ""
+          "feedback": "愿意承认跟最亲的人在一起时心却在别处，需要诚实。这份诚实就是改变的起点。"
         }
       ]
     },
@@ -347,6 +351,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -368,27 +373,27 @@
         {
           "id": "opt1",
           "label": "第 1 步觉察：根本说不清此刻身体 / 念头 / 情绪是什么",
-          "feedback": ""
+          "feedback": "说不清身体和念头很正常，因为平时根本没机会去看。今天慢慢来，注意到『说不清』本身也是一种觉察。"
         },
         {
           "id": "opt2",
           "label": "第 2 步呼吸：注意力跑得太频繁，根本拉不回来",
-          "feedback": ""
+          "feedback": "注意力跑得勤，恰恰说明你有很多次拉回来的机会。每一次拉回来都算数。"
         },
         {
           "id": "opt3",
           "label": "第 3 步全身扫描：感受不到身体，扫一圈跟没扫一样",
-          "feedback": ""
+          "feedback": "感受不到身体的人不少。今天扫一圈就好，哪怕只摸到一两个地方，也是开始。"
         },
         {
           "id": "opt4",
           "label": "整体：根本坐不住 3 分钟",
-          "feedback": ""
+          "feedback": "坐不住 3 分钟没关系。先从 30 秒做起，能停下来就已经赢了。"
         },
         {
           "id": "opt5",
           "label": "我不会卡，挺顺的",
-          "feedback": ""
+          "feedback": "挺顺是好兆头。今天就放松去做，把这份顺手变成以后随时能进入的状态。"
         }
       ]
     },
@@ -420,6 +425,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -433,27 +439,27 @@
         {
           "id": "opt1",
           "label": "他们说话之前会停一下，不急着回",
-          "feedback": ""
+          "feedback": "你注意到他们『说话前会停一下』，这正是觉察在起作用。这个停顿，你今天就能开始练。"
         },
         {
           "id": "opt2",
           "label": "他们做一件事时全部注意力都在那件事上，不分心",
-          "feedback": ""
+          "feedback": "做一件事时全神贯注，正是正念最朴素的样子。你能看出这一点，说明你已经懂了。"
         },
         {
           "id": "opt3",
           "label": "他们对自己的情绪有觉察，知道自己此刻在烦 / 在急 / 在累",
-          "feedback": ""
+          "feedback": "对自己情绪有觉察的人确实更稳。今天的第 1 步觉察练的就是这个能力。"
         },
         {
           "id": "opt4",
           "label": "他们不评判别人，也不评判自己",
-          "feedback": ""
+          "feedback": "不评判别人也不评判自己，是 Kabat-Zinn 强调的核心。你能识别出来，说明你心里已经有这把尺。"
         },
         {
           "id": "opt5",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "以前没观察过没关系。从今天起留意一两个看起来很稳的人，你会发现他们都有这几个共同点。"
         }
       ]
     },
@@ -493,6 +499,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -524,6 +531,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -555,6 +563,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

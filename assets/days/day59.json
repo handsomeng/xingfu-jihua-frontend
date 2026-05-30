@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Wood 2008。3 个因子到今天还是研究真实性时最常用的拆法。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Wood 原始论文加后续多项汇总研究都验证过。真实度是一个跟幸福稳定相关的变量。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt4 是把『当下情绪 = 我自己』搞混了。真实要的是跟核心价值观对齐，跟当下情绪对齐是另一回事。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "说不出 3 个价值观很正常，多数人都没整理过。今天的清单就是帮你把它第一次写下来。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "有个模糊轮廓但还抓不实，今天的 10 个候选词会帮你把它定下来。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "一半清楚一半不清楚，今天正好把模糊的那一半补齐。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "你心里已经有锚点了，今天再做一次审计，看看行为有没有跟上。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "你很清楚自己在意什么。今天可以重点看『说得清』和『做得到』之间还有没有缝。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,27 +274,27 @@
         {
           "id": "opt1",
           "label": "工作汇报 / 跟上级沟通",
-          "feedback": ""
+          "feedback": "在上级面前演，是因为顺从外部影响那根弦绷得紧。今天的价值观锚点能帮你站稳一点。"
         },
         {
           "id": "opt2",
           "label": "家庭聚餐 / 跟父母长辈相处",
-          "feedback": ""
+          "feedback": "跟父母长辈那种『懂事的演』最磨人，因为它从小就被奖励。今天我们就从这里松一颗扣。"
         },
         {
           "id": "opt3",
           "label": "社交饭局 / 跟不熟的人",
-          "feedback": ""
+          "feedback": "对不熟的人戴面具，多数是社交保护。今天看看哪些场合其实可以摘一点。"
         },
         {
           "id": "opt4",
           "label": "跟伴侣 / 亲密关系里",
-          "feedback": ""
+          "feedback": "在最亲近的人面前还要演，会格外累。今天的练习就是帮你在这里先对齐 1%。"
         },
         {
           "id": "opt5",
           "label": "朋友圈 / 社交媒体发东西时",
-          "feedback": ""
+          "feedback": "发朋友圈时的『演』，往往是社会期待那一维在作用。今天给你一个不被它扳走的内核。"
         }
       ]
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Winnicott 1960 那篇关于自我扭曲的论文。后来 Wood 这批人把这套理论接到量表研究里。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +374,27 @@
         {
           "id": "opt1",
           "label": "从 10 个里挑 3 个（选不出来，全都觉得重要）",
-          "feedback": ""
+          "feedback": "全都觉得重要，恰恰说明该挑了。挑 3 个的过程本身就是在认自己。"
         },
         {
           "id": "opt2",
           "label": "一致性审计（不敢承认自己有偏离的行为）",
-          "feedback": ""
+          "feedback": "不敢承认偏离，是因为它会让人有点疼。今天只描述不评判，先把它如实写下来就好。"
         },
         {
           "id": "opt3",
           "label": "想出明天的具体小动作（落不到具体场景）",
-          "feedback": ""
+          "feedback": "落不到具体场景很常见。今天的例子就是帮你把『真实』翻译成一个明天能做的动作。"
         },
         {
           "id": "opt4",
           "label": "真的去做那个小动作（有人际阻力）",
-          "feedback": ""
+          "feedback": "真去做时的人际阻力是真实的。今天先把动作想清楚，1% 就够，不用一步到位。"
         },
         {
           "id": "opt5",
           "label": "都不难",
-          "feedback": ""
+          "feedback": "你预感都不难，那就放手把这 5 分钟做完，明天直接去做那个小动作。"
         }
       ]
     },
@@ -421,6 +426,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,27 +440,27 @@
         {
           "id": "opt1",
           "label": "他们能清楚说出「我最在意什么」",
-          "feedback": ""
+          "feedback": "能说清『我最在意什么』，就是真实最底层的那块地基，你已经看到它了。"
         },
         {
           "id": "opt2",
           "label": "他们说「不」很自然，不需要解释一堆",
-          "feedback": ""
+          "feedback": "说『不』很自然又不用解释一堆，这份从容正是今天想带你靠近的。"
         },
         {
           "id": "opt3",
           "label": "他们会真诚承认自己不擅长什么，不自我美化",
-          "feedback": ""
+          "feedback": "能真诚承认自己不擅长什么，是无偏处理那个因子，难得也珍贵。"
         },
         {
           "id": "opt4",
           "label": "他们对人的关怀也是真的，没在演",
-          "feedback": ""
+          "feedback": "你注意到他们的关怀也是真的，说明你已经看懂真实跟关怀别人不冲突。"
         },
         {
           "id": "opt5",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过没关系，今天起留意一下身边这种人，他们活得对得上自己的样子值得你借鉴。"
         }
       ]
     },
@@ -494,6 +500,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -525,6 +532,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -556,6 +564,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

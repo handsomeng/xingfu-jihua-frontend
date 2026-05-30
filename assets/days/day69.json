@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "基因占一半已经定了，环境只占 10%，剩下 40% 由你『做什么 + 怎么做』决定。今天讲的就是怎么把这 40% 真正打开。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -152,6 +153,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "追幸福追太狠会反噬。今天写的承诺要做成『过程承诺』，做成『考核目标』就垮了。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -183,6 +185,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Sheldon 1999 年那项研究证明：跟内在价值观对齐的目标，达成率更高，达成后幸福度也更高。外驱的承诺扛不过 3 周。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -256,6 +259,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "替别人做的事，没法跨过『我累了』那个点。Sheldon 的数据非常清楚：外驱目标即使达成，幸福增量也比内驱目标低。小王今天的任务是把这句话改成『我自己想要……』。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -347,6 +351,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "花精力 + 真承诺』是隐藏的效果放大器。前 68 天给你工具，今天给你『为什么用』。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -420,6 +425,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "信本身不能让你幸福。它做的是激活你的『动机放大器』，让前 68 天学的工具真正长期生效。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -433,27 +439,27 @@
         {
           "id": "opt1",
           "label": "他们能很清楚地讲出「我现在在为什么活」",
-          "feedback": ""
+          "feedback": "你注意到的是『为什么活』。这正是今天承诺信第 1 段要逼你写清的那句话。"
         },
         {
           "id": "opt2",
           "label": "他们愿意承认自己付出了什么代价",
-          "feedback": ""
+          "feedback": "你看见的是『愿意认代价』。承诺信第 2 段写的就是这个，能写出来的人很少。"
         },
         {
           "id": "opt3",
           "label": "他们对「想成为什么样的人」有一个具体的画面，不抽象",
-          "feedback": ""
+          "feedback": "你抓到的是『有具体画面』。这恰好是承诺信第 3 段要你写的状态，写得越具体越扛得住。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过也没关系。今天写完那封信，你就成了那个『能讲清楚自己为什么』的人。"
         },
         {
           "id": "opt5",
           "label": "这种人不存在，每个人都摇摆",
-          "feedback": ""
+          "feedback": "觉得人人都摇摆，可能是你还没见过真把动机讲透的人。今天就先把你自己的写下来。"
         }
       ]
     },
@@ -493,6 +499,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt3"
     },
@@ -524,6 +531,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Mauss 2011 年那个研究：越把幸福当业绩指标，越焦虑，越焦虑越做不到。信写完之后的态度是『方向稳，节奏松』。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -555,6 +563,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "私人备忘录的承诺约等于没承诺。被看见加定期回看，是这封信活下来的两个氧气罐。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

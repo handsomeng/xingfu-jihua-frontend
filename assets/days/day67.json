@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "答对了。Day66 教你把流程稳下来（习惯化好的那一面），Day67 教你给内容注入花样（对抗习惯化坏的那一面）。两者一起用。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "内容已经卡住了，这正是今天要救的那一段。换 1 个维度，新鲜感就能回来一截。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "偏低，说明你大多在重复同样的内容。今天选 1 个最容易动的维度，先松动一下。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "一半在换一半在重复。把那个还在原地踏步的练习挑出来，给它换个对象或形式。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "换得挺勤了。今天看看哪个练习最久没动过，给它也加上花样。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "内容几乎周周在换，你已经在用花样对抗适应了。今天来对照看看，把这套做法固定下来。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,27 +274,27 @@
         {
           "id": "opt1",
           "label": "换形式（写 / 说 / 录音 / 发消息）",
-          "feedback": ""
+          "feedback": "换形式上手最快，写改成说、说改成发条语音，动作小见效快，先从它开始很稳。"
         },
         {
           "id": "opt2",
           "label": "换对象（家人 / 老朋友 / 同事 / 陌生人 / 自己）",
-          "feedback": ""
+          "feedback": "换对象往往最有惊喜。从家人换到陌生人、老朋友，常会冒出你没想到的感受。"
         },
         {
           "id": "opt3",
           "label": "换时段（早晨 / 通勤 / 午休 / 睡前）",
-          "feedback": ""
+          "feedback": "换时段是个低调但有效的角度。同一件事放早晨和放睡前，感觉真的不一样。"
         },
         {
           "id": "opt4",
           "label": "换主题（感恩什么 / 品什么 / 帮谁）",
-          "feedback": ""
+          "feedback": "换主题改动最大也最有新鲜感。从『感恩谁』换到『差点出问题但没出的事』，视角整个就变了。"
         },
         {
           "id": "opt5",
           "label": "不确定",
-          "feedback": ""
+          "feedback": "不确定也没关系，那就挑你今天最不费劲的那一个先动。花样的关键是动起来，哪个都行。"
         }
       ]
     },
@@ -347,6 +351,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -368,27 +373,27 @@
         {
           "id": "opt1",
           "label": "挑哪个练习改（觉得每个都该改）",
-          "feedback": ""
+          "feedback": "觉得每个都该改，说明你练得够多。今天只挑那个最早腻掉的 1 个，别贪多。"
         },
         {
           "id": "opt2",
           "label": "挑哪个维度换（4 个都看着可行）",
-          "feedback": ""
+          "feedback": "4 个维度都看着可行是好事。挑你今天最不费劲的那一个，先动起来比挑得完美重要。"
         },
         {
           "id": "opt3",
           "label": "写具体改动（道理懂，落到周一就含糊）",
-          "feedback": ""
+          "feedback": "道理到落地这一步卡住最常见。把改动写到具体某天某句话，含糊就没了。"
         },
         {
           "id": "opt4",
           "label": "1 周后回来验证（多半就忘了）",
-          "feedback": ""
+          "feedback": "担心忘了验证，那就现在定个锚点：1 周后的某天回来看一眼执行天数。提前埋好就不会漏。"
         },
         {
           "id": "opt5",
           "label": "都不卡",
-          "feedback": ""
+          "feedback": "四个环节都有数，那今天就放手做。等会儿在 p24 把你的 1 周改动写实就行。"
         }
       ]
     },
@@ -420,6 +425,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -433,22 +439,22 @@
         {
           "id": "opt1",
           "label": "他们流程稳定，可内容经常换",
-          "feedback": ""
+          "feedback": "你抓到了核心。流程稳住、内容常换，这正是今天讲的『结构守住，内容换着玩』。"
         },
         {
           "id": "opt2",
           "label": "他们对「换花样」这件事有天然敏感度",
-          "feedback": ""
+          "feedback": "你注意到了花样这一层，很敏锐。对换花样有意识的人，往往就是这么躲过了适应。"
         },
         {
           "id": "opt3",
           "label": "他们不会硬撑「按一种方式做下去」",
-          "feedback": ""
+          "feedback": "这个观察很准。他们不硬撑一种做法，腻了就换个玩法，所以能一直有新鲜感。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "那从今天起留意一下身边这样的人。你会发现他们的不腻，多半来自悄悄换着花样。"
         }
       ]
     },
@@ -488,6 +494,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -519,6 +526,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -550,6 +558,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

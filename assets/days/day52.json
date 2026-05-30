@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0–2 分",
-          "feedback": ""
+          "feedback": "能给自己打这么低，说明你对自己确实够狠了。今天这套方法就是给你这种状态准备的。"
         },
         {
           "id": "opt2",
           "label": "3–4 分",
-          "feedback": ""
+          "feedback": "这个分数很真实。搞砸时还能温柔在场一点，是今天要往上加的。"
         },
         {
           "id": "opt3",
           "label": "5–6 分",
-          "feedback": ""
+          "feedback": "正好在中间，已经有底子了。今天给你一套方法把它再往上抬一抬。"
         },
         {
           "id": "opt4",
           "label": "7–8 分",
-          "feedback": ""
+          "feedback": "这个分数不低了。你已经懂得在搞砸时给自己留口气，今天帮你把它变成习惯。"
         },
         {
           "id": "opt5",
           "label": "9–10 分",
-          "feedback": ""
+          "feedback": "这个分数很难得。你已经能在最难受时陪着自己，今天的练习帮你守住它。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,27 +274,27 @@
         {
           "id": "opt1",
           "label": "「这是个难受的时刻」（承认痛苦）",
-          "feedback": ""
+          "feedback": "承认痛苦最难，说明你习惯了硬扛着往前冲。今天先从允许自己难受这一步开始。"
         },
         {
           "id": "opt2",
           "label": "「难受是每个人都有的」（共同人性）",
-          "feedback": ""
+          "feedback": "你卡在『别人也会这样』这句，说明那份孤立感挺重的。今天的练习就是来松动它的。"
         },
         {
           "id": "opt3",
           "label": "「我能怎么对自己好一点」（换语气）",
-          "feedback": ""
+          "feedback": "换语气最难，因为你大概很少有人这样对你说话。那就先从对自己说一句开始。"
         },
         {
           "id": "opt4",
           "label": "三句都难",
-          "feedback": ""
+          "feedback": "三句都难，说明你对自己一直挺严的。今天哪怕只练成一句，都是真实的进展。"
         },
         {
           "id": "opt5",
           "label": "三句都不难",
-          "feedback": ""
+          "feedback": "三句都不难，这个底子很好。今天帮你把它从『说得出』变成『搞砸时真的会用』。"
         }
       ]
     },
@@ -347,6 +351,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -368,27 +373,27 @@
         {
           "id": "opt1",
           "label": "第一步（找不到搞砸的事，要么没察觉，要么找到太多）",
-          "feedback": ""
+          "feedback": "找不到搞砸的事很常见。今天可以从最小的一件开始，回错一句话也算。"
         },
         {
           "id": "opt2",
           "label": "第一句（不愿意承认这是个难受的时刻）",
-          "feedback": ""
+          "feedback": "不愿意承认难受，往往是怕一承认就垮了。其实承认之后人会更稳，今天试试看。"
         },
         {
           "id": "opt3",
           "label": "第二句（不相信「别人也会这样」）",
-          "feedback": ""
+          "feedback": "不相信『别人也会这样』，是孤立感在作怪。今天想一个具体的人就够了。"
         },
         {
           "id": "opt4",
           "label": "第三句（不知道怎么对自己好）",
-          "feedback": ""
+          "feedback": "不知道怎么对自己好，那就借用你对朋友说话的语气，原样说给自己听。"
         },
         {
           "id": "opt5",
           "label": "对比（不敢对比，怕看到自己一直在骂自己）",
-          "feedback": ""
+          "feedback": "你已经预感到自己一直在骂自己了，这份诚实很难得。今天的对比会比你想的温和。"
         }
       ]
     },
@@ -420,6 +425,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -433,22 +439,22 @@
         {
           "id": "opt1",
           "label": "他们能承认「这次确实搞砸了」，不否认也不夸大",
-          "feedback": ""
+          "feedback": "你注意到的是『承认』这一步，这正是正念那一块。能看见它，说明你也在往这个方向走。"
         },
         {
           "id": "opt2",
           "label": "他们知道「别人也会这样」，不会把一次搞砸等同于「我整个人不行」",
-          "feedback": ""
+          "feedback": "你抓到的是『不孤单』这一层，这正是共同人性。把一次搞砸跟整个人分开，是回弹的关键。"
         },
         {
           "id": "opt3",
           "label": "他们对自己说话的语气，跟对朋友说话的语气一样",
-          "feedback": ""
+          "feedback": "你看见的是『语气一致』，这正是今天最核心的那一点。对自己说话能像对朋友，人就稳了。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "没观察过也没关系。从今天起留意一下身边那个搞砸了还能很快回来的人，你会有发现。"
         }
       ]
     },
@@ -488,6 +494,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -519,6 +526,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -550,6 +558,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

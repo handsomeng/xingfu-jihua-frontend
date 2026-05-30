@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Twenge 2019 的核心发现。注意：这是相关性研究，相关不等于因果。Orben 2019 用同样数据重做分析，效应规模较小但方向稳定。即便如此，『重度屏幕用户群体心理健康指标更差』已经是稳健结论。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Newport 的核心方法。这本书 2019 年出版，比国内任何『数字戒断』内容都早且更系统。30 天断舍离比『今天少刷点』有效得多，因为它强制重置环境。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 才对。这是今天最重要的反向常识。app 设计者用变量奖励、无限滚动、推送通知劫持你的多巴胺，你一个人跟一整个产品团队对抗，单靠意志力必输。改环境才是正解。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -227,7 +230,8 @@
           "label": "9–10 分（完全自如）",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "这个分数是今天改造的起点。一周后回到这道题再评一次，看变化。"
     },
     {
       "id": "p11",
@@ -257,6 +261,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 才对。把『我自控力差』重新归因为『环境没改造』，是今天最重要的认知转换。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -292,7 +297,8 @@
           "label": "灰阶模式",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "这一个就是你今天的发力点。改一个胜过想十个。"
     },
     {
       "id": "p13",
@@ -347,6 +353,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "对。这是过去 10 年屏幕时间研究最重要的细化结论之一。简单算总时长会丢掉这层差别。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -390,7 +397,8 @@
           "label": "3 件都不难",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "这一个就是你卡点所在。卡点本身就是今天最值得练的部分。"
     },
     {
       "id": "p17",
@@ -420,6 +428,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 才对。环境改造大于自我管控。这一条今天必须带走。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -450,7 +459,8 @@
           "label": "我没观察过",
           "feedback": ""
         }
-      ]
+      ],
+      "feedback": "3 个特征都很常见，且都跟『环境设计』对应。意志力强的特征反而排不上号。"
     },
     {
       "id": "p19",
@@ -488,6 +498,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 才对。卧室不充电是单条改善睡眠最有效的动作之一。意志力对抗每晚都得打一仗，环境隔离打一次就稳了。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -519,6 +530,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 才对。『按需开通知，主动定时查』是销售、服务类工作的最佳实践。『全关』适合书写、创作工作，不适合需要响应的工作。区分对待才合理。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -550,6 +562,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 才对。把『拿手机看时间』这条触发链彻底切断，加上首屏改造增加摩擦，是非常典型的环境设计。20 块钱一个电子钟解决一天 1 小时浪费，性价比极高。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

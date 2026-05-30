@@ -206,27 +206,27 @@
         {
           "id": "opt1",
           "label": "0–2 分（基本坚持不了）",
-          "feedback": ""
+          "feedback": "肯坦白『基本坚持不了』很重要。今天的最低门槛版本就是给你准备的，1 件也算数。"
         },
         {
           "id": "opt2",
           "label": "3–4 分（试试看，但没信心）",
-          "feedback": ""
+          "feedback": "没信心很正常。先别想坚持一辈子，就先做这 1 周 7 天，做完再说。"
         },
         {
           "id": "opt3",
           "label": "5–6 分（一半一半）",
-          "feedback": ""
+          "feedback": "一半一半是很务实的预期。把门槛降到自己稳定能做到的水平，成功率会高很多。"
         },
         {
           "id": "opt4",
           "label": "7–8 分（多数能坚持）",
-          "feedback": ""
+          "feedback": "多数能坚持，说明你对自己有把握。提醒一句：偶尔漏一天别自责，第二天接着写就好。"
         },
         {
           "id": "opt5",
           "label": "9–10 分（肯定坚持）",
-          "feedback": ""
+          "feedback": "这份信心很好。提醒一句：真正的考验在第 3 周左右，到时候允许自己跳过一两次。"
         }
       ]
     },
@@ -258,6 +258,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -271,27 +272,27 @@
         {
           "id": "opt1",
           "label": "物理感官类（一口热饭、一阵风、一段路上的光）",
-          "feedback": ""
+          "feedback": "感官类最容易溜走，因为它发生得太快。今晚试着抬头一次、慢一口饭，它就回来了。"
         },
         {
           "id": "opt2",
           "label": "人际类（被别人帮了、被关心了、被认可了）",
-          "feedback": ""
+          "feedback": "人际类的好事最值得写，因为它背后常藏着『为什么』。被帮、被认可，都可以追到一个具体原因。"
         },
         {
           "id": "opt3",
           "label": "自己类（自己做对了一件事、撑过了某个难时刻）",
-          "feedback": ""
+          "feedback": "自己类最容易被你跳过，因为你对自己最苛刻。撑过一个难时刻，本身就是一件好事。"
         },
         {
           "id": "opt4",
           "label": "大事类（家人平安、没生病、有工作）",
-          "feedback": ""
+          "feedback": "大事类反而容易忽略，因为习惯了就成了背景。偶尔把它捡回来写一次，会重新感到踏实。"
         },
         {
           "id": "opt5",
           "label": "我都不太能识别",
-          "feedback": ""
+          "feedback": "都不太能识别，说明扫描器还没校准。今晚先从最小的一件开始，识别能力是练出来的。"
         }
       ]
     },
@@ -348,6 +349,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +371,27 @@
         {
           "id": "opt1",
           "label": "手机备忘录",
-          "feedback": ""
+          "feedback": "手机备忘录上手最快，门槛最低。提醒一句：打开它别顺手刷别的，写完就放下。"
         },
         {
           "id": "opt2",
           "label": "纸本（推荐）",
-          "feedback": ""
+          "feedback": "纸本是推荐选项，它跟工作和信息分离，写起来更安静、更有仪式感。"
         },
         {
           "id": "opt3",
           "label": "一个固定的文档",
-          "feedback": ""
+          "feedback": "固定文档也行，关键是固定。每次都写在同一个地方，习惯才容易长出来。"
         },
         {
           "id": "opt4",
           "label": "跟伴侣、朋友互发",
-          "feedback": ""
+          "feedback": "跟人互发是很强的玩法，互相记账能多撑很久。提醒一句：别变成攀比，写真实的就好。"
         },
         {
           "id": "opt5",
           "label": "还没决定",
-          "feedback": ""
+          "feedback": "还没决定也没关系。今晚先随手用手机写第 1 次，工具可以之后再换。"
         }
       ]
     },
@@ -421,6 +423,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,22 +437,22 @@
         {
           "id": "opt1",
           "label": "有，他做了很久，看起来状态确实稳",
-          "feedback": ""
+          "feedback": "身边有这样的活样本是好事。他状态稳，正说明这套练习是真能落地的，你也可以。"
         },
         {
           "id": "opt2",
           "label": "有，他试过但没坚持",
-          "feedback": ""
+          "feedback": "他试过但没坚持，恰好提醒你：方法对了还要门槛低。今天的最低版本就是为这点准备的。"
         },
         {
           "id": "opt3",
           "label": "没有",
-          "feedback": ""
+          "feedback": "身边没人在做，那你可以当第一个。做出感觉后，也许还能拉上一个人一起。"
         },
         {
           "id": "opt4",
           "label": "没观察过",
-          "feedback": ""
+          "feedback": "没观察过也行，从今天起留意一下。看别人怎么做，常能给自己减不少阻力。"
         }
       ]
     },
@@ -489,6 +492,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -520,6 +524,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -551,6 +556,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

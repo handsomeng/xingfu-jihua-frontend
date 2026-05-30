@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "Lyubomirsky & Layous 2013 的正向活动模型已经证明：人跟活动的匹配度是预测练习是否有效的关键变量。挑你能坚持的 5 个，效果远大于硬做 30 个。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -154,6 +155,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "PERMA 5 维至少各覆盖 1 个，是方案的最低质量线。否则你可能 5 个工具全在正向情绪里面，结果关系和意义完全没动。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -185,6 +187,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "opt2 是合格方案。每个工具都有：具体时间 + 具体动作 + 具体对象 + 现有锚点（醒来 / 午饭 / 睡前 / 周日 / 月初）。opt1 总量超标，opt3 全是模糊词，opt4 只是清单。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -206,27 +209,27 @@
         {
           "id": "opt1",
           "label": "0 到 2 分",
-          "feedback": ""
+          "feedback": "说不出很正常，因为你还没坐下来梳过。今天 30 分钟就是帮你把这 5 个从模糊变清晰。"
         },
         {
           "id": "opt2",
           "label": "3 到 4 分",
-          "feedback": ""
+          "feedback": "你心里已经有几个候选了，只是还没排定。今天把它们一个一个写下来就成。"
         },
         {
           "id": "opt3",
           "label": "5 到 6 分",
-          "feedback": ""
+          "feedback": "一半已经有数了。今天的任务是把剩下那一半也定下来，让 5 个都站住。"
         },
         {
           "id": "opt4",
           "label": "7 到 8 分",
-          "feedback": ""
+          "feedback": "你离一份完整方案只差临门一脚。今天补齐时间和锚点，它就能跑起来。"
         },
         {
           "id": "opt5",
           "label": "9 到 10 分",
-          "feedback": ""
+          "feedback": "你已经把它装在心里了。今天就是把它落到纸上，让明天结业之后不靠记性也能用。"
         }
       ]
     },
@@ -258,6 +261,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -271,27 +275,27 @@
         {
           "id": "opt1",
           "label": "正向情绪类（品味 / 三件好事 / 感恩 / 正向情绪相关）",
-          "feedback": ""
+          "feedback": "正向情绪类最容易上手，留它当方案的早晨开关很合适。今天记得给它配个具体时间。"
         },
         {
           "id": "opt2",
           "label": "投入类（心流 / 优势 / 工作雕琢 / 投入相关）",
-          "feedback": ""
+          "feedback": "投入类对你有反应，说明你享受那种沉进去的状态。今天把它放进每周 3 件套里。"
         },
         {
           "id": "opt3",
           "label": "关系类（主动建设性回应 / 善行 / 给妈打电话 / 关系相关）",
-          "feedback": ""
+          "feedback": "关系类被你挑中是好事，PERMA 里关系最容易被忙乱挤掉。今天给它定个固定对象和时间。"
         },
         {
           "id": "opt4",
           "label": "意义类（意义 / 价值观 / 真实自我 / 工作意义相关）",
-          "feedback": ""
+          "feedback": "意义类对你有反应的人不多，你算一个。今天把它当方案的方向盘，对齐你那 3 个价值观。"
         },
         {
           "id": "opt5",
           "label": "成就类（目标 / 成就 / 微习惯落地相关）",
-          "feedback": ""
+          "feedback": "成就类让你有反应，说明你在意把事做成的踏实感。今天用微习惯的方式给它绑个小动作。"
         }
       ]
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "这是承诺机制（Day69）的应用：在状态好的时候，给状态差的自己留好工具箱。情绪低谷时你的大脑功能跟平时不同，临时想不出来，预先写下来就能直接用。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +374,27 @@
         {
           "id": "opt1",
           "label": "打印 A4 贴书桌或冰箱",
-          "feedback": ""
+          "feedback": "贴书桌或冰箱是很稳的选择，它会在你每天必经的地方反复提醒你。今天打印出来就好。"
         },
         {
           "id": "opt2",
           "label": "截图设手机锁屏",
-          "feedback": ""
+          "feedback": "设成锁屏意味着你每天会看几十次，重复的力量都在这里。今天截好图设上去。"
         },
         {
           "id": "opt3",
           "label": "手抄一张卡片放钱包或床头",
-          "feedback": ""
+          "feedback": "手抄一遍的过程本身就是记忆。放钱包或床头，它会陪你度过很多个安静时刻。"
         },
         {
           "id": "opt4",
           "label": "写在笔记本扉页",
-          "feedback": ""
+          "feedback": "写在扉页很有仪式感，每次翻开本子都像跟方案打个招呼。今天动笔抄一份。"
         },
         {
           "id": "opt5",
           "label": "备忘录电子版",
-          "feedback": ""
+          "feedback": "电子版方便随手改，记得给它设个固定查看的提醒，别让它沉进备忘录列表里。"
         }
       ]
     },
@@ -421,6 +426,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,27 +440,27 @@
         {
           "id": "opt1",
           "label": "每日 3 件套（早午晚锚点容易掉一两个）",
-          "feedback": ""
+          "feedback": "能提前看到这个漏点，就已经赢了一半。给每日 3 件套各绑死一个锚点，掉线率会明显降下来。"
         },
         {
           "id": "opt2",
           "label": "每周 3 件套（周末容易跳过）",
-          "feedback": ""
+          "feedback": "周末容易松，这是人之常情。把每周那件事固定到一个雷打不动的时间，比如周日晚上。"
         },
         {
           "id": "opt3",
           "label": "每月 1 次回看（月底容易忘）",
-          "feedback": ""
+          "feedback": "月底回看最容易被忘，因为它隔得太久。今天就给手机设个每月 1 号的提醒，把记性外包出去。"
         },
         {
           "id": "opt4",
           "label": "应急 5 件（情绪低谷时反而想不起方案）",
-          "feedback": ""
+          "feedback": "这恰恰是应急 5 件存在的理由：低谷时想不起来，所以才提前写好贴出来。今天就把它放进视线里。"
         },
         {
           "id": "opt5",
           "label": "暂时看不出来哪一项最难",
-          "feedback": ""
+          "feedback": "看不出来不代表没问题，等真跑起来才知道。先把方案做完，掉了哪个再回来补哪个。"
         }
       ]
     },
@@ -494,6 +500,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -525,6 +532,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -556,6 +564,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

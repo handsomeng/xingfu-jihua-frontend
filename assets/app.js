@@ -255,6 +255,9 @@
       if (!ans) return;
       const opt = page.options.find(o => o.id === ans);
 
+      // 选项无逐项反馈时，兜底用整段总反馈（知识题常见）
+      const fb = (opt.feedback && opt.feedback.trim()) ? opt.feedback : (page.feedback || "");
+
       if (page.mustCorrect) {
         const correct = ans === page.correctAnswer;
         state.knowledgeResult[page.id] = correct;
@@ -263,7 +266,7 @@
           type: correct ? "correct" : "wrong",
           eyebrow: correct ? "well noticed" : "almost there",
           title: correct ? "答对了" : "再想想",
-          body: escapeHtml(opt.feedback),
+          body: escapeHtml(fb),
           primaryLabel: correct ? "下 一 题" : "重 新 作 答",
           onPrimary: () => { if (correct) goNext(page); }
         });
@@ -272,7 +275,7 @@
           type: "neutral",
           eyebrow: "i hear you",
           title: "我看见你了",
-          body: escapeHtml(opt.feedback),
+          body: escapeHtml(fb),
           primaryLabel: "下 一 题",
           onPrimary: () => goNext(page)
         });

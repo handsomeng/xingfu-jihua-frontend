@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -153,6 +154,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -184,6 +186,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -205,27 +208,27 @@
         {
           "id": "opt1",
           "label": "0 到 2 分",
-          "feedback": ""
+          "feedback": "几乎没有品味时段，说明你的好都在身边路过却没留下。今天的练习就是来帮你接住它们。"
         },
         {
           "id": "opt2",
           "label": "3 到 4 分",
-          "feedback": ""
+          "feedback": "一天有几次停留，已经是个起点。今天会教你怎么把这几次稳定成习惯。"
         },
         {
           "id": "opt3",
           "label": "5 到 6 分",
-          "feedback": ""
+          "feedback": "一天有一半时间能停下来感受，这个频次已经很难得。今天帮你再往上推一格。"
         },
         {
           "id": "opt4",
           "label": "7 到 8 分",
-          "feedback": ""
+          "feedback": "频次很高，说明品味对你已经接近本能。今天可以试着把它做得更深。"
         },
         {
           "id": "opt5",
           "label": "9 到 10 分",
-          "feedback": ""
+          "feedback": "几乎每天都在主动停留，你已经把品味活成了日常。今天的内容会让你看清自己在做什么。"
         }
       ]
     },
@@ -257,6 +260,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -270,27 +274,27 @@
         {
           "id": "opt1",
           "label": "食物或饮品类（咖啡、第一口饭、一杯酒）",
-          "feedback": ""
+          "feedback": "食物饮品类是最好上手的入口。一天三顿饭，每顿都是一次现成的品味机会。"
         },
         {
           "id": "opt2",
           "label": "自然或感官类（天空、树、风、光）",
-          "feedback": ""
+          "feedback": "自然感官类几乎零成本。抬头看一眼天、光、树，30 秒就能完成一次。"
         },
         {
           "id": "opt3",
           "label": "人际类（伴侣、孩子、父母亲密瞬间）",
-          "feedback": ""
+          "feedback": "人际类品味的密度最高。一个亲密瞬间被你认真接住，当晚回想时会格外清晰。"
         },
         {
           "id": "opt4",
           "label": "身体类（洗澡、拉伸、走路时的脚感）",
-          "feedback": ""
+          "feedback": "身体类品味很容易被忽略。洗澡、走路、拉伸的那点感觉，其实一直在等你注意。"
         },
         {
           "id": "opt5",
           "label": "创造或工作类（做对一件事后停下来感受）",
-          "feedback": ""
+          "feedback": "创造工作类品味很适合你这种有产出节奏的人。做对一件事后停 30 秒，意义感会沉下来。"
         }
       ]
     },
@@ -348,6 +352,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -369,27 +374,27 @@
         {
           "id": "opt1",
           "label": "食物或饮品（习惯性刷手机吃饭）",
-          "feedback": ""
+          "feedback": "食物类卡在习惯性刷手机。先从第一口前 30 秒放下手机开始，难度最低。"
         },
         {
           "id": "opt2",
           "label": "自然或感官（习惯性低头不看天）",
-          "feedback": ""
+          "feedback": "自然类卡在习惯性低头。给自己一个固定信号（比如出门那一刻抬头看天），就破了。"
         },
         {
           "id": "opt3",
           "label": "人际（亲密瞬间想下一件事）",
-          "feedback": ""
+          "feedback": "人际类卡在亲密瞬间还在想下一件事。提醒自己：眼前这个人此刻就在，工作可以等 30 秒。"
         },
         {
           "id": "opt4",
           "label": "身体（对身体感觉不敏感）",
-          "feedback": ""
+          "feedback": "身体类卡在对身体不敏感。从最明显的感觉入手（水温、脚踩地面），慢慢就能调出来。"
         },
         {
           "id": "opt5",
           "label": "都容易卡",
-          "feedback": ""
+          "feedback": "都容易卡，说明你的注意力被切得很碎。别贪多，明天只守住 1 个时段就够。"
         }
       ]
     },
@@ -421,6 +426,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -434,22 +440,22 @@
         {
           "id": "opt1",
           "label": "他们注意力能在一件事上停留",
-          "feedback": ""
+          "feedback": "你注意到他们能在一件事上停留。这正是品味的底层能力，它可以练出来。"
         },
         {
           "id": "opt2",
           "label": "他们经常「停下来感受」，不急着去下一件",
-          "feedback": ""
+          "feedback": "你注意到他们不急着去下一件。这种『允许当下慢一点』的状态，就是日子有滋味的秘密。"
         },
         {
           "id": "opt3",
           "label": "他们对小细节有反应（一杯茶、一段光、一个表情都能「哇」）",
-          "feedback": ""
+          "feedback": "你注意到他们对小细节有反应。一杯茶一段光都能让他们『哇』一声，说明他们的感受是活的。"
         },
         {
           "id": "opt4",
           "label": "我没观察过",
-          "feedback": ""
+          "feedback": "还没观察过也没关系。从今天起留意一下身边那个『节奏稳』的人，你会发现他都在品。"
         }
       ]
     },
@@ -489,6 +495,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -520,6 +527,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -551,6 +559,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },

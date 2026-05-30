@@ -97,6 +97,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -154,6 +155,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -185,6 +187,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt4"
     },
@@ -206,27 +209,27 @@
         {
           "id": "opt1",
           "label": "0–2 分（心里没这种名单）",
-          "feedback": ""
+          "feedback": "心里暂时没有这份名单也没关系。今天的内容会帮你慢慢翻出那些你以为已经忘了的人。"
         },
         {
           "id": "opt2",
           "label": "3–4 分（隐约有 1 个但没具体想过）",
-          "feedback": ""
+          "feedback": "隐约有 1 个，说明那个人一直在你心里某个角落。今天会帮你把这个『隐约』变清晰。"
         },
         {
           "id": "opt3",
           "label": "5–6 分（有 1-2 个具体的人）",
-          "feedback": ""
+          "feedback": "已经有 1-2 个具体的人了。你离动手只差一封信的距离。"
         },
         {
           "id": "opt4",
           "label": "7–8 分（有清晰名单 + 想过要写）",
-          "feedback": ""
+          "feedback": "名单清晰加上想过要写，你其实早就准备好了。今天就把它推过临界点。"
         },
         {
           "id": "opt5",
           "label": "9–10 分（清楚知道要写给谁 + 内容）",
-          "feedback": ""
+          "feedback": "你知道写给谁也知道写什么。今天唯一要做的，就是真的坐下来开始。"
         }
       ]
     },
@@ -258,6 +261,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -271,32 +275,32 @@
         {
           "id": "opt1",
           "label": "父母 / 长辈类",
-          "feedback": ""
+          "feedback": "父母 / 长辈最难开口，也最值得。他们这辈子可能从没听过你认真说一句谢谢。"
         },
         {
           "id": "opt2",
           "label": "老师 / 师傅类",
-          "feedback": ""
+          "feedback": "老师 / 师傅这类人帮过你之后大多就淡出了。一封迟到的信对他们而言分量很重。"
         },
         {
           "id": "opt3",
           "label": "朋友 / 同学类",
-          "feedback": ""
+          "feedback": "朋友 / 同学之间反而容易把感激当成『不用说』。说出来，那段关系会重新发亮。"
         },
         {
           "id": "opt4",
           "label": "伴侣 / 子女类",
-          "feedback": ""
+          "feedback": "伴侣 / 子女是天天见的人，最容易把好当成理所当然。一封信能让最近的人重新被你看见。"
         },
         {
           "id": "opt5",
           "label": "已经联系不上的人",
-          "feedback": ""
+          "feedback": "联系不上的人，写出来本身就有意义。把心里的话翻译成具体的字，那块未完成感会松动。"
         },
         {
           "id": "opt6",
           "label": "我候选名单不清晰",
-          "feedback": ""
+          "feedback": "名单还不清晰也没关系。先从『谁的脸先浮出来』开始，那个人往往就是答案。"
         }
       ]
     },
@@ -353,6 +357,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt1"
     },
@@ -374,27 +379,27 @@
         {
           "id": "opt1",
           "label": "当面读",
-          "feedback": ""
+          "feedback": "当面读是效应最强的版本。你选了最难也最值的那条路，对方大概率会记一辈子。"
         },
         {
           "id": "opt2",
           "label": "视频通话读",
-          "feedback": ""
+          "feedback": "视频读是很好的折中。隔着屏幕也能传递真情实感，地理距离不该挡住这件事。"
         },
         {
           "id": "opt3",
           "label": "邮件 / 微信发",
-          "feedback": ""
+          "feedback": "邮件 / 微信发也有 80% 的效果。能发出去，就远胜过把话烂在心里。"
         },
         {
           "id": "opt4",
           "label": "寄纸质信",
-          "feedback": ""
+          "feedback": "寄纸质信很有仪式感。对方拆开信封慢慢读的那个画面，本身就是礼物。"
         },
         {
           "id": "opt5",
           "label": "还没决定",
-          "feedback": ""
+          "feedback": "先别急着定交付方式。把信写出来才是核心，怎么送，写完再决定也来得及。"
         }
       ]
     },
@@ -426,6 +431,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -439,22 +445,22 @@
         {
           "id": "opt1",
           "label": "哭了 / 红了眼 / 长时间说不出话",
-          "feedback": ""
+          "feedback": "你见过有人哭了、红了眼。那一刻的眼泪，就是这封信真正抵达了对方心里。"
         },
         {
           "id": "opt2",
           "label": "笑得停不下来 + 反复读",
-          "feedback": ""
+          "feedback": "你见过有人笑着反复读。被认真感谢过的人，会忍不住一遍遍确认这是真的。"
         },
         {
           "id": "opt3",
           "label": "跟你说「这辈子最幸福的瞬间之一」",
-          "feedback": ""
+          "feedback": "有人说这是『这辈子最幸福的瞬间之一』。你的一封信，就有这样的分量。"
         },
         {
           "id": "opt4",
           "label": "我没见过这种事",
-          "feedback": ""
+          "feedback": "你还没见过这种场面。那今天之后，你有机会成为亲手创造它的那个人。"
         }
       ]
     },
@@ -494,6 +500,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -525,6 +532,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
@@ -556,6 +564,7 @@
           "feedback": ""
         }
       ],
+      "feedback": "略。",
       "mustCorrect": true,
       "correctAnswer": "opt2"
     },
