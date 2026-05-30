@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p7",
@@ -332,7 +334,9 @@
         "opt2",
         "opt3",
         "opt4"
-      ]
+      ],
+      "allCorrectFeedback": "答对了。4 类都属于 Bryant 和 Veroff 模型。其中分享品是关系维度跟品味的交叉点。",
+      "feedback": "答对了。4 类都属于 Bryant 和 Veroff 模型。其中分享品是关系维度跟品味的交叉点。"
     },
     {
       "id": "p14",
@@ -596,7 +600,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p7",
@@ -326,7 +328,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "答对了。Mueller 跟 Oppenheimer 2014 年那项研究本来做的是听课记笔记，结论被广泛迁移到日记场景。两种工具各有优势，关键是配你的生活节奏。",
+      "feedback": "答对了。Mueller 跟 Oppenheimer 2014 年那项研究本来做的是听课记笔记，结论被广泛迁移到日记场景。两种工具各有优势，关键是配你的生活节奏。"
     },
     {
       "id": "p14",
@@ -585,7 +589,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

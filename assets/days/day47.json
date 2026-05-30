@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "答对了。opt4 是杜撰的术语，记住前三条就够。",
+      "feedback": "答对了。opt4 是杜撰的术语，记住前三条就够。"
     },
     {
       "id": "p7",
@@ -331,7 +333,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p14",
@@ -595,7 +599,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

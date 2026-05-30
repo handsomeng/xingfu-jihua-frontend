@@ -133,7 +133,9 @@
       "correctAnswers": [
         "opt1",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "opt1 和 opt3 面向未来 + 具体行动，是反思。opt2 和 opt4 面向过去 + 抽象自责 + 没出口，是反刍。",
+      "feedback": "opt1 和 opt3 面向未来 + 具体行动，是反思。opt2 和 opt4 面向过去 + 抽象自责 + 没出口，是反刍。"
     },
     {
       "id": "p7",
@@ -330,7 +332,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "opt4 是 Watkins 的具体思维，唯一帮你跳出反刍的选项。其它三个都喂养反刍。",
+      "feedback": "opt4 是 Watkins 的具体思维，唯一帮你跳出反刍的选项。其它三个都喂养反刍。"
     },
     {
       "id": "p14",
@@ -594,7 +598,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "opt4 是反刍本身的伪装版，要识别出来。",
+      "feedback": "opt4 是反刍本身的伪装版，要识别出来。"
     },
     {
       "id": "p24",

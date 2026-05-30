@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt4"
-      ]
+      ],
+      "allCorrectFeedback": "opt3 那是任性，不是真实。Kernis 与 Goldman 2006 的 4 个因子里专门有一条『关系真实』：真实跟关怀别人不在一个层，可以同时做到。",
+      "feedback": "opt3 那是任性，不是真实。Kernis 与 Goldman 2006 的 4 个因子里专门有一条『关系真实』：真实跟关怀别人不在一个层，可以同时做到。"
     },
     {
       "id": "p7",
@@ -332,7 +334,9 @@
         "opt2",
         "opt3",
         "opt4"
-      ]
+      ],
+      "allCorrectFeedback": "4 个因子一个都不能少。最常被忽略的是 opt4：真实跟关怀别人不冲突。",
+      "feedback": "4 个因子一个都不能少。最常被忽略的是 opt4：真实跟关怀别人不冲突。"
     },
     {
       "id": "p14",
@@ -601,7 +605,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

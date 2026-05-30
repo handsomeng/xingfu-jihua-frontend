@@ -329,7 +329,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p14",
@@ -593,7 +595,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

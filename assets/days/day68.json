@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "三度即止。第四度以上效应消失。这是网络里的『真实影响半径』。",
+      "feedback": "三度即止。第四度以上效应消失。这是网络里的『真实影响半径』。"
     },
     {
       "id": "p7",
@@ -327,7 +329,9 @@
         "opt2",
         "opt3",
         "opt4"
-      ]
+      ],
+      "allCorrectFeedback": "四类各有各的用，至少先拿到 1 类。",
+      "feedback": "四类各有各的用，至少先拿到 1 类。"
     },
     {
       "id": "p14",
@@ -591,7 +595,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

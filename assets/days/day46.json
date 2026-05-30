@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "全部答对。这些机制都有 Brown 2013 / Zaccaro 2018 综述 / Zelano 2016 等实证支撑。呼吸是少数几个能直接『反向操控』自主神经系统的入口。",
+      "feedback": "全部答对。这些机制都有 Brown 2013 / Zaccaro 2018 综述 / Zelano 2016 等实证支撑。呼吸是少数几个能直接『反向操控』自主神经系统的入口。"
     },
     {
       "id": "p7",
@@ -331,7 +333,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "opt1 / opt2 / opt3 都是常见的坑。opt4 是正确做法，先建习惯再加时长。",
+      "feedback": "opt1 / opt2 / opt3 都是常见的坑。opt4 是正确做法，先建习惯再加时长。"
     },
     {
       "id": "p14",
@@ -595,7 +599,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

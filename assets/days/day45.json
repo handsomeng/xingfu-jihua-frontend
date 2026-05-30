@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p7",
@@ -331,7 +333,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "答对了。Kabat-Zinn 反复强调：正念是一种注意力状态，可以在任何日常活动里做，打坐只是其中一种训练形式。",
+      "feedback": "答对了。Kabat-Zinn 反复强调：正念是一种注意力状态，可以在任何日常活动里做，打坐只是其中一种训练形式。"
     },
     {
       "id": "p14",
@@ -600,7 +604,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

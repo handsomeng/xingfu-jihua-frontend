@@ -339,9 +339,13 @@
             if (isCorrect && isSelected)        tagHtml = `<strong style="color:var(--correct);">✓ 选对</strong>`;
             else if (isCorrect && !isSelected)  tagHtml = `<strong style="color:var(--wrong);">漏选</strong>`;
             else                                tagHtml = `<strong style="color:var(--wrong);">× 误选</strong>`;
-            return `<li>${tagHtml} ${escapeHtml(opt.feedback)}</li>`;
+            const ftxt = (opt.feedback && opt.feedback.trim()) ? " " + escapeHtml(opt.feedback) : "";
+            return `<li>${tagHtml}${ftxt}</li>`;
           }).join("");
-        bodyHtml = `<ul>${items}</ul>`;
+        // 选项无逐项反馈时，用整段总反馈兜底（避免只剩 tag 没解释）
+        const anyOptFb = page.options.some(o => o.feedback && o.feedback.trim());
+        bodyHtml = anyOptFb ? `<ul>${items}</ul>`
+                 : (page.feedback ? `<p>${escapeHtml(page.feedback)}</p>` : `<ul>${items}</ul>`);
       }
 
       if (page.mustCorrect) {

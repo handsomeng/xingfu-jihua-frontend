@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt4"
-      ]
+      ],
+      "allCorrectFeedback": "opt1、opt2、opt4 都是被动消费，注意力被算法牵着走。opt3 是主动使用（视频通话有明确对象和目的），属于跟关系维度联结的正向使用。区分这一点比单纯算总时长重要。",
+      "feedback": "opt1、opt2、opt4 都是被动消费，注意力被算法牵着走。opt3 是主动使用（视频通话有明确对象和目的），属于跟关系维度联结的正向使用。区分这一点比单纯算总时长重要。"
     },
     {
       "id": "p7",
@@ -333,7 +335,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "opt1、opt2、opt3 是三原则。opt4 完全反着。",
+      "feedback": "opt1、opt2、opt3 是三原则。opt4 完全反着。"
     },
     {
       "id": "p14",
@@ -599,7 +603,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "opt1、opt2、opt3 是今天三条核心。opt4 反着，环境设计大于自我管控。",
+      "feedback": "opt1、opt2、opt3 是今天三条核心。opt4 反着，环境设计大于自我管控。"
     },
     {
       "id": "p24",

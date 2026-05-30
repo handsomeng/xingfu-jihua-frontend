@@ -134,7 +134,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "三件套：五感 + 说出来 + 回头看。opt4 是 Quoidbach 实验里拆台思维的典型表现，会削弱品味。",
+      "feedback": "三件套：五感 + 说出来 + 回头看。opt4 是 Quoidbach 实验里拆台思维的典型表现，会削弱品味。"
     },
     {
       "id": "p7",
@@ -331,7 +333,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "前 3 个都是给未来留回路。opt4 是单次消费，品味只用了三分之一的潜力。",
+      "feedback": "前 3 个都是给未来留回路。opt4 是单次消费，品味只用了三分之一的潜力。"
     },
     {
       "id": "p14",
@@ -600,7 +604,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "opt4 错。说出来的对象可以是自己 / 文字 / 语音。",
+      "feedback": "opt4 错。说出来的对象可以是自己 / 文字 / 语音。"
     },
     {
       "id": "p24",

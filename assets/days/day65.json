@@ -135,7 +135,9 @@
         "opt2",
         "opt3",
         "opt4"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p7",
@@ -332,7 +334,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "答对了。Lyubomirsky & Layous 2013 这个模型的核心是匹配度，工具本身没有绝对的优劣。",
+      "feedback": "答对了。Lyubomirsky & Layous 2013 这个模型的核心是匹配度，工具本身没有绝对的优劣。"
     },
     {
       "id": "p14",
@@ -601,7 +605,9 @@
         "opt1",
         "opt2",
         "opt3"
-      ]
+      ],
+      "allCorrectFeedback": "略。",
+      "feedback": "略。"
     },
     {
       "id": "p24",

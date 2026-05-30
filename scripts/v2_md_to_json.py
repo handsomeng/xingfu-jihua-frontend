@@ -202,6 +202,17 @@ def parse_page(page_text, idx, total, day_num):
         ac = find_all_correct_fb(fb_map)
         if ac:
             page["allCorrectFeedback"] = ac
+        # 笼统反馈兜底（如「漏选：四个都属于…」一条不分选项 / 整段）→ allCorrectFeedback + page.feedback
+        if not page.get("allCorrectFeedback"):
+            generic = fb_plain
+            if not generic:
+                for k, v in fb_map.items():
+                    if not re.search(r"opt\d", k) and v.strip():
+                        generic = v
+                        break
+            if generic:
+                page["allCorrectFeedback"] = generic
+                page["feedback"] = generic
     elif qtype == "FILL_BLANK":
         page["type"] = "fill_blank"
         if category:
