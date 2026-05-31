@@ -34,7 +34,7 @@ export default async function handler(req) {
     });
   }
 
-  const { day, theme, coreLine, stageName, userInputs, knowledgeResults } = body || {};
+  const { day, theme, coreLine, stageName, userInputs, knowledgeResults, history } = body || {};
   if (day == null || !theme) {
     return new Response(JSON.stringify({ error: "缺少 day 或 theme" }), {
       status: 400,
@@ -43,7 +43,7 @@ export default async function handler(req) {
   }
 
   const systemPrompt = buildSystemPrompt(day, theme, coreLine, stageName);
-  const userPrompt = buildUserPrompt(userInputs, knowledgeResults);
+  const userPrompt = buildUserPrompt(userInputs, knowledgeResults, history);
 
   const upstream = await fetch(DEEPSEEK_ENDPOINT, {
     method: "POST",

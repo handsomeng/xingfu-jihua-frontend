@@ -40,14 +40,14 @@ app.get("/api/health", (req, res) => {
 
 // 报告生成
 app.post("/api/report", async (req, res) => {
-  const { day, theme, coreLine, stageName, userInputs, knowledgeResults } = req.body;
+  const { day, theme, coreLine, stageName, userInputs, knowledgeResults, history } = req.body;
 
   if (day == null || !theme) {
     return res.status(400).json({ error: "缺少 day 或 theme" });
   }
 
   const systemPrompt = buildSystemPrompt(day, theme, coreLine, stageName);
-  const userPrompt = buildUserPrompt(userInputs, knowledgeResults);
+  const userPrompt = buildUserPrompt(userInputs, knowledgeResults, history);
 
   try {
     const upstream = await fetch(DEEPSEEK_ENDPOINT, {

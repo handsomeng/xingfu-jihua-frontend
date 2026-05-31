@@ -98,6 +98,7 @@
           <span class="accent">${done}</span>
           <span>/ ${TOTAL} 已 完 成</span>
         </div>
+        <div class="imm-home-note reveal" data-delay="8">记录只存在这台设备，换浏览器或清缓存会清空，建议固定用一个。</div>
       </div>
     `;
   }

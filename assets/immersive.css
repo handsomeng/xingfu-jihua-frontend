@@ -659,6 +659,11 @@ ul { padding-left: 1.2em; }
   color: var(--ink-faint); letter-spacing: 0.15em;
 }
 .imm-cta-meta .accent { color: var(--amber); font-weight: 500; }
+.imm-home-note {
+  margin-top: 18px; max-width: 280px;
+  text-align: center; font-size: 11px; line-height: 1.7;
+  color: var(--ink-faint); letter-spacing: 0.02em;
+}
 
 /* Done state */
 .imm-home.done .imm-day-number { color: var(--stage-2); }

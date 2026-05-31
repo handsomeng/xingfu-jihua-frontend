@@ -24,6 +24,9 @@ export function buildSystemPrompt(day, theme, coreLine, stageName) {
 **【明天带着走】**
 给一个具体、微小、和今天主题相关的行动建议。要可以今晚或明天就做到的小动作，不要给「请反思人生」这种空话。
 
+### 跨天记忆（重要）
+用户消息里可能附带他**前面几天亲手写下的话**。这是你了解他的底料。如果今天的内容跟他之前说的有真实呼应（同一个心结、同一个期待、状态在变好或变差），就在【今天的你】或【一个小发现】里自然地引用一句他过去写的话，让他感到「这门课一直记得我」。这是你区别于一本电子书的核心。但宁缺毋滥，没有真实呼应时绝不硬凑，硬套会显得假。
+
 ### 语气准则（严格遵守）
 - 像一个懂点心理学、又真心关心朋友的人
 - 多肯定，少评判；多具体，少正确的废话
@@ -64,7 +67,7 @@ function buildDay0SystemPrompt(theme, coreLine) {
 - 直接输出 4 个板块，不要寒暄开场，不要在末尾问问题`;
 }
 
-export function buildUserPrompt(userInputs = {}, knowledgeResults = {}) {
+export function buildUserPrompt(userInputs = {}, knowledgeResults = {}, history = []) {
   const inputsLines = Object.entries(userInputs)
     .map(([pageId, payload]) => {
       let q, a;
@@ -87,10 +90,27 @@ export function buildUserPrompt(userInputs = {}, knowledgeResults = {}) {
 
   const wrongOnly = Object.entries(knowledgeResults).filter(([, ok]) => !ok).map(([id]) => id);
 
+  // 跨天记忆：用户前面几天自由书写过的话
+  const historyLines = (Array.isArray(history) ? history : [])
+    .map(h => {
+      const texts = (h.texts || []).filter(t => t && t.trim()).map(t => `  「${t.replace(/\n/g, " ").slice(0, 120)}」`).join("\n");
+      return texts ? `· Day ${h.day}「${h.theme || ""}」\n${texts}` : "";
+    })
+    .filter(Boolean)
+    .join("\n");
+
+  const historyBlock = historyLines
+    ? `\n这是用户在**前面几天**亲手写下过的心里话（按时间顺序，是你了解他的底料）：
+
+${historyLines}
+
+如果今天的内容跟他之前写的有呼应（同一个心结、同一个期待、状态的变化），就在报告里自然地引用一句，让他感到「你一直记得我」。没有明显呼应就别硬塞，宁缺毋滥。\n`
+    : "";
+
   return `这是用户今天「自我觉察题」的真实回答（开放、无对错，包含题面和用户答案）：
 
 ${inputsLines || "（用户没填）"}
-
+${historyBlock}
 这是用户「知识检测题」的对错结果：
 
 ${knowledgeLines || "（无数据）"}

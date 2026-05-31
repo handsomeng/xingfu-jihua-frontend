@@ -56,6 +56,28 @@ function buildEchoEntries(dayData, state) {
   return entries;
 }
 
+// 跨天记忆：收集用户前面所有天「自由书写」过的话（纯 localStorage，不 fetch 历史 json）
+function collectHistory(currentDay) {
+  const out = [];
+  for (let n = 0; n < currentDay; n++) {
+    let st;
+    try { st = JSON.parse(localStorage.getItem(`xingfu-day-${n}-state`) || "null"); } catch { st = null; }
+    if (!st || !st.answers) continue;
+    const texts = [];
+    for (const v of Object.values(st.answers)) {
+      if (typeof v !== "string") continue;       // 排除数组（多选）
+      const t = v.trim();
+      if (/^opt\d+$/.test(t)) continue;           // 排除单选/打分的 opt id
+      if (t.length < 4) continue;                 // 太短跳过
+      texts.push(t);
+    }
+    if (!texts.length) continue;
+    const meta = window.XINGFU?.getDayMeta(n);
+    out.push({ day: n, theme: meta?.theme || "", texts: texts.slice(0, 3) });
+  }
+  return out.slice(-20); // 控 token：最多最近 20 天有书写的
+}
+
 function buildPayload(dayData, state, echoEntries) {
   const userInputs = {};
   for (const e of echoEntries) {
@@ -67,7 +89,8 @@ function buildPayload(dayData, state, echoEntries) {
     coreLine: dayData.coreLine,
     stageName: dayData.stage?.name || "",
     userInputs,
-    knowledgeResults: state.knowledgeResult || {}
+    knowledgeResults: state.knowledgeResult || {},
+    history: collectHistory(dayData.day)
   };
 }
 
