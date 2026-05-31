@@ -65,6 +65,12 @@
               <path d="M12 5 V20"/>
             </svg>
           </a>
+          <a class="imm-icon-btn" href="growth.html" title="成长轨迹" aria-label="成长轨迹">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19 V5 M4 19 H20"/>
+              <path d="M7 15 L11 11 L14 13 L19 7"/>
+            </svg>
+          </a>
           <button class="imm-icon-btn" id="settings-btn" title="设置" aria-label="设置">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="2.5"/>
@@ -122,6 +128,12 @@
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 4 c0-1 4-1 7 0 c3-1 7-1 7 0 v16 c0 1-4 1-7 0 c-3 1-7 1-7 0 V4z"/>
               <path d="M12 5 V20"/>
+            </svg>
+          </a>
+          <a class="imm-icon-btn" href="growth.html" aria-label="成长轨迹">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19 V5 M4 19 H20"/>
+              <path d="M7 15 L11 11 L14 13 L19 7"/>
             </svg>
           </a>
           <button class="imm-icon-btn" id="settings-btn" aria-label="设置">
